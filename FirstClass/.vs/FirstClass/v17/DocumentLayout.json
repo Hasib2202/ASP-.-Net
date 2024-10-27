@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hasib\\OneDrive\\Desktop\\.Net\\FirstClass\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55456754-F0E2-42B9-AC52-765EEFA43D5B}|FirstClass\\FirstClass.csproj|c:\\users\\hasib\\onedrive\\desktop\\.net\\firstclass\\firstclass\\views\\product\\item.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55456754-F0E2-42B9-AC52-765EEFA43D5B}|FirstClass\\FirstClass.csproj|solutionrelative:firstclass\\views\\product\\item.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55456754-F0E2-42B9-AC52-765EEFA43D5B}|FirstClass\\FirstClass.csproj|C:\\Users\\Hasib\\OneDrive\\Desktop\\.Net\\FirstClass\\firstclass\\views\\portfolio\\education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55456754-F0E2-42B9-AC52-765EEFA43D5B}|FirstClass\\FirstClass.csproj|solutionrelative:firstclass\\views\\portfolio\\education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55456754-F0E2-42B9-AC52-765EEFA43D5B}|FirstClass\\FirstClass.csproj|C:\\Users\\Hasib\\OneDrive\\Desktop\\.Net\\FirstClass\\firstclass\\views\\portfolio\\bio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55456754-F0E2-42B9-AC52-765EEFA43D5B}|FirstClass\\FirstClass.csproj|solutionrelative:firstclass\\views\\portfolio\\bio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55456754-F0E2-42B9-AC52-765EEFA43D5B}|FirstClass\\FirstClass.csproj|C:\\Users\\Hasib\\OneDrive\\Desktop\\.Net\\FirstClass\\firstclass\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55456754-F0E2-42B9-AC52-765EEFA43D5B}|FirstClass\\FirstClass.csproj|solutionrelative:firstclass\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55456754-F0E2-42B9-AC52-765EEFA43D5B}|FirstClass\\FirstClass.csproj|C:\\Users\\Hasib\\OneDrive\\Desktop\\.Net\\FirstClass\\firstclass\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55456754-F0E2-42B9-AC52-765EEFA43D5B}|FirstClass\\FirstClass.csproj|solutionrelative:firstclass\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55456754-F0E2-42B9-AC52-765EEFA43D5B}|FirstClass\\FirstClass.csproj|C:\\Users\\Hasib\\OneDrive\\Desktop\\.Net\\FirstClass\\firstclass\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55456754-F0E2-42B9-AC52-765EEFA43D5B}|FirstClass\\FirstClass.csproj|solutionrelative:firstclass\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Item.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Desktop\\.Net\\FirstClass\\FirstClass\\Views\\Product\\Item.cshtml",
+              "RelativeDocumentMoniker": "FirstClass\\Views\\Product\\Item.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Desktop\\.Net\\FirstClass\\FirstClass\\Views\\Product\\Item.cshtml",
+              "RelativeToolTip": "FirstClass\\Views\\Product\\Item.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAD8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T16:34:47.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Desktop\\.Net\\FirstClass\\FirstClass\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "FirstClass\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Desktop\\.Net\\FirstClass\\FirstClass\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "FirstClass\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:34:20.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bio.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Desktop\\.Net\\FirstClass\\FirstClass\\Views\\Portfolio\\Bio.cshtml",
+              "RelativeDocumentMoniker": "FirstClass\\Views\\Portfolio\\Bio.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Desktop\\.Net\\FirstClass\\FirstClass\\Views\\Portfolio\\Bio.cshtml",
+              "RelativeToolTip": "FirstClass\\Views\\Portfolio\\Bio.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T15:18:40.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Education.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Desktop\\.Net\\FirstClass\\FirstClass\\Views\\Portfolio\\Education.cshtml",
+              "RelativeDocumentMoniker": "FirstClass\\Views\\Portfolio\\Education.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Desktop\\.Net\\FirstClass\\FirstClass\\Views\\Portfolio\\Education.cshtml",
+              "RelativeToolTip": "FirstClass\\Views\\Portfolio\\Education.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T15:18:30.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PortfolioController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Desktop\\.Net\\FirstClass\\FirstClass\\Controllers\\PortfolioController.cs",
+              "RelativeDocumentMoniker": "FirstClass\\Controllers\\PortfolioController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Desktop\\.Net\\FirstClass\\FirstClass\\Controllers\\PortfolioController.cs",
+              "RelativeToolTip": "FirstClass\\Controllers\\PortfolioController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:17:20.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Desktop\\.Net\\FirstClass\\FirstClass\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FirstClass\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Desktop\\.Net\\FirstClass\\FirstClass\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FirstClass\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T10:17:33.019Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

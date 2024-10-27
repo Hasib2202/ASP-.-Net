@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace FirstClass.Controllers
+{
+    public class ProductController : Controller
+    {
+        // GET: Product
+        public ActionResult Item()
+        {
+            return View();
+        }
+    }
+}
