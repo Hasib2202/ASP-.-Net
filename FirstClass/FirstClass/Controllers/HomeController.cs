@@ -26,5 +26,12 @@ namespace FirstClass.Controllers
 
             return View();
         }
+
+        public ActionResult Value() 
+        { 
+            ViewBag.Message = "Your value page.";
+            return View();
+
+        }
     }
 }

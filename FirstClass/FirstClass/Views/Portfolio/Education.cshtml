@@ -3,7 +3,7 @@
     ViewBag.Title = "Educaion";
 }
 
-<h2>Educaion</h2>
+@*<h2>Educaion</h2>
 <hr />
 
 <h3>SSC</h3>
@@ -25,5 +25,29 @@
 <p>University : AIUB</p>
 
 <a href="/portfolio/bio/">Bio</a>
-<hr />
+<hr />*@
 
+
+<p class="display-1">Education</p>
+<table class="table table-bordered table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Result</th>
+            <th>Year</th>
+        </tr>
+    </thead>
+    @for(int i = 0; i < ViewBag.Degrees.Length; i++)
+            {
+                <tbody>
+                    <tr>
+                        <td>@ViewBag.Degrees[i].Title</td>
+                        <td>@ViewBag.Degrees[i].Ins</td>
+                        <td>@ViewBag.Degrees[i].Result</td>
+                        <td>@ViewBag.Degrees[i].Year</td>
+                    </tr>
+                </tbody>
+            }
+    
+</table>
