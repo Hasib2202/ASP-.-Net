@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create Student</h2>
+@Html.ValidationSummary()
+
+<form method="post">
+    <div>
+        <input type="text"
+               value="@Model.Name"
+               placeholder="Name"
+               class="form-control"
+               name="Name" />
+        <span class="text-danger">@Html.ValidationMessage("Name")</span>
+        <br />
+    </div>
+
+    <div>
+        <input type="text"
+               value="@Model.ID"
+               placeholder="ID (xx-xxxxx-x)"
+               class="form-control"
+               name="ID" />
+        <span class="text-danger">@Html.ValidationMessage("ID")</span>
+        <br />
+    </div>
+
+    <div>
+        <input type="date"
+               value="@Model.DateOfBirth.ToString("yyyy-MM-dd")"
+               class="form-control"
+               name="DateOfBirth" />
+        <span class="text-danger">@Html.ValidationMessage("DateOfBirth")</span>
+        <br />
+    </div>
+
+    <div>
+        <input type="text"
+               value="@Model.Email"
+               placeholder="Email (xx-xxxxx-x@student.aiub.edu)"
+               class="form-control"
+               name="Email" />
+        <span class="text-danger">@Html.ValidationMessage("Email")</span>
+        <br />
+    </div>
+
+    <input type="submit" value="Create" class="btn btn-success" />
+    <div class="container border p-3 my-3 text-white text-center">
+        <p>@ViewBag.Name</p>
+        <p>@ViewBag.Id</p>
+        <p>@ViewBag.DateOfBirth</p>
+        <p>@ViewBag.Email</p>
+    </div>
+</form>
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
