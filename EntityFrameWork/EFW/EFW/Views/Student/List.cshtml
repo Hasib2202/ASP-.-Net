@@ -11,13 +11,16 @@
 else
 {
     <h2>List</h2>
-    <a href="@Url.Action("Create", "Student")" class="btn btn-primary my-3">Create</a>
+    <a href="@Url.Action("Create", "Student")" class="btn btn-primary my-3">Student Create</a>
+    <a href="@Url.Action("Create", "Department")" class="btn btn-info my-3">Department Create</a>
+    <a href="@Url.Action("Create", "Course")" class="btn btn-dark my-3">Course Create</a>
+    <a class="btn btn-dark" href="@Url.Action("All", "University")">Universities</a>
     <table class="table table-bordered table-hover">
         <thead class="table-dark">
-            <th>ID</th>
-            <th>Name</th>
-            <th>CGPA</th>
-            <th>Action</th>
+        <th>ID</th>
+        <th>Name</th>
+        <th>CGPA</th>
+        <th>Action</th>
         </thead>
         <tbody>
             @foreach (var student in Model)

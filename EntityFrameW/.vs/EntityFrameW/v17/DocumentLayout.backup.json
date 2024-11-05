@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F2D7A5-F0EA-4E13-B698-20FF07F3AEE6}|EntityFrameW\\EntityFrameW.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\entityframew\\entityframew\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1F2D7A5-F0EA-4E13-B698-20FF07F3AEE6}|EntityFrameW\\EntityFrameW.csproj|solutionrelative:entityframew\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F2D7A5-F0EA-4E13-B698-20FF07F3AEE6}|EntityFrameW\\EntityFrameW.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\entityframew\\entityframew\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1F2D7A5-F0EA-4E13-B698-20FF07F3AEE6}|EntityFrameW\\EntityFrameW.csproj|solutionrelative:entityframew\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F2D7A5-F0EA-4E13-B698-20FF07F3AEE6}|EntityFrameW\\EntityFrameW.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\entityframew\\entityframew\\views\\course\\courselist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1F2D7A5-F0EA-4E13-B698-20FF07F3AEE6}|EntityFrameW\\EntityFrameW.csproj|solutionrelative:entityframew\\views\\course\\courselist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F2D7A5-F0EA-4E13-B698-20FF07F3AEE6}|EntityFrameW\\EntityFrameW.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\entityframew\\entityframew\\views\\student\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1F2D7A5-F0EA-4E13-B698-20FF07F3AEE6}|EntityFrameW\\EntityFrameW.csproj|solutionrelative:entityframew\\views\\student\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F2D7A5-F0EA-4E13-B698-20FF07F3AEE6}|EntityFrameW\\EntityFrameW.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\entityframew\\entityframew\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1F2D7A5-F0EA-4E13-B698-20FF07F3AEE6}|EntityFrameW\\EntityFrameW.csproj|solutionrelative:entityframew\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F2D7A5-F0EA-4E13-B698-20FF07F3AEE6}|EntityFrameW\\EntityFrameW.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\entityframew\\entityframew\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1F2D7A5-F0EA-4E13-B698-20FF07F3AEE6}|EntityFrameW\\EntityFrameW.csproj|solutionrelative:entityframew\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F2D7A5-F0EA-4E13-B698-20FF07F3AEE6}|EntityFrameW\\EntityFrameW.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\entityframew\\entityframew\\views\\course\\coursedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1F2D7A5-F0EA-4E13-B698-20FF07F3AEE6}|EntityFrameW\\EntityFrameW.csproj|solutionrelative:entityframew\\views\\course\\coursedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F2D7A5-F0EA-4E13-B698-20FF07F3AEE6}|EntityFrameW\\EntityFrameW.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\entityframew\\entityframew\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1F2D7A5-F0EA-4E13-B698-20FF07F3AEE6}|EntityFrameW\\EntityFrameW.csproj|solutionrelative:entityframew\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F2D7A5-F0EA-4E13-B698-20FF07F3AEE6}|EntityFrameW\\EntityFrameW.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\entityframew\\entityframew\\ef\\studentmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{C1F2D7A5-F0EA-4E13-B698-20FF07F3AEE6}|EntityFrameW\\EntityFrameW.csproj|solutionrelative:entityframew\\ef\\studentmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\EntityFrameW\\Views\\Student\\Details.cshtml",
+              "RelativeDocumentMoniker": "EntityFrameW\\Views\\Student\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\EntityFrameW\\Views\\Student\\Details.cshtml",
+              "RelativeToolTip": "EntityFrameW\\Views\\Student\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T14:55:20.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\EntityFrameW\\Views\\Student\\List.cshtml",
+              "RelativeDocumentMoniker": "EntityFrameW\\Views\\Student\\List.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\EntityFrameW\\Views\\Student\\List.cshtml",
+              "RelativeToolTip": "EntityFrameW\\Views\\Student\\List.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T14:55:13.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\EntityFrameW\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "EntityFrameW\\Views\\Student\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\EntityFrameW\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "EntityFrameW\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T14:55:03.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\EntityFrameW\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "EntityFrameW\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\EntityFrameW\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "EntityFrameW\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:54:36.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CourseDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\EntityFrameW\\Views\\Course\\CourseDetails.cshtml",
+              "RelativeDocumentMoniker": "EntityFrameW\\Views\\Course\\CourseDetails.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\EntityFrameW\\Views\\Course\\CourseDetails.cshtml",
+              "RelativeToolTip": "EntityFrameW\\Views\\Course\\CourseDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T14:52:45.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseList.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\EntityFrameW\\Views\\Course\\CourseList.cshtml",
+              "RelativeDocumentMoniker": "EntityFrameW\\Views\\Course\\CourseList.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\EntityFrameW\\Views\\Course\\CourseList.cshtml",
+              "RelativeToolTip": "EntityFrameW\\Views\\Course\\CourseList.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T14:49:54.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\EntityFrameW\\Views\\Course\\Create.cshtml",
+              "RelativeDocumentMoniker": "EntityFrameW\\Views\\Course\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\EntityFrameW\\Views\\Course\\Create.cshtml",
+              "RelativeToolTip": "EntityFrameW\\Views\\Course\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T14:48:22.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\EntityFrameW\\EF\\StudentModel.edmx",
+              "RelativeDocumentMoniker": "EntityFrameW\\EF\\StudentModel.edmx",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\EntityFrameW\\EF\\StudentModel.edmx [Diagram1]",
+              "RelativeToolTip": "EntityFrameW\\EF\\StudentModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-05T14:43:20.384Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\EntityFrameW\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "EntityFrameW\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameW\\EntityFrameW\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "EntityFrameW\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:37:38.989Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

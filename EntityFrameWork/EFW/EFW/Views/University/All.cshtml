@@ -3,5 +3,10 @@
     ViewBag.Title = "All";
 }
 
-<h2>All</h2>
+<h2>All Actions</h2>
 
+<div>
+    <a href="@Url.Action("Create", "Student")" class="btn btn-primary my-3">Student Create</a>
+    <a href="@Url.Action("Create", "Department")" class="btn btn-info my-3">Department Create</a>
+    <a href="@Url.Action("Create", "Course")" class="btn btn-dark my-3">Course Create</a>
+</div>

@@ -10,7 +10,7 @@ namespace EFW.Controllers
     public class CourseController : Controller
     {
         // GET: Course
-        Context2 db = new Context2();
+        StudentModelContext db = new StudentModelContext();
 
         [HttpGet]
         public ActionResult Create()
@@ -39,7 +39,7 @@ namespace EFW.Controllers
             if (data == null)
             {
                 TempData["Message"] = "Courses with value " + id + " not found";
-                return RedirectToAction("Depts");
+                return RedirectToAction("Lists");
             }
             return View(data);
         }

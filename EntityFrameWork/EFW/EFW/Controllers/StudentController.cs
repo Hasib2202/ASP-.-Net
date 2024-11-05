@@ -9,7 +9,7 @@ namespace EFW.Controllers
 {
     public class StudentController : Controller
     {
-        Context2 db = new Context2();
+        StudentModelContext db = new StudentModelContext();
 
         // GET: Student
 

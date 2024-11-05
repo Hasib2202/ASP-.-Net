@@ -16,6 +16,6 @@ namespace EFW.EF
     {
         public int id { get; set; }
         public string name { get; set; }
-        public string cid { get; set; }
+        public string details { get; set; }
     }
 }

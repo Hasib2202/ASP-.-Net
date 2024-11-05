@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "CourseList";
+}
+
+<h2>CourseList</h2>
+
+<br />
+@if (TempData["Message"] != null)
+{
+    <span class="alert alert-info">@TempData["Message"]</span>
+}
+<a class="btn btn-danger" href="/course/create">Create</a>
+@if (Model.Count == 0)
+{
+    <h3>No Data Found</h3>
+}
+else
+{
+    <table class="table table-bordered">
+        <tr>
+            <th>Id</th>
+            <th>Course Name</th>
+            <th>Course Details</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.name</td>
+                <td>@item.details</td>
+            </tr>
+        }
+
+    </table>
+}

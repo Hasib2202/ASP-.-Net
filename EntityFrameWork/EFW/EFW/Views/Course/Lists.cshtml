@@ -5,39 +5,41 @@
 
 
 
-@*@if (Model.Count == 0)*@
-    //{
-    @*<h1>No data found</h1>*@
-    //}
-//else
-//{
+@if (Model.Count == 0)
+    {
+    <h1>No data found</h1>
+    }
+else
+{
     <h2>Lists</h2>
     <div>
-        <a class="btn btn-info" href="@Url.Action("Create", "Course")">Create</a>
+        <a href="@Url.Action("Create", "Student")" class="btn btn-primary my-3">Student Create</a>
+        <a href="@Url.Action("Create", "Department")" class="btn btn-info my-3">Department Create</a>
+        <a href="@Url.Action("Create", "Course")" class="btn btn-dark my-3">Course Create</a>
         <a class="btn btn-dark" href="@Url.Action("All", "University")">Universities</a>
     </div>
     <div class="container border bg-primary text-white my-3 p-3 text-center">
         <table class="table table-bordered table-hover">
             <thead class="table-dark">
             <th>ID</th>
-            <th>Name</th>
-            <th>Topic</th>
+            <th>CName</th>
+            <th>Details</th>
             <th>Action</th>
             </thead>
-            <tbody>
+            <tbody class="text-white">
                 @foreach (var c in Model)
                 {
                     <tr>
                         <td>@c.id</td>
                         <td>@c.name</td>
-                        <td>@c.cid</td>
+                        <td>@c.details</td>
                         <td>
-                            <a href="@Url.Action("Details", "Department", new { id = c.id })" class="btn btn-info">Details</a>
-                            <a href="@Url.Action("Edit", "Department", new { id = c.id })" class="btn btn-warning">Edit</a>
-                            <a href="@Url.Action("Delete", "Department", new { id = c.id })" class="btn btn-danger">Delete</a>
+                            <a href="@Url.Action("Details", "Course", new { id = c.id })" class="btn btn-info">Details</a>
+                            <a href="@Url.Action("Edit", "Course", new { id = c.id })" class="btn btn-warning">Edit</a>
+                            <a href="@Url.Action("Delete", "Course", new { id = c.id })" class="btn btn-danger">Delete</a>
                         </td>
                     </tr>
                 }
         </table>
     </div>
-@*}*@
+}
