@@ -42,5 +42,30 @@ namespace IntroEF.Controllers
             }
             return View(data);
         }
+        [HttpGet]
+        public ActionResult Edit(int id)
+        {
+            var data = db.Students.Find(id);
+            if (data == null)
+            {
+                TempData["Msg"] = "Id with value " + id + " not found";
+                return RedirectToAction("List");
+            }
+            return View(data);
+        }
+        [HttpPost]
+        public ActionResult Edit(Student s)
+        {
+            var data = db.Students.Find(s.id);
+            if (data == null)
+            {
+                TempData["Msg"] = "Id with value " + s.id + " not found";
+                return RedirectToAction("List");
+            }
+            data.name = s.name;
+            data.cgpa = s.cgpa;
+            db.SaveChanges();
+            return RedirectToAction("List");
+        }
     }
 }
