@@ -240,6 +240,8 @@
     <Content Include="Views\Course\Create.cshtml" />
     <Content Include="Views\Course\Lists.cshtml" />
     <Content Include="Views\Course\Details.cshtml" />
+    <Content Include="Views\Student\Edit.cshtml" />
+    <Content Include="Views\Student\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

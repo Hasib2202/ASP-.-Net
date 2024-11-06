@@ -1,10 +1,100 @@
-﻿
-@{
-    ViewBag.Title = "Details";
+﻿@{
+    ViewBag.Title = "Student Details";
 }
 
-<h2>Details</h2>
-<h1>@Model.id</h1>
-<h1>@Model.name</h1>
-<h1>@Model.cgpa</h1>
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h2 class="mb-0">Student Details</h2>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-3">
+                    <strong>ID:</strong>
+                </div>
+                <div class="col-md-9">
+                    <p class="form-control-static">@Model.id</p>
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-md-3">
+                    <strong>Name:</strong>
+                </div>
+                <div class="col-md-9">
+                    <p class="form-control-static">@Model.name</p>
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-md-3">
+                    <strong>CGPA:</strong>
+                </div>
+                <div class="col-md-9">
+                    <p class="form-control-static">@Model.cgpa</p>
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-md-3">
+                    <strong>Father's name:</strong>
+                </div>
+                <div class="col-md-9">
+                    <p class="form-control-static">@Model.fathername</p>
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-md-3">
+                    <strong>Mother's name:</strong>
+                </div>
+                <div class="col-md-9">
+                    <p class="form-control-static">@Model.mothername</p>
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-md-3">
+                    <strong>Religion:</strong>
+                </div>
+                <div class="col-md-9">
+                    <p class="form-control-static">@Model.religion</p>
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-md-3">
+                    <strong>Gender:</strong>
+                </div>
+                <div class="col-md-9">
+                    <p class="form-control-static">@Model.gender</p>
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-md-3">
+                    <strong>Interest:</strong>
+                </div>
+                <div class="col-md-9">
+                    <p class="form-control-static">@Model.studentinterest</p>
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-md-3">
+                    <strong>Date of Birth:</strong>
+                </div>
+                <div class="col-md-9">
+                    <p class="form-control-static">@Model.dateofbirth.ToString("MM/dd/yyyy")</p>
+                </div>
+            </div>
 
+
+        </div>
+        <div class="card-footer">
+            <a href="@Url.Action("List", "Student")" class="btn btn-secondary">Back to List</a>
+            <a href="@Url.Action("Edit", "Student", new { id = Model.id })" class="btn btn-primary">Edit</a>
+            <a href="@Url.Action("Delete", "Student", new { id = Model.id })" class="btn btn-danger">Delete</a>
+        </div>
+    </div>
+</div>

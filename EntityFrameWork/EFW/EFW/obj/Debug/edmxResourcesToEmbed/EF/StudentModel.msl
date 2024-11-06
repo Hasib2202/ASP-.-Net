@@ -1,15 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="ASPModelStoreContainer" CdmEntityContainer="StudentModelContext">
-    <EntitySetMapping Name="Students">
-      <EntityTypeMapping TypeName="ASPModel.Student">
-        <MappingFragment StoreEntitySet="Student">
-          <ScalarProperty Name="id" ColumnName="id" />
-          <ScalarProperty Name="name" ColumnName="name" />
-          <ScalarProperty Name="cgpa" ColumnName="cgpa" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="Courses">
       <EntityTypeMapping TypeName="ASPModel.Course">
         <MappingFragment StoreEntitySet="Course">
@@ -23,6 +14,21 @@
       <EntityTypeMapping TypeName="ASPModel.Department">
         <MappingFragment StoreEntitySet="Department">
           <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="ASPModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="dateofbirth" ColumnName="dateofbirth" />
+          <ScalarProperty Name="studentinterest" ColumnName="studentinterest" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="religion" ColumnName="religion" />
+          <ScalarProperty Name="mothername" ColumnName="mothername" />
+          <ScalarProperty Name="fathername" ColumnName="fathername" />
+          <ScalarProperty Name="cgpa" ColumnName="cgpa" />
           <ScalarProperty Name="name" ColumnName="name" />
           <ScalarProperty Name="id" ColumnName="id" />
         </MappingFragment>

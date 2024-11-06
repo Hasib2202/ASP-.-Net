@@ -17,5 +17,11 @@ namespace EFW.EF
         public int id { get; set; }
         public string name { get; set; }
         public string cgpa { get; set; }
+        public string fathername { get; set; }
+        public string mothername { get; set; }
+        public string religion { get; set; }
+        public string gender { get; set; }
+        public string studentinterest { get; set; }
+        public System.DateTime dateofbirth { get; set; }
     }
 }

@@ -23,6 +23,12 @@
     <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="cgpa" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="fathername" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="mothername" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="religion" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="gender" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="studentinterest" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="dateofbirth" Type="date" Nullable="false" />
   </EntityType>
   <EntityContainer Name="ASPModelStoreContainer">
     <EntitySet Name="Course" EntityType="Self.Course" Schema="dbo" store:Type="Tables" />

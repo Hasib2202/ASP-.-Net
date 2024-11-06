@@ -1,0 +1,87 @@
+﻿@{
+    ViewBag.Title = "Edit Student Information";
+}
+
+<h2>Edit Student Information</h2>
+
+<form method="post">
+    <!-- Hidden field for student ID -->
+    <input type="hidden" name="id" value="@Model.id" />
+
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" value="@Model.name" class="form-control" placeholder="Enter name" name="name" required
+               title="Name cannot be empty."
+               pattern="^[a-zA-Z.\s]+$" />
+        <span class="text-danger" data-valmsg-for="name" data-valmsg-replace="true">
+            @Html.ValidationMessage("name")
+        </span>
+    </div>
+
+    <div class="form-group">
+        <label for="fatherName">Father's Name</label>
+        <input type="text" value="@Model.fathername" class="form-control" placeholder="Enter father's name" name="fatherName" required />
+        <span class="text-danger" data-valmsg-for="fatherName" data-valmsg-replace="true">
+            @Html.ValidationMessage("fathername")
+        </span>
+    </div>
+
+    <div class="form-group">
+        <label for="motherName">Mother's Name</label>
+        <input type="text" value="@Model.mothername" class="form-control" placeholder="Enter mother's name" name="motherName" required />
+        <span class="text-danger" data-valmsg-for="motherName" data-valmsg-replace="true">
+            @Html.ValidationMessage("mothername")
+        </span>
+    </div>
+
+    <div class="form-group">
+        <label for="religion">Religion</label>
+        <input type="text" value="@Model.religion" class="form-control" placeholder="Enter religion" name="religion" required />
+        <span class="text-danger" data-valmsg-for="religion" data-valmsg-replace="true">
+            @Html.ValidationMessage("religion")
+        </span>
+    </div>
+
+    <div class="form-group">
+        <label for="cgpa">CGPA</label>
+        <input type="number" step="0.01" value="@Model.cgpa" class="form-control" placeholder="Enter CGPA" name="cgpa" required min="0" max="4" readonly />
+        <span class="text-danger" data-valmsg-for="cgpa" data-valmsg-replace="true">
+            @*@Html.ValidationMessage("CGPA")*@
+        </span>
+    </div>
+
+    <div class="form-group">
+        <label for="gender">Gender</label><br />
+        <input type="radio" name="gender" value="Male" @if (Model.gender == "Male") { <text> checked</text> } /> Male
+        <input type="radio" name="gender" value="Female" @if (Model.gender == "Female") { <text> checked</text> } /> Female
+        <span class="text-danger" data-valmsg-for="gender" data-valmsg-replace="true">
+            @Html.ValidationMessage("gender")
+        </span>
+    </div>
+
+    <div class="form-group">
+        <label for="studentInterest">Student Interest</label>
+        <select class="form-control" name="studentInterest">
+            <option value="">Select Interest</option>
+            <option value="Playing" @if (Model.studentinterest == "Playing") { <text> selected</text> }>Playing</option>
+            <option value="Gaming" @if (Model.studentinterest == "Gaming") { <text> selected</text> }>Gaming</option>
+            <option value="Singing" @if (Model.studentinterest == "Singing") { <text> selected</text> }>Singing</option>
+            <option value="Studying" @if (Model.studentinterest == "Studying") { <text> selected</text> }>Studying</option>
+            <!-- Add other options as needed -->
+        </select>
+        <span class="text-danger" data-valmsg-for="studentinterest" data-valmsg-replace="true">
+            @Html.ValidationMessage("StudentInterest")
+        </span>
+    </div>
+
+    <div class="form-group">
+        <label for="dateOfBirth">Date of Birth</label>
+        <input type="date" value="@Model.dateofbirth.ToString("yyyy-MM-dd")" class="form-control" name="dateOfBirth" required />
+        <span class="text-danger" data-valmsg-for="dateOfBirth" data-valmsg-replace="true">
+            @Html.ValidationMessage("dateofbirth")
+        </span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Update Information</button>
+    <a href="@Url.Action("List", "Student")" class="btn btn-secondary">Cancel</a>
+</form>
