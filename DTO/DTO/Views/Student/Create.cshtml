@@ -1,0 +1,166 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+@*<h2>Create</h2>*@
+<div class="card shadow border-0 align-items-center" style="background-image: url('/Image/i1.png'); background-size: cover; background-position: center;">
+    <div class="card-header bg-primary text-white text-center">
+        <h2 class="mb-0">Create New Student</h2>
+    </div>
+
+    <div class="card-body p-5  align-items-center">
+        <form method="post" novalidate class="d-flex flex-column align-items-center">
+            <div class="w-100">
+                <!-- Name Field -->
+                <div class="form-group mb-4 w-100 align-items-center">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text"
+                           class="form-control form-control-lg rounded-pill"
+                           id="name"
+                           name="name"
+                           placeholder="Enter student name"
+                           pattern="^[a-zA-Z. ]+$"
+                           title="Name can only contain letters, dots (.), and spaces."
+                           required>
+                    <div class="invalid-feedback">
+                        Name can only contain letters, dots (.), and spaces.
+                    </div>
+                </div>
+
+                <!-- CGPA Field -->
+                <div class="form-group mb-4 w-100 align-items-center">
+                    <label for="cgpa" class="form-label">CGPA</label>
+                    <input type="text"
+                           class="form-control form-control-lg rounded-pill"
+                           id="cgpa"
+                           name="cgpa"
+                           placeholder="CGPA can not added manually."
+                           pattern="^\d+(\.\d+)?$"
+                           title="CGPA must be a valid number (e.g., 3.5, 4, etc.)"
+                           required
+                           >
+                    <div class="invalid-feedback">
+                        Please enter a valid CGPA (e.g., 3.5 or 4).
+                    </div>
+                </div>
+
+                <!-- Father's Name Field -->
+                <div class="form-group mb-4 w-100 align-items-center">
+                    <label for="fathername" class="form-label">Father's Name</label>
+                    <input type="text"
+                           class="form-control form-control-lg rounded-pill"
+                           id="fathername"
+                           name="fathername"
+                           placeholder="Enter father's name"
+                           required>
+                    <div class="invalid-feedback">
+                        Father's name is required.
+                    </div>
+                </div>
+
+                <!-- Mother's Name Field -->
+                <div class="form-group mb-4 w-100 align-items-center">
+                    <label for="mothername" class="form-label">Mother's Name</label>
+                    <input type="text"
+                           class="form-control form-control-lg rounded-pill"
+                           id="mothername"
+                           name="mothername"
+                           placeholder="Enter mother's name"
+                           required>
+                    <div class="invalid-feedback">
+                        Mother's name is required.
+                    </div>
+                </div>
+
+                <!-- Religion Field -->
+                <div class="form-group mb-4 w-100 align-items-center">
+                    <label for="religion" class="form-label">Religion</label>
+                    <input type="text"
+                           class="form-control form-control-lg rounded-pill"
+                           id="religion"
+                           name="religion"
+                           placeholder="Enter religion"
+                           required>
+                    <div class="invalid-feedback">
+                        Religion is required.
+                    </div>
+                </div>
+
+                <!-- Gender Field -->
+                <div class="form-group mb-4 w-100 align-items-center">
+                    <label class="form-label">Gender</label><br>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="genderMale" value="Male" required>
+                        <label class="form-check-label" for="genderMale">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="genderFemale" value="Female" required>
+                        <label class="form-check-label" for="genderFemale">Female</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="genderOther" value="Other" required>
+                        <label class="form-check-label" for="genderOther">Other</label>
+                    </div>
+                    <div class="invalid-feedback">
+                        Gender selection is required.
+                    </div>
+                </div>
+
+                <!-- Student Interest Field -->
+                <div class="form-group mb-4 w-100 align-items-center">
+                    <label for="studentinterest" class="form-label">Student Interest</label>
+                    <select class="form-select form-select-lg rounded-pill"
+                            id="studentinterest"
+                            name="studentinterest"
+                            required>
+                        <option value="">Select an interest</option>
+                        <option value="Playing">Playing</option>
+                        <option value="Gaming">Gaming</option>
+                        <option value="Singing">Singing</option>
+                        <option value="Studying">Studying</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Student interest selection is required.
+                    </div>
+                </div>
+
+                <!-- Date of Birth Field -->
+                <div class="form-group mb-4 w-100 align-items-center">
+                    <label for="dateofbirth" class="form-label">Date of Birth</label>
+                    <input type="date"
+                           class="form-control form-control-lg rounded-pill"
+                           id="dateofbirth"
+                           name="dateofbirth"
+                           required>
+                    <div class="invalid-feedback">
+                        Date of birth is required.
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="form-group mb-4 w-100 align-items-center">
+                    <button type="submit" class="btn btn-primary btn-lg rounded-pill w-100">Create Student</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+            var forms = document.getElementsByTagName('form');
+            Array.prototype.forEach.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+</script>

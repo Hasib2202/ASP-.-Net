@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create Department</h2>
+<form method="post">
+    <input type="text" placeholder="Name" name="name" class="form-control" />
+    <p class="text-danger">@Html.ValidationMessage("name")</p>
+    <input type="text" placeholder="Location" name="location" class="form-control" />
+    <p class="text-danger">@Html.ValidationMessage("location")</p>
+    <input type="submit" value="Create" class="btn btn-success" />
+
+</form>

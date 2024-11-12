@@ -1,0 +1,62 @@
+﻿﻿@{
+    ViewBag.Title = "List";
+}
+
+@if (Model.Count == 0)
+{
+    <div class="alert alert-info text-center my-4">
+        <h4>No data found</h4>
+    </div>
+}
+else
+{
+    <h2 class="my-3">Student List</h2>
+    <div class="d-flex justify-content-start gap-3 mb-3">
+        <a href="@Url.Action("Create", "Student")" class="btn btn-primary">Create Student</a>
+        <a href="@Url.Action("Create", "Department")" class="btn btn-info">Create Department</a>
+        @*<a href="@Url.Action("Create", "Course")" class="btn btn-dark">Create Course</a>
+        <a href="@Url.Action("All", "University")" class="btn btn-secondary">View Universities</a>*@
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped table-hover text-center">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">CGPA</th>
+                    <th scope="col">Father's Name</th>
+                    <th scope="col">Mother's Name</th>
+                    <th scope="col">Religion</th>
+                    <th scope="col">Gender</th>
+                    <th scope="col">Interest</th>
+                    <th scope="col">Date of Birth</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var student in Model)
+                {
+                    <tr>
+                        <td>@student.id</td>
+                        <td>@student.name</td>
+                        <td>@student.cgpa</td>
+                        <td>@student.fathername</td>
+                        <td>@student.mothername</td>
+                        <td>@student.religion</td>
+                        <td>@student.gender</td>
+                        <td>@student.studentinterest</td>
+                        <td>@student.dateofbirth.ToString("MM/dd/yyyy")</td>
+                        <td>
+                            <div class="btn-group" role="group">
+                                <a href="@Url.Action("Details", "Student", new { id = student.id })" class="btn btn-info btn-sm">Details</a>
+                                <a href="@Url.Action("Edit", "Student", new { id = student.id })" class="btn btn-warning btn-sm">Edit</a>
+                                <a href="@Url.Action("Delete", "Student", new { id = student.id })" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this student?');">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

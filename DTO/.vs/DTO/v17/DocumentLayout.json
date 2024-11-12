@@ -1,0 +1,259 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\dto\\dto\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|solutionrelative:dto\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\dto\\dto\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|solutionrelative:dto\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\dto\\dto\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|solutionrelative:dto\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\dto\\dto\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|solutionrelative:dto\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\dto\\dto\\views\\student\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|solutionrelative:dto\\views\\student\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\dto\\dto\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|solutionrelative:dto\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\dto\\dto\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|solutionrelative:dto\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\dto\\dto\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|solutionrelative:dto\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\dto\\dto\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|solutionrelative:dto\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\dto\\dto\\views\\department\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|solutionrelative:dto\\views\\department\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\dto\\dto\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|solutionrelative:dto\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\dto\\dto\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|solutionrelative:dto\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\dto\\dto\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|solutionrelative:dto\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\dto\\dto\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAADE0EB-E780-413F-BE83-B5F3516A31D1}|DTO\\DTO.csproj|solutionrelative:dto\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "DTO\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "DTO\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAwwGEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T09:19:15.653Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "DTO\\Views\\Student\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "DTO\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAAIYAAAAAAAAAAADwv5UAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T11:59:45.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Department\\List.cshtml",
+              "RelativeDocumentMoniker": "DTO\\Views\\Department\\List.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Department\\List.cshtml",
+              "RelativeToolTip": "DTO\\Views\\Department\\List.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T09:59:00.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "DTO\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "DTO\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAgwIwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:33:32.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentDTO.CS",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\DTOs\\StudentDTO.CS",
+              "RelativeDocumentMoniker": "DTO\\DTOs\\StudentDTO.CS",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\DTOs\\StudentDTO.CS",
+              "RelativeToolTip": "DTO\\DTOs\\StudentDTO.CS",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T11:32:46.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Department\\Create.cshtml",
+              "RelativeDocumentMoniker": "DTO\\Views\\Department\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Department\\Create.cshtml",
+              "RelativeToolTip": "DTO\\Views\\Department\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T09:34:16.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Student\\List.cshtml",
+              "RelativeDocumentMoniker": "DTO\\Views\\Student\\List.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Student\\List.cshtml",
+              "RelativeToolTip": "DTO\\Views\\Student\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T11:59:59.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Student\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DTO\\Views\\Student\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Student\\Delete.cshtml",
+              "RelativeToolTip": "DTO\\Views\\Student\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T12:00:39.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\DTOs\\DepartmentDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\DTOs\\DepartmentDTO.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\DTOs\\DepartmentDTO.cs",
+              "RelativeToolTip": "DTO\\DTOs\\DepartmentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:10:06.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DTO\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "DTO\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T12:00:22.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Department\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DTO\\Views\\Department\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Department\\Edit.cshtml",
+              "RelativeToolTip": "DTO\\Views\\Department\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T10:00:24.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Student\\Details.cshtml",
+              "RelativeDocumentMoniker": "DTO\\Views\\Student\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Student\\Details.cshtml",
+              "RelativeToolTip": "DTO\\Views\\Student\\Details.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAADwv2MAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T12:00:32.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Department\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DTO\\Views\\Department\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Department\\Delete.cshtml",
+              "RelativeToolTip": "DTO\\Views\\Department\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T10:00:42.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Department\\Details.cshtml",
+              "RelativeDocumentMoniker": "DTO\\Views\\Department\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\DTO\\DTO\\Views\\Department\\Details.cshtml",
+              "RelativeToolTip": "DTO\\Views\\Department\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T10:00:33.007Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
