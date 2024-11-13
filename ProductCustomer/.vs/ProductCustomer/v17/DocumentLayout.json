@@ -1,0 +1,272 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\productcustomer\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|solutionrelative:productcustomer\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\productcustomer\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|solutionrelative:productcustomer\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\productcustomer\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|solutionrelative:productcustomer\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\productcustomer\\productcustomer\\views\\customer\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|solutionrelative:productcustomer\\views\\customer\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\productcustomer\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|solutionrelative:productcustomer\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\productcustomer\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|solutionrelative:productcustomer\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\productcustomer\\views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|solutionrelative:productcustomer\\views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\productcustomer\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|solutionrelative:productcustomer\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\productcustomer\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|solutionrelative:productcustomer\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\productcustomer\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|solutionrelative:productcustomer\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\productcustomer\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|solutionrelative:productcustomer\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\productcustomer\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|solutionrelative:productcustomer\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\productcustomer\\views\\customer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|solutionrelative:productcustomer\\views\\customer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\productcustomer\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|solutionrelative:productcustomer\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\productcustomer\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{D552310A-AF3D-4FAF-8D34-A511EBC1AAEB}|ProductCustomer\\ProductCustomer.csproj|solutionrelative:productcustomer\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProductCustomer\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "ProductCustomer\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T08:59:24.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\DTOs\\CustomerDTO.cs",
+              "RelativeDocumentMoniker": "ProductCustomer\\DTOs\\CustomerDTO.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\DTOs\\CustomerDTO.cs",
+              "RelativeToolTip": "ProductCustomer\\DTOs\\CustomerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T08:45:28.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Customer\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProductCustomer\\Views\\Customer\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Customer\\Edit.cshtml",
+              "RelativeToolTip": "ProductCustomer\\Views\\Customer\\Edit.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T10:10:05.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "ProductCustomer\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "ProductCustomer\\Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T08:59:52.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProductCustomer\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProductCustomer\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAAIMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T08:46:46.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Customer\\List.cshtml",
+              "RelativeDocumentMoniker": "ProductCustomer\\Views\\Customer\\List.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Customer\\List.cshtml",
+              "RelativeToolTip": "ProductCustomer\\Views\\Customer\\List.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T10:10:12.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Customer\\Details.cshtml",
+              "RelativeDocumentMoniker": "ProductCustomer\\Views\\Customer\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Customer\\Details.cshtml",
+              "RelativeToolTip": "ProductCustomer\\Views\\Customer\\Details.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T10:09:58.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "ProductCustomer\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "ProductCustomer\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAI8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T10:04:07.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Product\\List.cshtml",
+              "RelativeDocumentMoniker": "ProductCustomer\\Views\\Product\\List.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Product\\List.cshtml",
+              "RelativeToolTip": "ProductCustomer\\Views\\Product\\List.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T08:59:37.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProductCustomer\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "ProductCustomer\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAADwv0sAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T08:59:44.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProductCustomer\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "ProductCustomer\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T09:00:00.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Customer\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProductCustomer\\Views\\Customer\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Customer\\Delete.cshtml",
+              "RelativeToolTip": "ProductCustomer\\Views\\Customer\\Delete.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T10:09:52.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "ProductCustomer\\DTOs\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "ProductCustomer\\DTOs\\ProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T08:45:01.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProductCustomer\\Views\\Customer\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "ProductCustomer\\Views\\Customer\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwCcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T10:10:20.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\EF\\Model1.edmx",
+              "RelativeDocumentMoniker": "ProductCustomer\\EF\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ProductCustomer\\ProductCustomer\\EF\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "ProductCustomer\\EF\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-13T08:42:07.633Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Delete";
+}
+
+
+
+<h2>Delete Customer</h2>
+
+<p>Are you sure you want to delete the following customer?</p>
+
+<div>
+    <strong>First Name:</strong> @Model.fname
+</div>
+<div>
+    <strong>Last Name:</strong> @Model.lname
+</div>
+<div>
+    <strong>Email:</strong> @Model.email
+</div>
+<div>
+    <strong>Phone:</strong> @Model.phone
+</div>
+<div>
+    <strong>Address:</strong> @Model.address
+</div>
+<div>
+    <strong>Date Joined:</strong> @Model.date_joined.ToString("yyyy-MM-dd")
+</div>
+
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        <button type="submit" name="dcsn" value="Yes" class="btn btn-danger">Yes, Delete</button>
+        <a href="@Url.Action("List", "Customer")" class="btn btn-secondary">Cancel</a>
+    </div>
+}

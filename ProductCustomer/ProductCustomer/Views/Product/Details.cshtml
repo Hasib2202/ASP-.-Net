@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Product Details</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">@Model.name</h5>
+        <p class="card-text"><strong>Id:</strong> @Model.id</p>
+        <p class="card-text"><strong>Description:</strong> @Model.description</p>
+        <p class="card-text"><strong>Price:</strong> $@Model.price</p>
+        <p class="card-text"><strong>Stock Quantity:</strong> @Model.stock_quantity</p>
+        <p class="card-text"><strong>Category:</strong> @Model.category</p>
+    </div>
+</div>
+
+<a href="/Product/List/" class="btn btn-secondary mt-3">Back to List</a>

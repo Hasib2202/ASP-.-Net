@@ -1,0 +1,76 @@
+﻿@model ProductCustomer.DTOs.ProductDTO
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit Product</h2>
+
+@using (Html.BeginForm("Edit", "Product", FormMethod.Post, new { @class = "needs-validation" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(m => m.id)
+
+    <div class="mb-3">
+        <label class="form-label">Product Name</label>
+        @Html.TextBoxFor(m => m.name, new { @class = "form-control", maxlength = "100" })
+        @Html.ValidationMessageFor(m => m.name, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Description</label>
+        @Html.TextAreaFor(m => m.description, new { @class = "form-control", maxlength = "500" })
+        @Html.ValidationMessageFor(m => m.description, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Price</label>
+        @Html.TextBoxFor(m => m.price, new { @class = "form-control", type = "number", step = "0.01", min = "0.01" })
+        @Html.ValidationMessageFor(m => m.price, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Stock Quantity</label>
+        @Html.TextBoxFor(m => m.stock_quantity, new { @class = "form-control", type = "number", min = "0" })
+        @Html.ValidationMessageFor(m => m.stock_quantity, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Category</label>
+        @Html.DropDownListFor(m => m.category,
+                 new SelectList(new[]
+                 {
+                new { Value = "Electronics", Text = "Electronics" },
+                new { Value = "Clothing", Text = "Clothing" },
+                new { Value = "Furniture", Text = "Furniture" },
+                new { Value = "Books", Text = "Books" }
+                         }, "Value", "Text"),
+                 "Select Category",
+                 new { @class = "form-select" })
+        @Html.ValidationMessageFor(m => m.category, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="mb-3">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    @Html.ActionLink("Back to List", "List", null, new { @class = "btn btn-secondary" })
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function () {
+            // Custom client-side validation for category
+            $.validator.addMethod("validCategory", function (value, element) {
+                var validCategories = ["electronics", "clothing", "furniture", "books"];
+                return this.optional(element) || validCategories.includes(value.toLowerCase());
+            }, "Please select a valid category.");
+
+            // Add custom validation rules
+            $("#category").rules("add", {
+                validCategory: true
+            });
+        });
+    </script>
+}

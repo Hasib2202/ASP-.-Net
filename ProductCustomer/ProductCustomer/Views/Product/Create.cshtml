@@ -1,0 +1,73 @@
+﻿@model ProductCustomer.DTOs.ProductDTO
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create Product</h2>
+
+<form action="/Product/Create" method="post" class="needs-validation" novalidate>
+    <div class="mb-3">
+        <label class="form-label">Product Name</label>
+        <input type="text" name="name" class="form-control" maxlength="100" required />
+        <div class="invalid-feedback">
+            Please enter a product name (max 100 characters).
+        </div>
+        <p class="text-danger">@Html.ValidationMessage("name")</p>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Description</label>
+        <textarea name="description" class="form-control" maxlength="500" required></textarea>
+        <div class="invalid-feedback">
+            Description can be up to 500 characters.
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Price</label>
+        <input type="number" name="price" class="form-control" step="0.01" min="0.01" required />
+        <div class="invalid-feedback">
+            Please enter a price greater than 0.
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Stock Quantity</label>
+        <input type="number" name="stock_quantity" class="form-control" min="0" required />
+        <div class="invalid-feedback">
+            Stock quantity must be 0 or more.
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Category</label>
+        <select name="category" class="form-select" required>
+            <option value="">Select Category</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Clothing">Clothing</option>
+            <option value="Books">Books</option>
+            <option value="Furniture">Furniture</option>
+        </select>
+        <div class="invalid-feedback">
+            Please select a category.
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Product</button>
+</form>
+
+<script>
+    (function () {
+        'use strict'
+        var forms = document.querySelectorAll('.needs-validation')
+        Array.prototype.slice.call(forms).forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+                form.classList.add('was-validated')
+            }, false)
+        })
+    })()
+</script>

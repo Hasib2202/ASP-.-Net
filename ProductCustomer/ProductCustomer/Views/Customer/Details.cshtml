@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+}
+
+
+<h2>Customer Details</h2>
+<div>
+    <strong>Id:</strong> @Model.id
+</div>
+
+<div>
+    <strong>First Name:</strong> @Model.fname
+</div>
+<div>
+    <strong>Last Name:</strong> @Model.lname
+</div>
+<div>
+    <strong>Email:</strong> @Model.email
+</div>
+<div>
+    <strong>Phone:</strong> @Model.phone
+</div>
+<div>
+    <strong>Address:</strong> @Model.address
+</div>
+<div>
+    <strong>Date Joined:</strong> @Model.date_joined.ToString("yyyy-MM-dd")
+</div>
+
+<a href="@Url.Action("List", "Customer")" class="btn btn-secondary">Back to List</a>

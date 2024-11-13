@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+
+
+
+    <h2>Create Customer</h2>
+
+    <form action="@Url.Action("Create", "Customer")" method="post">
+
+        <!-- First Name -->
+        <div class="form-group">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" class="form-control" value="@Model.fname">
+            <p class="text-danger">@Html.ValidationMessage("fname")</p>
+        </div>
+
+        <!-- Last Name -->
+        <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" class="form-control" value="@Model.lname">
+            <p class="text-danger">@Html.ValidationMessage("lname")</p>
+
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" class="form-control" value="@Model.email">
+            <p class="text-danger">@Html.ValidationMessage("email")</p>
+
+        </div>
+
+        <!-- Phone -->
+        <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" class="form-control" value="@Model.phone">
+            <p class="text-danger">@Html.ValidationMessage("phone")</p>
+
+        </div>
+
+        <!-- Address -->
+        <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" class="form-control" value="@Model.address">
+            <p class="text-danger">@Html.ValidationMessage("address")</p>
+
+        </div>
+
+        <!-- Date Joined -->
+        <div class="form-group">
+            <label for="date_joined">Date Joined</label>
+            <input type="date" id="date_joined" name="date_joined" class="form-control" value="@Model.date_joined">
+            <p class="text-danger">@Html.ValidationMessage("date_joined")</p>
+
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Create</button>
+            <a href="@Url.Action("List", "Customer")" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+
