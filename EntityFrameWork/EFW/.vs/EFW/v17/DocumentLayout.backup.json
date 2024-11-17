@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\entityframework\\efw\\efw\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\efw\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\efw\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\efw\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\entityframework\\efw\\efw\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -19,18 +35,6 @@
       "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\efw\\ef\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\ef\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\efw\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\efw\\ef\\studentmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\ef\\studentmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\efw\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -43,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\efw\\ef\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\ef\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\efw\\views\\course\\lists.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\views\\course\\lists.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -55,24 +55,12 @@
       "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\views\\course\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\efw\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\efw\\views\\department\\depts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\views\\department\\depts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\efw\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\efw\\ef\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\ef\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\efw\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0477F250-0141-4F1D-9065-067FBC083CCE}|EFW\\EFW.csproj|solutionrelative:efw\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,83 +70,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Depts.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Department\\Depts.cshtml",
-              "RelativeDocumentMoniker": "EFW\\Views\\Department\\Depts.cshtml",
-              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Department\\Depts.cshtml",
-              "RelativeToolTip": "EFW\\Views\\Department\\Depts.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-04T18:34:14.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Department\\Create.cshtml",
-              "RelativeDocumentMoniker": "EFW\\Views\\Department\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Department\\Create.cshtml",
-              "RelativeToolTip": "EFW\\Views\\Department\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T15:54:05.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Student\\List.cshtml",
-              "RelativeDocumentMoniker": "EFW\\Views\\Student\\List.cshtml",
-              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Student\\List.cshtml",
-              "RelativeToolTip": "EFW\\Views\\Student\\List.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAwwDkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T15:05:11.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "EFW\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "EFW\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAANEAAAAAAAAAAAAuwMEAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:00:30.678Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\EF\\Course.cs",
-              "RelativeDocumentMoniker": "EFW\\EF\\Course.cs",
-              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\EF\\Course.cs",
-              "RelativeToolTip": "EFW\\EF\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T16:12:57.84Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Student\\Edit.cshtml",
-              "RelativeDocumentMoniker": "EFW\\Views\\Student\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Student\\Edit.cshtml",
-              "RelativeToolTip": "EFW\\Views\\Student\\Edit.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T09:00:10.655Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\EF\\Model1.edmx",
+              "RelativeDocumentMoniker": "EFW\\EF\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\EF\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "EFW\\EF\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-17T20:25:08.541Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Student\\Create.cshtml",
               "RelativeDocumentMoniker": "EFW\\Views\\Student\\Create.cshtml",
@@ -171,42 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\EF\\Student.cs",
-              "RelativeDocumentMoniker": "EFW\\EF\\Student.cs",
-              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\EF\\Student.cs",
-              "RelativeToolTip": "EFW\\EF\\Student.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T15:19:12.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "All.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\University\\All.cshtml",
-              "RelativeDocumentMoniker": "EFW\\Views\\University\\All.cshtml",
-              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\University\\All.cshtml",
-              "RelativeToolTip": "EFW\\Views\\University\\All.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T15:12:35.144Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "StudentModel.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\EF\\StudentModel.edmx",
-              "RelativeDocumentMoniker": "EFW\\EF\\StudentModel.edmx",
-              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\EF\\StudentModel.edmx [Diagram1]",
-              "RelativeToolTip": "EFW\\EF\\StudentModel.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-11-05T15:02:19.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Student\\Details.cshtml",
               "RelativeDocumentMoniker": "EFW\\Views\\Student\\Details.cshtml",
@@ -214,11 +107,12 @@
               "RelativeToolTip": "EFW\\Views\\Student\\Details.cshtml",
               "ViewState": "AgIAAD4AAAAAAAAAAAAYwFkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T09:31:38.006Z"
+              "WhenOpened": "2024-11-06T09:31:38.006Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Course\\Create.cshtml",
               "RelativeDocumentMoniker": "EFW\\Views\\Course\\Create.cshtml",
@@ -226,11 +120,12 @@
               "RelativeToolTip": "EFW\\Views\\Course\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-04T18:45:44.134Z"
+              "WhenOpened": "2024-11-04T18:45:44.134Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Student\\Delete.cshtml",
               "RelativeDocumentMoniker": "EFW\\Views\\Student\\Delete.cshtml",
@@ -238,19 +133,112 @@
               "RelativeToolTip": "EFW\\Views\\Student\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T09:17:43.945Z"
+              "WhenOpened": "2024-11-06T09:17:43.945Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
               "Title": "CourseController.cs",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "EFW\\Controllers\\CourseController.cs",
               "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Controllers\\CourseController.cs",
               "RelativeToolTip": "EFW\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T18:43:58.294Z"
+              "WhenOpened": "2024-11-04T18:43:58.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "EFW\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "EFW\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T17:13:53.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "EFW\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "EFW\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T15:00:30.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Depts.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Department\\Depts.cshtml",
+              "RelativeDocumentMoniker": "EFW\\Views\\Department\\Depts.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Department\\Depts.cshtml",
+              "RelativeToolTip": "EFW\\Views\\Department\\Depts.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T18:34:14.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "All.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\University\\All.cshtml",
+              "RelativeDocumentMoniker": "EFW\\Views\\University\\All.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\University\\All.cshtml",
+              "RelativeToolTip": "EFW\\Views\\University\\All.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T15:12:35.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EFW\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "EFW\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T09:00:10.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Student\\List.cshtml",
+              "RelativeDocumentMoniker": "EFW\\Views\\Student\\List.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Student\\List.cshtml",
+              "RelativeToolTip": "EFW\\Views\\Student\\List.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwDkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T15:05:11.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Department\\Create.cshtml",
+              "RelativeDocumentMoniker": "EFW\\Views\\Department\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Views\\Department\\Create.cshtml",
+              "RelativeToolTip": "EFW\\Views\\Department\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T15:54:05.877Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -262,19 +250,8 @@
               "RelativeToolTip": "EFW\\Views\\Course\\Lists.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-04T18:46:44.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\EF\\Department.cs",
-              "RelativeDocumentMoniker": "EFW\\EF\\Department.cs",
-              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\EF\\Department.cs",
-              "RelativeToolTip": "EFW\\EF\\Department.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T16:15:07.916Z"
+              "WhenOpened": "2024-11-04T18:46:44.319Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -286,19 +263,8 @@
               "RelativeToolTip": "EFW\\Views\\Course\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T16:17:51.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "EFW\\Controllers\\DepartmentController.cs",
-              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\EntityFrameWork\\EFW\\EFW\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "EFW\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T17:13:53.627Z"
+              "WhenOpened": "2024-11-05T16:17:51.685Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -10,7 +10,7 @@ namespace EFW.Controllers
     public class CourseController : Controller
     {
         // GET: Course
-        StudentModelContext db = new StudentModelContext();
+        StudentModelContext1 db = new StudentModelContext1();
 
         [HttpGet]
         public ActionResult Create()

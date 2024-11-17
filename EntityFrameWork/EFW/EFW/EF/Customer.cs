@@ -12,19 +12,14 @@ namespace EFW.EF
     using System;
     using System.Collections.Generic;
     
-    public partial class Student
+    public partial class Customer
     {
         public int id { get; set; }
-        public string name { get; set; }
-        public string cgpa { get; set; }
-        public string fathername { get; set; }
-        public string mothername { get; set; }
-        public string religion { get; set; }
-        public string gender { get; set; }
-        public string studentinterest { get; set; }
-        public System.DateTime dateofbirth { get; set; }
-        public Nullable<int> deptId { get; set; }
-    
-        public virtual Department Department { get; set; }
+        public string fname { get; set; }
+        public string lname { get; set; }
+        public string email { get; set; }
+        public string phone { get; set; }
+        public string address { get; set; }
+        public System.DateTime date_joined { get; set; }
     }
 }

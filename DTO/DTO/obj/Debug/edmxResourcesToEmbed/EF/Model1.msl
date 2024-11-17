@@ -4,6 +4,7 @@
     <EntitySetMapping Name="Courses">
       <EntityTypeMapping TypeName="ASPModel.Course">
         <MappingFragment StoreEntitySet="Course">
+          <ScalarProperty Name="deptId" ColumnName="deptId" />
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="name" ColumnName="name" />
           <ScalarProperty Name="details" ColumnName="details" />
@@ -22,6 +23,7 @@
     <EntitySetMapping Name="Students">
       <EntityTypeMapping TypeName="ASPModel.Student">
         <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="deptId" ColumnName="deptId" />
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="name" ColumnName="name" />
           <ScalarProperty Name="cgpa" ColumnName="cgpa" />
@@ -31,6 +33,31 @@
           <ScalarProperty Name="gender" ColumnName="gender" />
           <ScalarProperty Name="studentinterest" ColumnName="studentinterest" />
           <ScalarProperty Name="dateofbirth" ColumnName="dateofbirth" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="ASPModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="date_joined" ColumnName="date_joined" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="fname" ColumnName="fname" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="ASPModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="category" ColumnName="category" />
+          <ScalarProperty Name="stock_quantity" ColumnName="stock_quantity" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

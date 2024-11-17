@@ -23,5 +23,8 @@ namespace DTO.EF
         public string gender { get; set; }
         public string studentinterest { get; set; }
         public System.DateTime dateofbirth { get; set; }
+        public Nullable<int> deptId { get; set; }
+    
+        public virtual Department Department { get; set; }
     }
 }

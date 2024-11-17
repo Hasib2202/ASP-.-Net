@@ -13,10 +13,10 @@ namespace EFW.EF
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class StudentModelContext : DbContext
+    public partial class StudentModelContext1 : DbContext
     {
-        public StudentModelContext()
-            : base("name=StudentModelContext")
+        public StudentModelContext1()
+            : base("name=StudentModelContext1")
         {
         }
     
@@ -26,7 +26,9 @@ namespace EFW.EF
         }
     
         public virtual DbSet<Course> Courses { get; set; }
+        public virtual DbSet<Customer> Customers { get; set; }
         public virtual DbSet<Department> Departments { get; set; }
+        public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Student> Students { get; set; }
     }
 }

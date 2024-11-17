@@ -8,6 +8,10 @@
         <EntityTypeShape EntityType="ASPModel.Course" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="ASPModel.Department" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="ASPModel.Student" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASPModel.Customer" Width="1.5" PointX="8.125" PointY="0.75" />
+        <EntityTypeShape EntityType="ASPModel.Product" Width="1.5" PointX="10.375" PointY="0.75" />
+        <AssociationConnector Association="ASPModel.FK_Course_Department" />
+        <AssociationConnector Association="ASPModel.FK_Student_Department" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

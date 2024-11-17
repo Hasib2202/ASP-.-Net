@@ -7,24 +7,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EFW.EF
+namespace DTO.EF
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Student
+    public partial class Product
     {
         public int id { get; set; }
         public string name { get; set; }
-        public string cgpa { get; set; }
-        public string fathername { get; set; }
-        public string mothername { get; set; }
-        public string religion { get; set; }
-        public string gender { get; set; }
-        public string studentinterest { get; set; }
-        public System.DateTime dateofbirth { get; set; }
-        public Nullable<int> deptId { get; set; }
-    
-        public virtual Department Department { get; set; }
+        public string description { get; set; }
+        public double price { get; set; }
+        public int stock_quantity { get; set; }
+        public string category { get; set; }
     }
 }

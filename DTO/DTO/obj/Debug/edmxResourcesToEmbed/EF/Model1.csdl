@@ -7,6 +7,8 @@
     <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="details" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="deptId" Type="Int32" />
+    <NavigationProperty Name="Department" Relationship="ASPModel.FK_Course_Department" FromRole="Course" ToRole="Department" />
   </EntityType>
   <EntityType Name="Department">
     <Key>
@@ -15,6 +17,8 @@
     <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="location" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Courses" Relationship="ASPModel.FK_Course_Department" FromRole="Department" ToRole="Course" />
+    <NavigationProperty Name="Students" Relationship="ASPModel.FK_Student_Department" FromRole="Department" ToRole="Student" />
   </EntityType>
   <EntityType Name="Student">
     <Key>
@@ -29,10 +33,69 @@
     <Property Name="gender" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="studentinterest" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="dateofbirth" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="deptId" Type="Int32" />
+    <NavigationProperty Name="Department" Relationship="ASPModel.FK_Student_Department" FromRole="Student" ToRole="Department" />
   </EntityType>
   <EntityContainer Name="ASPEntities1" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Courses" EntityType="Self.Course" />
     <EntitySet Name="Departments" EntityType="Self.Department" />
     <EntitySet Name="Students" EntityType="Self.Student" />
+    <EntitySet Name="Customers" EntityType="ASPModel.Customer" />
+    <EntitySet Name="Products" EntityType="ASPModel.Product" />
+    <AssociationSet Name="FK_Course_Department" Association="ASPModel.FK_Course_Department">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="Course" EntitySet="Courses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Student_Department" Association="ASPModel.FK_Student_Department">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
   </EntityContainer>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="lname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="address" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="date_joined" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="description" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="price" Type="Double" Nullable="false" />
+    <Property Name="stock_quantity" Type="Int32" Nullable="false" />
+    <Property Name="category" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_Course_Department">
+    <End Type="ASPModel.Department" Role="Department" Multiplicity="0..1" />
+    <End Type="ASPModel.Course" Role="Course" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Course">
+        <PropertyRef Name="deptId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Student_Department">
+    <End Type="ASPModel.Department" Role="Department" Multiplicity="0..1" />
+    <End Type="ASPModel.Student" Role="Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="deptId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema>

@@ -114,6 +114,7 @@ namespace DTO.Controllers
         public ActionResult Details(int id)
         {
             var data = db.Departments.Find(id);
+            var test = data.Students;
             return View(Convert(data));
         }
 
