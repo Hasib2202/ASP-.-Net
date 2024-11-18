@@ -1,5 +1,6 @@
 ﻿using DTO.DTOs;
 using DTO.EF;
+using EFwithDTO.Auth;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,10 +9,11 @@ using System.Web.Mvc;
 
 namespace DTO.Controllers
 {
+    [Logged]
+
     public class DepartmentController : Controller
     {
         ASPEntities1 db = new ASPEntities1();
-
 
         // Convert the EF model to DTO
         public static Department Convert(DepartmentDTO d)
@@ -72,6 +74,7 @@ namespace DTO.Controllers
 
         }
         // List
+        [AllowAnonymous]
         public ActionResult List()
         {
             var efcreatedata = db.Departments.ToList();

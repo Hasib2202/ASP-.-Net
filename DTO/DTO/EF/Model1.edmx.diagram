@@ -12,6 +12,7 @@
         <EntityTypeShape EntityType="ASPModel.Product" Width="1.5" PointX="10.375" PointY="0.75" />
         <AssociationConnector Association="ASPModel.FK_Course_Department" />
         <AssociationConnector Association="ASPModel.FK_Student_Department" />
+        <EntityTypeShape EntityType="ASPModel.User" Width="1.5" PointX="9.5" PointY="4.25" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

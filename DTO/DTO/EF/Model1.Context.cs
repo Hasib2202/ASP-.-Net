@@ -18,7 +18,6 @@ namespace DTO.EF
         public ASPEntities1()
             : base("name=ASPEntities1")
         {
-            this.Configuration.LazyLoadingEnabled = false;
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -31,5 +30,6 @@ namespace DTO.EF
         public virtual DbSet<Student> Students { get; set; }
         public virtual DbSet<Customer> Customers { get; set; }
         public virtual DbSet<Product> Products { get; set; }
+        public virtual DbSet<User> Users { get; set; }
     }
 }
