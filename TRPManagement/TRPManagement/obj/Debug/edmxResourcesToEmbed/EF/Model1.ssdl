@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TRPManagementModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Channel">
+    <Key>
+      <PropertyRef Name="ChannelId" />
+    </Key>
+    <Property Name="ChannelId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ChannelName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="EstablishedYear" Type="int" Nullable="false" />
+    <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Program">
+    <Key>
+      <PropertyRef Name="ProgramId" />
+    </Key>
+    <Property Name="ProgramId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProgramName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TRPScore" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="ChannelId" Type="int" Nullable="false" />
+    <Property Name="AirTime" Type="time" Precision="7" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Program_Channel">
+    <End Role="Channel" Type="Self.Channel" Multiplicity="1" />
+    <End Role="Program" Type="Self.Program" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Channel">
+        <PropertyRef Name="ChannelId" />
+      </Principal>
+      <Dependent Role="Program">
+        <PropertyRef Name="ChannelId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TRPManagementModelStoreContainer">
+    <EntitySet Name="Channel" EntityType="Self.Channel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Program" EntityType="Self.Program" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Program_Channel" Association="Self.FK_Program_Channel">
+      <End Role="Channel" EntitySet="Channel" />
+      <End Role="Program" EntitySet="Program" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,44 @@
+﻿@model TRPManagement.DTOs.ChannelDTO
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Channel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Create New Channel</h2>
+
+        @if (ViewData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">@ViewData["ErrorMessage"]</div>
+        }
+
+        <form action="/Channel/Create" method="post">
+            <div class="form-group">
+                <label for="ChannelName">Channel Name</label>
+                <input type="text" class="form-control" id="ChannelName" name="ChannelName"
+                       value="@Model.ChannelName"  maxlength="100" />
+                @Html.ValidationMessageFor(model => model.ChannelName, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                <label for="EstablishedYear">Established Year</label>
+                <input type="number" class="form-control" id="EstablishedYear" name="EstablishedYear"
+                       value="@Model.EstablishedYear"  min="1900" max="@DateTime.Now.Year" />
+                @Html.ValidationMessageFor(model => model.EstablishedYear, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                <label for="Country">Country</label>
+                <input type="text" class="form-control" id="Country" name="Country"
+                       value="@Model.Country"  maxlength="50" />
+                @Html.ValidationMessageFor(model => model.Country, "", new { @class = "text-danger" })
+            </div>
+
+            <button type="submit" class="btn btn-primary">Create Channel</button>
+            <a href="/Channel/List" class="btn btn-secondary">Back to List</a>
+        </form>
+    </div>
+</body>
+</html>

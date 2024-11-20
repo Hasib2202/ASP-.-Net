@@ -1,0 +1,274 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\trpmanagement\\trpmanagement\\controllers\\programcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\controllers\\programcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\trpmanagement\\trpmanagement\\views\\program\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\views\\program\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\trpmanagement\\trpmanagement\\views\\program\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\views\\program\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\trpmanagement\\trpmanagement\\views\\channel\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\views\\channel\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\trpmanagement\\trpmanagement\\controllers\\channelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\controllers\\channelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\trpmanagement\\trpmanagement\\views\\program\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\views\\program\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\trpmanagement\\trpmanagement\\dtos\\programdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\dtos\\programdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\trpmanagement\\trpmanagement\\views\\channel\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\views\\channel\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\trpmanagement\\trpmanagement\\views\\program\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\views\\program\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\trpmanagement\\trpmanagement\\views\\channel\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\views\\channel\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\trpmanagement\\trpmanagement\\views\\channel\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\views\\channel\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\trpmanagement\\trpmanagement\\views\\program\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\views\\program\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\trpmanagement\\trpmanagement\\views\\channel\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\views\\channel\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\trpmanagement\\trpmanagement\\dtos\\channeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\dtos\\channeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\trpmanagement\\trpmanagement\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{7DD3FC7E-6378-4FB2-8CE9-47619813D733}|TRPManagement\\TRPManagement.csproj|solutionrelative:trpmanagement\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Program\\List.cshtml",
+              "RelativeDocumentMoniker": "TRPManagement\\Views\\Program\\List.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Program\\List.cshtml",
+              "RelativeToolTip": "TRPManagement\\Views\\Program\\List.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAABMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T15:24:33.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Channel\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TRPManagement\\Views\\Channel\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Channel\\Edit.cshtml",
+              "RelativeToolTip": "TRPManagement\\Views\\Channel\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T14:39:14.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Program\\Create.cshtml",
+              "RelativeDocumentMoniker": "TRPManagement\\Views\\Program\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Program\\Create.cshtml",
+              "RelativeToolTip": "TRPManagement\\Views\\Program\\Create.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvzIAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T15:24:23.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Channel\\Details.cshtml",
+              "RelativeDocumentMoniker": "TRPManagement\\Views\\Channel\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Channel\\Details.cshtml",
+              "RelativeToolTip": "TRPManagement\\Views\\Channel\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T14:39:32.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Channel\\Create.cshtml",
+              "RelativeDocumentMoniker": "TRPManagement\\Views\\Channel\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Channel\\Create.cshtml",
+              "RelativeToolTip": "TRPManagement\\Views\\Channel\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T14:37:12.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Channel\\List.cshtml",
+              "RelativeDocumentMoniker": "TRPManagement\\Views\\Channel\\List.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Channel\\List.cshtml",
+              "RelativeToolTip": "TRPManagement\\Views\\Channel\\List.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T14:38:25.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Channel\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TRPManagement\\Views\\Channel\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Channel\\Delete.cshtml",
+              "RelativeToolTip": "TRPManagement\\Views\\Channel\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T14:39:43.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProgramDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\DTOs\\ProgramDTO.cs",
+              "RelativeDocumentMoniker": "TRPManagement\\DTOs\\ProgramDTO.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\DTOs\\ProgramDTO.cs",
+              "RelativeToolTip": "TRPManagement\\DTOs\\ProgramDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T13:54:56.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChannelController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Controllers\\ChannelController.cs",
+              "RelativeDocumentMoniker": "TRPManagement\\Controllers\\ChannelController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Controllers\\ChannelController.cs",
+              "RelativeToolTip": "TRPManagement\\Controllers\\ChannelController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAE0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T13:55:14.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProgramController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Controllers\\ProgramController.cs",
+              "RelativeDocumentMoniker": "TRPManagement\\Controllers\\ProgramController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Controllers\\ProgramController.cs",
+              "RelativeToolTip": "TRPManagement\\Controllers\\ProgramController.cs",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAcwA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T13:55:27.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Program\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TRPManagement\\Views\\Program\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Program\\Delete.cshtml",
+              "RelativeToolTip": "TRPManagement\\Views\\Program\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T15:24:58.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Program\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TRPManagement\\Views\\Program\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Program\\Edit.cshtml",
+              "RelativeToolTip": "TRPManagement\\Views\\Program\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T15:24:40.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Program\\Details.cshtml",
+              "RelativeDocumentMoniker": "TRPManagement\\Views\\Program\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\Views\\Program\\Details.cshtml",
+              "RelativeToolTip": "TRPManagement\\Views\\Program\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T15:24:51.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChannelDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\DTOs\\ChannelDTO.cs",
+              "RelativeDocumentMoniker": "TRPManagement\\DTOs\\ChannelDTO.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\DTOs\\ChannelDTO.cs",
+              "RelativeToolTip": "TRPManagement\\DTOs\\ChannelDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T13:54:44.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\EF\\Model1.edmx",
+              "RelativeDocumentMoniker": "TRPManagement\\EF\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\TRPManagement\\TRPManagement\\EF\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "TRPManagement\\EF\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-20T13:53:10.692Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

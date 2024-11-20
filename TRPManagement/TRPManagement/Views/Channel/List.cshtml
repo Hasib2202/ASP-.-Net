@@ -1,0 +1,65 @@
+﻿@model List<TRPManagement.DTOs.ChannelDTO>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Channel List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Channels</h2>
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+        }
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+        }
+
+        <a href="/Channel/Create" class="btn btn-success mb-3">Create New Channel</a>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Channel ID</th>
+                    <th>Channel Name</th>
+                    <th>Established Year</th>
+                    <th>Country</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var channel in Model)
+                {
+                    <tr>
+                        <td>@channel.ChannelId</td>
+                        <td>@channel.ChannelName</td>
+                        <td>@channel.EstablishedYear</td>
+                        <td>@channel.Country</td>
+                        <td>
+                            <a href="/Channel/Edit/@channel.ChannelId" class="btn btn-primary btn-sm">Edit</a>
+                            <a href="/Channel/Details/@channel.ChannelId" class="btn btn-info btn-sm">Details</a>
+                            <a href="/Channel/Delete/@channel.ChannelId" class="btn btn-danger btn-sm">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <!-- Pagination -->
+        <nav>
+            <ul class="pagination">
+                @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                {
+                    <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                        <a class="page-link" href="/Channel/List?page=@i">@i</a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>

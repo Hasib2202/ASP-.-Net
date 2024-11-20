@@ -1,0 +1,44 @@
+﻿@model TRPManagement.DTOs.ProgramDTO
+
+@{
+    ViewBag.Title = "Edit Program";
+}
+
+<h2>Edit Program</h2>
+
+@using (Html.BeginForm("Edit", "Program", FormMethod.Post))
+{
+    @Html.HiddenFor(model => model.ProgramId)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ProgramName, "Program Name")
+        @Html.TextBoxFor(model => model.ProgramName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.ProgramName, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.TRPScore, "TRP Score")
+        @Html.TextBoxFor(model => model.TRPScore, new { @class = "form-control", @type = "number", step = "0.01" })
+        @Html.ValidationMessageFor(model => model.TRPScore, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ChannelId, "Channel")
+        @Html.DropDownListFor(
+                 model => model.ChannelId,
+                 new SelectList(ViewBag.Channels, "Value", "Text", Model.ChannelId),
+                 "Select a Channel",
+                 new { @class = "form-control" }
+             )
+        @Html.ValidationMessageFor(model => model.ChannelId, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.AirTime, "Air Time")
+        @Html.TextBoxFor(model => model.AirTime, new { @class = "form-control", @type = "time" })
+        @Html.ValidationMessageFor(model => model.AirTime, "", new { @class = "text-danger" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a href="@Url.Action("List", "Program")" class="btn btn-secondary">Cancel</a>
+}

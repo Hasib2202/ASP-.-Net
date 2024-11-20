@@ -1,0 +1,31 @@
+﻿@model TRPManagement.DTOs.ChannelDTO
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Channel Details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Channel Details</h2>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">@Model.ChannelName</h5>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>Channel ID:</strong> @Model.ChannelId</p>
+                        <p><strong>Channel Name:</strong> @Model.ChannelName</p>
+                        <p><strong>Established Year:</strong> @Model.EstablishedYear</p>
+                        <p><strong>Country:</strong> @Model.Country</p>
+                    </div>
+                </div>
+
+                <a href="/Channel/Edit/@Model.ChannelId" class="btn btn-primary">Edit</a>
+                <a href="/Channel/List" class="btn btn-secondary">Back to List</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
