@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Delete Course";
+}
+
+<h2>Delete Course</h2>
+
+<p>Are you sure you want to delete the course <b>@Model.Name</b>?</p>
+
+<form method="post" action="@Url.Action("DeleteCourse", "Admin")">
+    <input type="hidden" name="id" value="@Model.CourseId" />
+    <button type="submit" class="btn btn-sm btn-danger">
+        Confirm Deletion
+    </button>
+</form>

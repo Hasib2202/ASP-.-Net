@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Course</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+        <div class="card shadow" style="width: 80%; max-width: 600px;">
+            <div class="card-body">
+                <h3 class="text-center mb-4">Edit Course</h3>
+
+                @if (TempData["msg"] != null)
+                {
+                    <div class="alert alert-danger">@TempData["msg"]</div>
+                }
+
+                <form method="post" action='@Url.Action("EditCourse", "Admin")'>
+                    <input type="hidden" name="CourseId" value="@Model.CourseId" />
+
+                    <div class="mb-3">
+                        <label for="Name" class="form-label">Course Name</label>
+                        <input type="text" class="form-control" id="Name" name="Name"
+                               value="@Model.Name" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="InstructorId" class="form-label">Instructor</label>
+                        <select class="form-control" id="InstructorId" name="InstructorId" required>
+                            <option value="">Select Instructor</option>
+                            @foreach (var instructor in ViewBag.Instructors)
+                            {
+                                <option value="@instructor.Value"
+                                        @(Model.InstructorId.ToString() == instructor.Value ? "selected" : "")>
+                                    @instructor.Text
+                                </option>
+                            }
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Duration" class="form-label">Duration (Hours)</label>
+                        <input type="number" class="form-control" id="Duration" name="Duration"
+                               value="@Model.Duration" min="1" required>
+                    </div>
+
+                    <div class="d-flex justify-content-center gap-2">
+                        <button type="submit" class="btn btn-primary" style="width: 40%;">Update</button>
+                        <a href='@Url.Action("ListCourses", "Admin")'
+                           class="btn btn-secondary" style="width: 40%;">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

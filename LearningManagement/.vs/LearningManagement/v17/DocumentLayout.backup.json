@@ -1,0 +1,291 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\learningmanagement\\learningmanagement\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|solutionrelative:learningmanagement\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\learningmanagement\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|solutionrelative:learningmanagement\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\learningmanagement\\learningmanagement\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|solutionrelative:learningmanagement\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\learningmanagement\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|solutionrelative:learningmanagement\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\learningmanagement\\learningmanagement\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|solutionrelative:learningmanagement\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\learningmanagement\\learningmanagement\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|solutionrelative:learningmanagement\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\learningmanagement\\learningmanagement\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|solutionrelative:learningmanagement\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\learningmanagement\\learningmanagement\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|solutionrelative:learningmanagement\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\learningmanagement\\learningmanagement\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|solutionrelative:learningmanagement\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\learningmanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|solutionrelative:learningmanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\learningmanagement\\learningmanagement\\views\\admin\\listusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|solutionrelative:learningmanagement\\views\\admin\\listusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\learningmanagement\\learningmanagement\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|solutionrelative:learningmanagement\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\learningmanagement\\learningmanagement\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|solutionrelative:learningmanagement\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\learningmanagement\\learningmanagement\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|solutionrelative:learningmanagement\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\learningmanagement\\learningmanagement\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|solutionrelative:learningmanagement\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\learningmanagement\\utility\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF8E5B6-99EF-4C13-82D1-310735BE7A02}|LearningManagement\\LearningManagement.csproj|solutionrelative:learningmanagement\\utility\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Views\\Register\\Index.cshtml",
+              "RelativeDocumentMoniker": "LearningManagement\\Views\\Register\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Views\\Register\\Index.cshtml",
+              "RelativeToolTip": "LearningManagement\\Views\\Register\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T17:53:28.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "LearningManagement\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "LearningManagement\\Controllers\\RegisterController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T17:38:43.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "LearningManagement\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "LearningManagement\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T17:38:22.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "LearningManagement\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "LearningManagement\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwB8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T15:21:46.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LearningManagement\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LearningManagement\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T15:29:02.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "LearningManagement\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "LearningManagement\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowD8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:13:36.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ListUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Views\\Admin\\ListUsers.cshtml",
+              "RelativeDocumentMoniker": "LearningManagement\\Views\\Admin\\ListUsers.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Views\\Admin\\ListUsers.cshtml",
+              "RelativeToolTip": "LearningManagement\\Views\\Admin\\ListUsers.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T19:23:40.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "LearningManagement\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "LearningManagement\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:33:53.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "LearningManagement\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "LearningManagement\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T18:49:25.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\EF\\Model1.edmx",
+              "RelativeDocumentMoniker": "LearningManagement\\EF\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\EF\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "LearningManagement\\EF\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-21T17:41:17.215Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "LearningManagement\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "LearningManagement\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAJEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T18:30:02.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "LearningManagement\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "LearningManagement\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T18:59:58.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeDocumentMoniker": "LearningManagement\\Views\\Admin\\CreateUser.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeToolTip": "LearningManagement\\Views\\Admin\\CreateUser.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T19:24:29.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "LearningManagement\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "LearningManagement\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T18:20:31.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CourseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\DTOs\\CourseDTO.cs",
+              "RelativeDocumentMoniker": "LearningManagement\\DTOs\\CourseDTO.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\DTOs\\CourseDTO.cs",
+              "RelativeToolTip": "LearningManagement\\DTOs\\CourseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T18:49:40.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Utility\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "LearningManagement\\Utility\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\LearningManagement\\LearningManagement\\Utility\\PasswordHasher.cs",
+              "RelativeToolTip": "LearningManagement\\Utility\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:31:11.311Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "Dashboard";
+}
+
+@*<h2>Dashboard</h2>*@
+
+@if (TempData["msg"] != null)
+{
+    <div class="alert alert-success text-center mt-3">
+        @TempData["msg"]
+    </div>
+}
+
+<div class="container">
+    <h2>Admin Dashboard</h2>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Total Users</h5>
+                    <p class="card-text">@ViewBag.TotalUsers</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Total Courses</h5>
+                    <p class="card-text">@ViewBag.TotalCourses</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Total Enrollments</h5>
+                    <p class="card-text">@ViewBag.TotalEnrollments</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <a href="@Url.Action("ListUsers")" class="btn btn-primary">Manage Users</a>
+        </div>
+        <div class="col-md-6">
+            <a href="@Url.Action("ListCourses")" class="btn btn-secondary">Manage Courses</a>
+        </div>
+    </div>
+</div>
