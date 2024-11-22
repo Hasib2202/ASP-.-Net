@@ -544,7 +544,7 @@ namespace LearningManagement.Controllers
             return RedirectToAction("ListCourses");
         }
 
-        [HttpPost]
+        [HttpGet]
         public ActionResult DeleteCourse(int? id)
         {
             if (Session["info"] == null || (Session["info"] as User)?.Role != "Admin")
@@ -553,10 +553,11 @@ namespace LearningManagement.Controllers
                 return RedirectToAction("Index", "Login");
             }
 
+            // Check if id is provided
             if (!id.HasValue)
             {
-                TempData["msg"] = "Course ID is missing.";
-                return RedirectToAction("ListCourses");
+                TempData["msg"] = "Invalid user ID.";
+                return RedirectToAction("ListUsers");
             }
 
             var course = db.Courses.Find(id.Value);
@@ -566,7 +567,37 @@ namespace LearningManagement.Controllers
                 return RedirectToAction("ListCourses");
             }
 
-            // Remove related enrollments and progress records
+            // Pass user details to the view
+            return View(course);
+
+        }
+
+        // POST: Admin/DeleteUser
+        [HttpPost]
+        public ActionResult ConfirmDeleteCourse(int? id)
+        {
+            if (Session["info"] == null || (Session["info"] as User)?.Role != "Admin")
+            {
+                TempData["msg"] = "Unauthorized access. Please log in as an admin.";
+                return RedirectToAction("Index", "Login");
+            }
+
+            // Check if id is provided
+            if (!id.HasValue)
+            {
+                TempData["msg"] = "Invalid user ID.";
+                return RedirectToAction("ListUsers");
+            }
+
+            var course = db.Courses.Find(id.Value);
+            if (course == null)
+            {
+                TempData["msg"] = "Courses not found.";
+                return RedirectToAction("ListCourses");
+            }
+
+
+            //Remove related enrollments and progress records
             var relatedEnrollments = db.Enrollments.Where(e => e.CourseId == id.Value);
             db.Enrollments.RemoveRange(relatedEnrollments);
 
@@ -579,6 +610,44 @@ namespace LearningManagement.Controllers
             TempData["SuccessMsg"] = "Course deleted successfully.";
             return RedirectToAction("ListCourses");
         }
+
+
+
+        //[HttpPost]
+        //public ActionResult DeleteCourse(int? id)
+        //{
+        //    if (Session["info"] == null || (Session["info"] as User)?.Role != "Admin")
+        //    {
+        //        TempData["msg"] = "Unauthorized access. Please log in as an admin.";
+        //        return RedirectToAction("Index", "Login");
+        //    }
+
+        //    if (!id.HasValue)
+        //    {
+        //        TempData["msg"] = "Course ID is missing.";
+        //        return RedirectToAction("ListCourses");
+        //    }
+
+        //    var course = db.Courses.Find(id.Value);
+        //    if (course == null)
+        //    {
+        //        TempData["msg"] = "Course not found.";
+        //        return RedirectToAction("ListCourses");
+        //    }
+
+        //    // Remove related enrollments and progress records
+        //    var relatedEnrollments = db.Enrollments.Where(e => e.CourseId == id.Value);
+        //    db.Enrollments.RemoveRange(relatedEnrollments);
+
+        //    var relatedProgress = db.StudentProgresses.Where(p => p.CourseId == id.Value);
+        //    db.StudentProgresses.RemoveRange(relatedProgress);
+
+        //    db.Courses.Remove(course);
+        //    db.SaveChanges();
+
+        //    TempData["SuccessMsg"] = "Course deleted successfully.";
+        //    return RedirectToAction("ListCourses");
+        //}
 
 
 

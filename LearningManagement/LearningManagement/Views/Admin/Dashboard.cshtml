@@ -1,4 +1,27 @@
-﻿
+﻿<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Admin Panel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Dashboard", "Admin")">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("ListUsers", "Admin")">Users</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("ListCourses", "Admin")">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Logout", "Login")">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
 @{
     ViewBag.Title = "Dashboard";
 }
@@ -11,6 +34,7 @@
         @TempData["msg"]
     </div>
 }
+@*<h1 class="mb-3">Welcome, @ViewBag.Name!</h1>*@
 
 <div class="container">
     <h2>Admin Dashboard</h2>
@@ -43,11 +67,15 @@
     </div>
 
     <div class="row mt-4">
-        <div class="col-md-6">
+        <div class="col-md-4">
             <a href="@Url.Action("ListUsers")" class="btn btn-primary">Manage Users</a>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
             <a href="@Url.Action("ListCourses")" class="btn btn-secondary">Manage Courses</a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="/Enrollment/ListEnrollment" class="btn btn-info">Manage Enrollments</a>
         </div>
     </div>
 </div>

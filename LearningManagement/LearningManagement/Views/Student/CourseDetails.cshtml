@@ -1,0 +1,60 @@
+﻿
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand my-3" href="#">Student Portal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Dashboard", "Student")">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("AvailableCourses", "Student")">Available courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("MyEnrollments", "Student")">Enroll courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Logout", "Student")">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+@{
+    ViewBag.Title = "Course Details";
+}
+
+@if (TempData["msg"] != null)
+{
+    <p style="color: green;">@TempData["msg"]</p>
+}
+
+<h2>@ViewBag.CourseName - Course Details</h2>
+<p><strong>Instructor:</strong> @ViewBag.InstructorName</p>
+<p><strong>Duration:</strong> @ViewBag.Duration weeks</p>
+
+<h3>Enrolled Students</h3>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Student Name</th>
+            <th>Email</th>
+            <th>Progress</th>
+            <th>Enrollment Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var enrollment in Model)
+        {
+            <tr>
+                <td>@enrollment.StudentName</td>
+                <td>@enrollment.StudentEmail</td>
+                <td>@enrollment.Progress%</td>
+                <td>@enrollment.EnrollmentDate.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>

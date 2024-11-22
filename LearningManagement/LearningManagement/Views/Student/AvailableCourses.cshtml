@@ -1,0 +1,100 @@
+﻿
+
+
+@{
+    ViewBag.Title = "Available Courses";
+}
+
+@if (TempData["msg"] != null)
+{
+    <p style="color: green;">@TempData["msg"]</p>
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Courses</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand my-3" href="#">Student Portal</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Dashboard", "Student")">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("AvailableCourses", "Student")">Available courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("MyEnrollments", "Student")">Enroll courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Logout", "Student")">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container mt-4">
+        <h2>Available Courses</h2>
+
+        <a href="/Student/MyEnrollments" class="btn btn-primary btn-sm my-3">My Courses</a>
+
+
+        <table class="table table-bordered mt-3">
+            <thead>
+                <tr>
+                    <th>Course ID</th>
+                    <th>Course Name</th>
+                    <th>Instructor ID</th>
+                    <th>Duration</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (ViewBag.AvailableCourses != null && ViewBag.AvailableCourses.Count > 0)
+                {
+                    foreach (var course in ViewBag.AvailableCourses)
+                    {
+                        <tr>
+                            <td>@course.CourseId</td>
+                            <td>@course.Name</td>
+                            <td>@course.InstructorId</td>
+                            <td>@course.Duration weeks</td>
+                            <td>
+                                <!-- Enroll Button -->
+                                <form method="post" action="/Student/Enroll">
+                                    <input type="hidden" name="courseId" value="@course.CourseId" />
+                                    <button type="submit" class="btn btn-success btn-sm">Enroll</button>
+                                </form>
+
+                                <!-- Course Details Button -->
+                                @*<a class="btn btn-info btn-sm" href="/Student/CourseDetails/@course.CourseId">Course Details</a>*@
+                                <a href="/Student/CourseDetails?courseId=@course.CourseId" class="btn btn-primary btn-sm">View Details</a>
+
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="5" class="text-center">No courses available.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

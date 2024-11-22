@@ -1,0 +1,59 @@
+﻿<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand my-3" href="#">Student Portal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Dashboard", "Student")">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("AvailableCourses", "Student")">Available courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("MyEnrollments", "Student")">Enroll courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Logout", "Student")">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+@{
+    ViewBag.Title = "MyEnrollments";
+}
+
+@*<h2>MyEnrollments</h2>*@
+
+<h2>My Enrollments</h2>
+@if (TempData["msg"] != null)
+{
+    <p>@TempData["msg"]</p>
+}
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Course Name</th>
+            <th>Instructor</th>
+            <th>Duration</th>
+            <th>Progress</th>
+            <th>Enrollment Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var enrollment in Model)
+        {
+            <tr>
+                <td>@enrollment.CourseName</td>
+                <td>@enrollment.InstructorName</td>
+                <td>@enrollment.CourseDuration weeks</td>
+                <td>@enrollment.Progress%</td>
+                <td>@enrollment.EnrollmentDate.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>

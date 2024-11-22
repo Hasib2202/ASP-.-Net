@@ -1,0 +1,74 @@
+﻿<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Admin Panel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Dashboard", "Admin")">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("ListUsers", "Admin")">Users</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("ListCourses", "Admin")">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Logout", "Login")">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+@{
+    ViewBag.Title = "FilterEnrollments";
+}
+
+@*<h2>FilterEnrollments</h2>*@
+
+@model List<LearningManagement.DTOs.EnrollmentDTO>
+
+<div class="container">
+    <h2>Filter Enrollments</h2>
+
+    @using (Html.BeginForm("FilterEnrollments", "Enrollment", FormMethod.Get))
+    {
+        <div class="row">
+            <div class="col-md-4">
+                @Html.DropDownList("studentId", (SelectList)ViewBag.Students,
+                    "Select Student", new { @class = "form-control" })
+            </div>
+            <div class="col-md-4">
+                @Html.DropDownList("courseId", (SelectList)ViewBag.Courses,
+                    "Select Course", new { @class = "form-control" })
+            </div>
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-primary">Filter</button>
+            </div>
+        </div>
+    }
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Course</th>
+                <th>Instructor</th>
+                <th>Progress</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var enrollment in Model)
+            {
+                <tr>
+                    <td>@enrollment.StudentName</td>
+                    <td>@enrollment.CourseName</td>
+                    <td>@enrollment.InstructorName</td>
+                    <td>@enrollment.Progress%</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

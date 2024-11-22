@@ -5,8 +5,32 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Admin Panel</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Dashboard", "Admin")">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("ListUsers", "Admin")">Users</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("ListCourses", "Admin")">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Logout", "Login")">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
     <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
-        <div class="card shadow" style="width: 80%; max-width: 600px;">
+        <div class="card shadow" style="width: 80%; max-width: 320px;">
             <div class="card-body">
                 <h3 class="text-center mb-4">Create New Course</h3>
 
@@ -18,13 +42,13 @@
                 <form method="post" action='@Url.Action("CreateCourse", "Admin")'>
                     <div class="mb-3">
                         <label for="Name" class="form-label">Course Name</label>
-                        <input type="text" class="form-control" id="Name" name="Name"
-                               value='@(Model?.Name ?? "")' required>
+                        <input type="text" class="form-control" id="Name" name="Name" placeholder="Course Name"
+                               value='@(Model?.Name ?? "")'>
                     </div>
 
                     <div class="mb-3">
                         <label for="InstructorId" class="form-label">Instructor</label>
-                        <select class="form-control" id="InstructorId" name="InstructorId" required>
+                        <select class="form-control" id="InstructorId" name="InstructorId">
                             <option value="">Select Instructor</option>
                             @foreach (var instructor in ViewBag.Instructors)
                             {
@@ -38,8 +62,8 @@
 
                     <div class="mb-3">
                         <label for="Duration" class="form-label">Duration (Hours)</label>
-                        <input type="number" class="form-control" id="Duration" name="Duration"
-                               value='@(Model?.Duration ?? 0)' min="1" required>
+                        <input type="number" class="form-control" id="Duration" name="Duration" placeholder="Course Duration"
+                               value='@(Model?.Duration ?? 0)' min="1">
                     </div>
 
                     <div class="d-flex justify-content-center gap-2">

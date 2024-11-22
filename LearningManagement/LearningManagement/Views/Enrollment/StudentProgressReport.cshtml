@@ -1,0 +1,59 @@
+﻿<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Admin Panel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Dashboard", "Admin")">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("ListUsers", "Admin")">Users</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("ListCourses", "Admin")">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Logout", "Login")">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+@{
+    ViewBag.Title = "StudentProgressReport";
+}
+
+@*<h2>StudentProgressReport</h2>*@
+
+@model List<LearningManagement.DTOs.StudentProgressDTO>
+
+<div class="container">
+    <h2>Student Progress Report</h2>
+
+    <a href="@Url.Action("ExportProgressReport")" class="btn btn-success mb-3">
+        Export to CSV
+    </a>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Course</th>
+                <th>Progress</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var progress in Model)
+            {
+                <tr>
+                    <td>@progress.StudentName</td>
+                    <td>@progress.CourseName</td>
+                    <td>@progress.Progress%</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

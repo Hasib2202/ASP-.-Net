@@ -129,13 +129,16 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdminController.cs" />
-    <Compile Include="Controllers\DashboardController.cs" />
+    <Compile Include="Controllers\EnrollmentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
+    <Compile Include="Controllers\StudentController.cs" />
     <Compile Include="DTOs\CourseDTO.cs" />
+    <Compile Include="DTOs\EnrollmentDTO.cs" />
     <Compile Include="DTOs\LoginDTO.cs" />
     <Compile Include="DTOs\RegisterDTO.cs" />
+    <Compile Include="DTOs\StudentProgressDTO.cs" />
     <Compile Include="DTOs\UserDTO.cs" />
     <Compile Include="EF\Course.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -248,6 +251,13 @@
     <Content Include="Views\Admin\CreateCourse.cshtml" />
     <Content Include="Views\Admin\EditCourse.cshtml" />
     <Content Include="Views\Admin\DeleteCourse.cshtml" />
+    <Content Include="Views\Enrollment\ListEnrollment.cshtml" />
+    <Content Include="Views\Enrollment\FilterEnrollments.cshtml" />
+    <Content Include="Views\Enrollment\StudentProgressReport.cshtml" />
+    <Content Include="Views\Student\Dashboard.cshtml" />
+    <Content Include="Views\Student\AvailableCourses.cshtml" />
+    <Content Include="Views\Student\MyEnrollments.cshtml" />
+    <Content Include="Views\Student\CourseDetails.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
