@@ -5,10 +5,6 @@
     ViewBag.Title = "Available Courses";
 }
 
-@if (TempData["msg"] != null)
-{
-    <p style="color: green;">@TempData["msg"]</p>
-}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -37,12 +33,16 @@
                         <a class="nav-link" href="@Url.Action("MyEnrollments", "Student")">Enroll courses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="@Url.Action("Logout", "Student")">Logout</a>
+                        <a class="nav-link" href="@Url.Action("Logout", "Login")">Logout</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
+    @if (TempData["msg"] != null)
+    {
+        <p style="color: green;">@TempData["msg"]</p>
+    }
     <div class="container mt-4">
         <h2>Available Courses</h2>
 
@@ -64,24 +64,26 @@
                 {
                     foreach (var course in ViewBag.AvailableCourses)
                     {
+                       
                         <tr>
                             <td>@course.CourseId</td>
                             <td>@course.Name</td>
                             <td>@course.InstructorId</td>
                             <td>@course.Duration weeks</td>
                             <td>
-                                <!-- Enroll Button -->
-                                <form method="post" action="/Student/Enroll">
-                                    <input type="hidden" name="courseId" value="@course.CourseId" />
-                                    <button type="submit" class="btn btn-success btn-sm">Enroll</button>
-                                </form>
+                                <div class="d-flex justify-content-start gap-2">
+                                    <!-- Enroll Button -->
+                                    <form method="post" action="/Student/Enroll" class="m-0">
+                                        <input type="hidden" name="courseId" value="@course.CourseId" />
+                                        <button type="submit" class="btn btn-success btn-sm">Enroll</button>
+                                    </form>
 
-                                <!-- Course Details Button -->
-                                @*<a class="btn btn-info btn-sm" href="/Student/CourseDetails/@course.CourseId">Course Details</a>*@
-                                <a href="/Student/CourseDetails?courseId=@course.CourseId" class="btn btn-primary btn-sm">View Details</a>
-
+                                    <!-- View Details Button -->
+                                    <a href="/Student/CourseDetails?courseId=@course.CourseId" class="btn btn-primary btn-sm">View Details</a>
+                                </div>
                             </td>
                         </tr>
+
                     }
                 }
                 else

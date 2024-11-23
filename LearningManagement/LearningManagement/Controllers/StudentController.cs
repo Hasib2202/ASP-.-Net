@@ -33,8 +33,9 @@ namespace LearningManagement.Controllers
                 TempData["msg"] = "Only students can view enrollments.";
                 return RedirectToAction("Dashboard", "Login");
             }
-
-            var enrollments = db.Enrollments
+            if (Session["info"] is User loggedInUser && loggedInUser.Role == "Student")
+            {
+                var enrollments = db.Enrollments
                 .Where(e => e.StudentId == user.UserId)
                 .Select(e => new EnrollmentDTO
                 {
@@ -50,8 +51,13 @@ namespace LearningManagement.Controllers
                     //EnrollmentDate = e.EnrollmentDate
                 })
                 .ToList();
+                ViewBag.StudentName = loggedInUser.Name;
+                return View(enrollments);
 
-            return View(enrollments);
+            }
+            //return View(enrollments);
+            TempData["msg"] = "Please log in as a Student.";
+            return RedirectToAction("Index", "Login");
         }
 
 
@@ -203,6 +209,48 @@ namespace LearningManagement.Controllers
 
             return RedirectToAction("AvailableCourses");
         }
+
+
+        [HttpPost]
+        public ActionResult Disenroll(int enrollmentId)
+        {
+            if (Session["info"] == null)
+            {
+                TempData["msg"] = "Please log in to disenroll.";
+                return RedirectToAction("Index", "Login");
+            }
+
+            var user = (User)Session["info"];
+            if (user.Role != "Student")
+            {
+                TempData["msg"] = "Only students can disenroll from courses.";
+                return RedirectToAction("Dashboard", "Login");
+            }
+
+            // Find the enrollment record by ID and Student ID
+            var enrollment = db.Enrollments
+                .FirstOrDefault(e => e.EnrollmentId == enrollmentId && e.StudentId == user.UserId);
+
+            if (enrollment == null)
+            {
+                TempData["msg"] = "Enrollment record not found.";
+                return RedirectToAction("MyEnrollments");
+            }
+
+            try
+            {
+                db.Enrollments.Remove(enrollment);
+                db.SaveChanges();
+                TempData["msg"] = "Successfully disenrolled from the course.";
+            }
+            catch (Exception ex)
+            {
+                TempData["msg"] = "Error while disenrolling: " + ex.Message;
+            }
+
+            return RedirectToAction("MyEnrollments");
+        }
+
 
 
 

@@ -2,6 +2,22 @@
     ViewBag.Title = "Login";
 }
 
+@*@if (TempData["logout"] != null)
+    {
+        <div class="alert alert-success text-center mt-3">
+            @TempData["logout"]
+        </div>
+    }*@
+
+@if (!string.IsNullOrEmpty(ViewBag.LogoutMessage as string))
+{
+    <div class="alert alert-success">
+        @ViewBag.LogoutMessage
+    </div>
+}
+
+
+
 <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
     <div class="card shadow" style="width: 80%; max-width: 350px;">
         <div class="card-body">
@@ -34,6 +50,15 @@
                             @TempData["SuccessMsg"]
                         </div>
                     }
+
+                    @*@if (TempData["logout"] != null)
+                        {
+                            <div class="alert alert-success text-center mt-3">
+                                @TempData["logout"]
+                            </div>
+                        }*@
+
+
                     <div class="text-center mt-3">
                         <a href="/Register/Index" class="text-decoration-none">Don't have any account'?</a>
                     </div>

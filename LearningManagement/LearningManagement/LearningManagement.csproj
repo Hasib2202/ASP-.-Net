@@ -258,6 +258,7 @@
     <Content Include="Views\Student\AvailableCourses.cshtml" />
     <Content Include="Views\Student\MyEnrollments.cshtml" />
     <Content Include="Views\Student\CourseDetails.cshtml" />
+    <Content Include="Views\Enrollment\DeleteEnrollment.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

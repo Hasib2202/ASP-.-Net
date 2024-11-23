@@ -145,5 +145,74 @@ namespace LearningManagement.Controllers
                 "StudentProgressReport.csv");
 
         }
+
+        [HttpGet]
+        public ActionResult DeleteEnrollment(int? id)
+        {
+            if (Session["info"] == null || (Session["info"] as User)?.Role != "Admin")
+            {
+                TempData["msg"] = "Unauthorized access. Please log in as an admin.";
+                return RedirectToAction("Index", "Login");
+            }
+
+            // Check if id is provided
+            if (!id.HasValue)
+            {
+                TempData["msg"] = "Invalid user ID.";
+                return RedirectToAction("ListUsers");
+            }
+
+            var enrollment = db.Enrollments.Find(id.Value);
+            if (enrollment == null)
+            {
+                TempData["msg"] = "Enrollment not found.";
+                return RedirectToAction("ListEnrollment");
+            }
+
+            // Pass user details to the view
+            return View(enrollment);
+
+        }
+
+        // POST: Admin/DeleteUser
+        [HttpPost]
+        public ActionResult ConfirmEnrollment(int? id)
+        {
+            if (Session["info"] == null || (Session["info"] as User)?.Role != "Admin")
+            {
+                TempData["msg"] = "Unauthorized access. Please log in as an admin.";
+                return RedirectToAction("Index", "Login");
+            }
+
+            // Check if id is provided
+            if (!id.HasValue)
+            {
+                TempData["msg"] = "Invalid user ID.";
+                return RedirectToAction("ListUsers");
+            }
+
+            var enrollment = db.Enrollments.Find(id.Value);
+            if (enrollment == null)
+            {
+                TempData["msg"] = "Courses not found.";
+                return RedirectToAction("ListEnrollment");
+            }
+
+
+            //Remove related enrollments and progress records
+            var relatedEnrollments = db.Enrollments.Where(e => e.CourseId == id.Value);
+            db.Enrollments.RemoveRange(relatedEnrollments);
+
+            var relatedProgress = db.StudentProgresses.Where(p => p.CourseId == id.Value);
+            db.StudentProgresses.RemoveRange(relatedProgress);
+
+            db.Enrollments.Remove(enrollment);
+            db.SaveChanges();
+
+            TempData["SuccessMsg"] = "Enrollments deleted successfully.";
+            return RedirectToAction("ListEnrollment");
+        }
+
+
     }
 }

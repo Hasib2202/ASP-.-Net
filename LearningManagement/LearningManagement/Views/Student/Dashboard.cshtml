@@ -3,11 +3,12 @@
 @{
     ViewBag.Title = "Dashboard";
 }
-<h2>My Enrollments</h2>
-@if (TempData["msg"] != null)
+@*<h2>My Enrollments</h2>*@
+@*@if (TempData["msg"] != null)
 {
     <p style="color: red;">@TempData["msg"]</p>
-}
+}*@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,68 +20,83 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand my-3" href="#">Student Portal</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="@Url.Action("Dashboard", "Student")">Dashboard</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="@Url.Action("AvailableCourses", "Student")">Available courses</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="@Url.Action("MyEnrollments", "Student")">Enroll courses</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="@Url.Action("Logout", "Student")">Logout</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-    </header>
-    <div class="container mt-4">
-        <h1 class="mb-3 text-bg-primary">Welcome, @ViewBag.Name!</h1>
-        <h4 class="text-capitalize text-xl-center">Your Enrolled Courses</h4>
-
-        <div class="row mt-4">
-            <div class="col-md-4">
-                <a href="/Student/AvailableCourses" class="btn btn-primary">Available Courses</a>
+            <a class="navbar-brand my-3" href="#">Student Portal</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Dashboard", "Student")">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("AvailableCourses", "Student")">Available courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("MyEnrollments", "Student")">Enroll courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Logout", "Login")">Logout</a>
+                    </li>
+                </ul>
             </div>
+        </nav>
+    </header>
+    @if (TempData["msg"] != null)
+    {
+        <div class="alert alert-success text-center mt-3">
+            @TempData["msg"]
         </div>
+    }
 
+<div class="container mt-4">
+    <h1 class="mb-3 text-bg-primary">Welcome, @ViewBag.StudentName!</h1>
+    <h4 class="text-capitalize text-xl-center">Your Enrolled Courses</h4>
 
-        <table class="table table-bordered mt-3">
-            <thead>
-                <tr>
-                    <th>Course Name</th>
-                    <th>Instructor</th>
-                    <th>Duration</th>
-                    <th>Progress</th>
-                    <th>Enrollment Date</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var enrollment in Model)
-                {
-                    <tr>
-                        <td>@enrollment.CourseName</td>
-                        <td>@enrollment.InstructorName</td>
-                        <td>@enrollment.CourseDuration weeks</td>
-                        <td>@enrollment.Progress%</td>
-                        <td>@enrollment.EnrollmentDate.ToShortDateString()</td>
-                        <td>
-                            <a href="/Student/CourseDetails?courseId=@enrollment.CourseId" class="btn btn-primary btn-sm">View Details</a>
-                            @*<a href="/Student/TrackProgress?courseId=@enrollment.CourseId" class="btn btn-secondary btn-sm">Track Progress</a>*@
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <a href="/Student/AvailableCourses" class="btn btn-primary">Available Courses</a>
+        </div>
     </div>
+
+
+    <table class="table table-bordered mt-3">
+        <thead>
+            <tr>
+                <th>Course Name</th>
+                <th>Instructor</th>
+                <th>Duration</th>
+                <th>Progress</th>
+                <th>Enrollment Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var enrollment in Model)
+            {
+                <tr>
+                    <td>@enrollment.CourseName</td>
+                    <td>@enrollment.InstructorName</td>
+                    <td>@enrollment.CourseDuration weeks</td>
+                    <td>@enrollment.Progress%</td>
+                    <td>@enrollment.EnrollmentDate.ToShortDateString()</td>
+                    <td>
+                        <!-- View Details Button -->
+                        <a href="/Student/CourseDetails?courseId=@enrollment.CourseId" class="btn btn-primary btn-sm">View Details</a>
+
+                        <!-- Disenroll Button -->
+                        <form method="post" action="/Student/Disenroll" class="d-inline">
+                            <input type="hidden" name="enrollmentId" value="@enrollment.EnrollmentId" />
+                            <button type="submit" class="btn btn-danger btn-sm">Disenroll</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
