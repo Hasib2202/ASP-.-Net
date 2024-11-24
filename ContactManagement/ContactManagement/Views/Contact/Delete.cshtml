@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Contact</title>
+</head>
+<body>
+    <h1>Delete Contact</h1>
+
+    @if (TempData["msg"] != null)
+    {
+        <p style="color: red;">@TempData["msg"]</p>
+    }
+    @if (TempData["SuccessMsg"] != null)
+    {
+        <p style="color: green;">@TempData["SuccessMsg"]</p>
+    }
+
+    <p>Are you sure you want to delete the following contact?</p>
+
+    <div>
+        <p><strong>Name:</strong> @Model.Name</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Phone:</strong> @Model.Phone</p>
+        <p><strong>Category:</strong> @Model.Category</p>
+        <p><strong>Birthday:</strong> @Model.Birthday?.ToString("yyyy-MM-dd")</p>
+    </div>
+
+    <form action="/Contact/Delete/@Model.ContactId" method="post">
+        <button type="submit">Delete</button>
+        <a href="/Contact/Index">Cancel</a>
+    </form>
+</body>
+</html>

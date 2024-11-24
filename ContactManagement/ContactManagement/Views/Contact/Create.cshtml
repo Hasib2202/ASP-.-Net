@@ -1,0 +1,93 @@
+﻿@model ContactManagement.DTOs.AddContactDTO
+@{
+    ViewBag.Title = Model.ContactId == 0 ? "Add Contact" : "Edit Contact";
+}
+
+<div class="row mb-4">
+    <div class="col-12">
+        <h2>
+            <i class="fas @(Model.ContactId == 0 ? "fa-plus-circle" : "fa-edit")"></i>
+            @ViewBag.Title
+        </h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8 mx-auto">
+        <div class="card">
+            <div class="card-body">
+                @using (Html.BeginForm(Model.ContactId == 0 ? "Create" : "Edit", "Contact", FormMethod.Post, new { @class = "needs-validation" }))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.HiddenFor(m => m.ContactId)
+
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Name, new { @class = "form-label" })
+                                @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Email, new { @class = "form-label" })
+                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control", type = "email" })
+                                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Phone, new { @class = "form-label" })
+                                @Html.TextBoxFor(m => m.Phone, new { @class = "form-control", type = "tel" })
+                                @Html.ValidationMessageFor(m => m.Phone, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Address, new { @class = "form-label" })
+                                @Html.TextBoxFor(m => m.Address, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.Address, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Category, new { @class = "form-label" })
+                                @Html.DropDownListFor(
+                                                        m => m.Category,
+                                                        new SelectList(ViewBag.Categories as IEnumerable<SelectListItem>, "Value", "Text", Model.Category),
+                                                        "Select Category",
+                                                        new { @class = "form-control" }
+                                                        )
+                                @Html.ValidationMessageFor(m => m.Category, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Birthday, new { @class = "form-label" })
+                                @Html.TextBoxFor(m => m.Birthday, new { @class = "form-control", type = "date" })
+                                @Html.ValidationMessageFor(m => m.Birthday, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas @(Model.ContactId == 0 ? "fa-plus-circle" : "fa-save")"></i>
+                            @(Model.ContactId == 0 ? "Add Contact" : "Save Changes")
+                        </button>
+                        <a href="@Url.Action("Index", "Contact")" class="btn btn-secondary">
+                            <i class="fas fa-arrow-left"></i> Back
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

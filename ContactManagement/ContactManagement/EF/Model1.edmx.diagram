@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e459d6d620e349c4ae9773826cab95cf" Name="Diagram1">
+        <EntityTypeShape EntityType="ContactManagementModel.Contact" Width="1.5" PointX="9.625" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ContactManagementModel.Note" Width="1.5" PointX="5.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ContactManagementModel.User" Width="1.5" PointX="11.125" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="ContactManagementModel.FK_Contacts_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="ContactManagementModel.FK_Notes_Contacts" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ContactManagementModel.Category" Width="1.5" PointX="7.375" PointY="1.875" />
+        <AssociationConnector Association="ContactManagementModel.ContactCategories" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

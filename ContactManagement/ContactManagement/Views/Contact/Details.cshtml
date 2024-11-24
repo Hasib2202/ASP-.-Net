@@ -1,0 +1,57 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Details</title>
+    <link rel="stylesheet" href="/Content/Site.css" />
+</head>
+<body>
+    @if (TempData["msg"] != null)
+    {
+        <div class="alert">
+            @TempData["msg"]
+        </div>
+    }
+
+    <h1>Contact Details</h1>
+
+    @if (Model != null)
+    {
+        <table border="1">
+            <tr>
+                <th>Name:</th>
+                <td>@Model.Name</td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td>@Model.Email</td>
+            </tr>
+            <tr>
+                <th>Phone:</th>
+                <td>@Model.Phone</td>
+            </tr>
+            <tr>
+                <th>Address:</th>
+                <td>@Model.Address</td>
+            </tr>
+            <tr>
+                <th>Category:</th>
+                <td>@Model.Category</td>
+            </tr>
+            <tr>
+                <th>Birthday:</th>
+                <td>@Model.Birthday.ToString("yyyy-MM-dd")</td>
+            </tr>
+        </table>
+    }
+    else
+    {
+        <p>Contact details are not available.</p>
+    }
+
+    <br />
+
+    <!-- Back to Contact List Button -->
+    <a href="/Contact/Index">Back to Contact List</a>
+</body>
+</html>
