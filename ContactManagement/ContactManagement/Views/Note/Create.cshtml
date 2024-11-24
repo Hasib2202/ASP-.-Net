@@ -1,0 +1,30 @@
+﻿
+
+
+@model ContactManagement.DTOs.AddNoteDTO
+
+@{
+    ViewBag.Title = "Add Note";
+}
+
+<h2>Add Note</h2>
+
+@using (Html.BeginForm("Create", "Note", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.HiddenFor(model => model.ContactId)
+
+        <label for="Content">Note Content:</label>
+        @Html.TextAreaFor(model => model.Content, new { @class = "form-control", rows = 5 })
+        @Html.ValidationMessageFor(model => model.Content, "", new { @class = "text-danger" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Note</button>
+    <a href="@Url.Action("Index", "Contact", new { id = Model.ContactId })" class="btn btn-secondary">Cancel</a>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

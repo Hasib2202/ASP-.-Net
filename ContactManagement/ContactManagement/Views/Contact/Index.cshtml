@@ -1,4 +1,5 @@
 ﻿@model IEnumerable<ContactManagement.EF.Contact>
+
 @{
     ViewBag.Title = "Contacts";
 }
@@ -94,6 +95,12 @@
                                                 onclick="confirmDelete(@contact.ContactId)">
                                             <i class="fas fa-trash-alt"></i>
                                         </button>
+                                        <a href="@Url.Action("Create", "Note", new { ContactId = contact.ContactId })"
+                                           class="btn btn-sm btn-success text-white">Add Note</a>
+                                        <a href="@Url.Action("Index", "Note", new { contactId = contact.ContactId })"
+                                           class="btn btn-sm btn-primary text-white"
+                                           >View Notes</a>
+
                                     </div>
                                 </td>
                             </tr>

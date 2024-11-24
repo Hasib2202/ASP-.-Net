@@ -144,20 +144,6 @@ namespace ContactManagement.Controllers
 
         // GET: Contact/Create
         [HttpGet]
-        //public ActionResult Create()
-        //{
-        //    if (!IsLoggedIn())
-        //    {
-        //        TempData["msg"] = "Unauthorized access. Please log in.";
-        //        return RedirectToAction("Index", "Login");
-        //    }
-
-        //    //ViewBag.Categories = GetCategorySelectList();
-        //    ViewBag.Categories = new SelectList(GetCategorySelectList(), "Value", "Text");
-        //    return View(new AddContactDTO());
-        //}
-
-
         public ActionResult Create()
         {
             if (!IsLoggedIn())
@@ -175,17 +161,6 @@ namespace ContactManagement.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(AddContactDTO dto)
         {
-            //if (!IsLoggedIn())
-            //{
-            //    TempData["msg"] = "Unauthorized access. Please log in.";
-            //    return RedirectToAction("Index", "Login");
-            //}
-
-            //if (!ModelState.IsValid)
-            //{
-            //    ViewBag.Categories = GetCategorySelectList();
-            //    return View(dto);
-            //}
 
             if (!IsLoggedIn())
             {
@@ -376,11 +351,6 @@ namespace ContactManagement.Controllers
             }
         }
 
-        //private SelectList GetCategorySelectList(string selectedCategory = null)
-        //{
-        //    var categories = new[] { "Family", "Friend", "Work" };
-        //    return new SelectList(categories, selectedCategory);
-        //}
 
         private SelectList GetCategorySelectList(string selectedCategory = null)
         {

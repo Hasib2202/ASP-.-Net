@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Note Details</title>
+    <link rel="stylesheet" href="/Content/Site.css" />
+</head>
+<body>
+    @if (TempData["msg"] != null)
+    {
+        <div class="alert">
+            @TempData["msg"]
+        </div>
+    }
+
+    <h1>Note Details</h1>
+
+    @if (Model != null)
+    {
+        <table border="1" class="table table-bordered">
+            <tr>
+                <th>Content:</th>
+                <td>@Model.Content</td>
+            </tr>
+            <tr>
+                <th>Note id:</th>
+                <td>@Model.NoteId</td>
+            </tr>
+            <tr>
+                <th>Contact id:</th>
+                <td>@Model.ContactId</td>
+            </tr>
+            <tr>
+                <th>Created:</th>
+                <td>@Model.CreatedAt</td>
+            </tr>
+            
+        </table>
+    }
+    else
+    {
+        <p>Note details are not available.</p>
+    }
+
+    <br />
+
+    <!-- Back to Contact List Button -->
+    <a href="/Contact/Index">Back to Contact List</a>
+</body>
+</html>

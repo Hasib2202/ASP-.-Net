@@ -41,7 +41,7 @@ warning 6002: The table/view 'ContactManagement.dbo.ContactCategories' does not 
           </Key>
           <Property Name="NoteId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="ContactId" Type="int" Nullable="false" />
-          <Property Name="Content" Type="text" Nullable="false" />
+          <Property Name="Content" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="CreatedAt" Type="datetime" Nullable="false" />
         </EntityType>
         <EntityType Name="Users">
@@ -155,7 +155,7 @@ warning 6002: The table/view 'ContactManagement.dbo.ContactCategories' does not 
           </Key>
           <Property Name="NoteId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="ContactId" Type="Int32" Nullable="false" />
-          <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Content" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
           <NavigationProperty Name="Contact" Relationship="Self.FK_Notes_Contacts" FromRole="Notes" ToRole="Contacts" />
         </EntityType>

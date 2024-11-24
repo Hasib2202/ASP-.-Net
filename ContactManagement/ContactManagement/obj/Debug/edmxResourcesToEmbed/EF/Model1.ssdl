@@ -36,7 +36,7 @@ warning 6002: The table/view 'ContactManagement.dbo.ContactCategories' does not 
     </Key>
     <Property Name="NoteId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="ContactId" Type="int" Nullable="false" />
-    <Property Name="Content" Type="text" Nullable="false" />
+    <Property Name="Content" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="CreatedAt" Type="datetime" Nullable="false" />
   </EntityType>
   <EntityType Name="Users">
