@@ -371,11 +371,12 @@ namespace LearningManagement.Controllers
         // Add these methods to the existing AdminController
 
         // GET: Admin/ListCourses
+        //[AllowAnonymous]
         public ActionResult ListCourses()
         {
-            if (Session["info"] == null || (Session["info"] as User)?.Role != "Admin")
+            if (Session["info"] == null) // || (Session["info"] as User)?.Role != "Admin"
             {
-                TempData["msg"] = "Unauthorized access. Please log in as an admin.";
+                TempData["msg"] = "Unauthorized access. Please log in.";
                 return RedirectToAction("Index", "Login");
             }
 

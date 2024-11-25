@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using LearningManagement.Auth;
 
 namespace LearningManagement.Controllers
 {
@@ -210,7 +211,7 @@ namespace LearningManagement.Controllers
             return RedirectToAction("AvailableCourses");
         }
 
-
+        //[AdminAccess]
         [HttpPost]
         public ActionResult Disenroll(int enrollmentId)
         {
