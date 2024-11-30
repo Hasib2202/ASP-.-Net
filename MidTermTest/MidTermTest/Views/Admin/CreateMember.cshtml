@@ -1,0 +1,104 @@
+﻿@model MidTermTest.DTOs.MemberDTO
+
+@{
+    ViewBag.Title = "Create Member";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Create New Member</h3>
+                </div>
+
+                @if (TempData["msg"] != null)
+                {
+                    <div class="alert alert-warning alert-dismissible">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        @TempData["msg"]
+                    </div>
+                }
+
+                @using (Html.BeginForm("CreateMember", "Admin", FormMethod.Post, new { @class = "form-horizontal" }))
+                {
+                    <div class="box-body">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">Name</label>
+                            <div class="col-sm-9">
+                                @Html.TextBoxFor(m => m.Name, new { @class = "form-control", placeholder = "Enter Member Name" })
+                                @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">Member Type</label>
+                            <div class="col-sm-9">
+                                @Html.DropDownListFor(m => m.MemberType,
+                                                   new List<SelectListItem>
+                                                   {
+                                        new SelectListItem { Text = "Regular", Value = "Regular" },
+                                        new SelectListItem { Text = "VIP", Value = "VIP" }
+   },
+                                                   "Select Member Type",
+                                                   new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.MemberType, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">User</label>
+                            <div class="col-sm-9">
+                                @Html.DropDownListFor(m => m.UserId, ViewBag.Users as SelectList, "Select Associated User", new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.UserId, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        @*<div class="form-group">
+            <label class="col-sm-3 control-label">Expiration Date</label>
+            <div class="col-sm-9">
+                @Html.TextBoxFor(m => m.ExpiredDate, "{0:yyyy-MM-dd}", new { @class = "form-control datepicker", type = "date" })
+                @Html.ValidationMessageFor(m => m.ExpiredDate, "", new { @class = "text-danger" })
+            </div>
+        </div>*@
+
+                        @*<div class="form-group">
+                            <label class="col-sm-3 control-label">Expiration Date</label>
+                            <div class="col-sm-9">
+                                @Html.TextBoxFor(m => m.ExpiredDate, "{0:yyyy-MM-dd}", new { @class = "form-control datepicker", type = "date" })
+                                @Html.ValidationMessageFor(m => m.ExpiredDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>*@
+
+                    </div>
+
+                    <div class="box-footer">
+                        <button type="submit" class="btn btn-primary pull-right">Create Member</button>
+                        <a href="@Url.Action("ListMembers")" class="btn btn-default">Cancel</a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@*@section Scripts {
+        <script>$(function () {
+                $('.datepicker').datepicker({
+                    format: 'yyyy-mm-dd',
+                    autoclose: true
+                });
+            });</script>
+    }*@
+
+@section Scripts {
+    <script>
+        $(function () {
+            $('.datepicker').datepicker({
+                format: 'yyyy-mm-dd',
+                autoclose: true
+            });
+        });
+    </script>
+}

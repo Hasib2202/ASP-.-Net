@@ -1,0 +1,58 @@
+﻿@model MidTermTest.EF.Member
+
+@{
+    ViewBag.Title = "Delete Member";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Confirm Member Deletion</h3>
+                </div>
+
+                <div class="box-body">
+                    <div class="alert alert-warning">
+                        <strong>Warning!</strong> You are about to permanently delete this member record.
+                    </div>
+
+                    <table class="table table-bordered">
+                        <tr>
+                            <th>Member ID</th>
+                            <td>@Model.MemberId</td>
+                        </tr>
+                        <tr>
+                            <th>Name</th>
+                            <td>@Model.Name</td>
+                        </tr>
+                        <tr>
+                            <th>Member Type</th>
+                            <td>
+                                <span class="label @(Model.MemberType == "VIP" ? "label-success" : "label-primary")">
+                                    @Model.MemberType
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Expiration Date</th>
+                            <td>@Model.ExpiredDate.ToString("yyyy-MM-dd")</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="box-footer">
+                    @using (Html.BeginForm("ConfirmDeleteMember", "Member", FormMethod.Post))
+                    {
+                        @Html.Hidden("id", Model.MemberId)
+                        <button type="submit" class="btn btn-danger pull-right">
+                            <i class="fa fa-trash"></i> Confirm Delete
+                        </button>
+                        <a href="@Url.Action("ListMembers")" class="btn btn-default">Cancel</a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

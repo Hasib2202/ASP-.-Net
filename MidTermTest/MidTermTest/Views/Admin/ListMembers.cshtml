@@ -1,0 +1,191 @@
+﻿@*@model List<MidTermTest.DTOs.MemberDTO>
+
+    @{
+        ViewBag.Title = "Members List";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="page-header">
+                    Members Management
+                    @if (TempData["SuccessMsg"] != null)
+                    {
+                        <small class="text-success pull-right">@TempData["SuccessMsg"]</small>
+                    }
+                </h2>
+
+                @if (TempData["msg"] != null)
+                {
+                    <div class="alert alert-warning alert-dismissible">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        @TempData["msg"]
+                    </div>
+                }
+
+                <div class="box">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Member List</h3>
+                        <div class="box-tools pull-right">
+
+                            @{
+                                var user = (MidTermTest.EF.User)Session["info"];
+                            }
+                            @if (user != null && user.Role == "Admin" || user != null && user.Role == "Staff")
+                            {
+                                <a href="@Url.Action("CreateMember", "Member")" class="btn btn-primary btn-sm">
+                                    <i class="fa fa-plus"></i> Add New Member
+                                </a>
+                            }
+                        </div>
+                    </div>
+                    <div class="box-body">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Member ID</th>
+                                    <th>Name</th>
+                                    <th>Member Type</th>
+                                    <th>Expiration Date</th>
+                                    <th>Associated User</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var member in Model)
+                                {
+                                    <tr>
+                                        <td>@member.MemberId</td>
+                                        <td>@member.Name</td>
+                                        <td>
+                                            <span class="label @(member.MemberType == "VIP" ? "label-success" : "label-primary")">
+                                                @member.MemberType
+                                            </span>
+                                        </td>
+                                        <td>
+                                            @member.ExpiredDate.ToString("yyyy-MM-dd")
+                                            @if (member.ExpiredDate < DateTime.Now)
+                                            {
+                                                <span class="label label-danger ml-2">Expired</span>
+                                            }
+                                        </td>
+                                        <td>@member.UserEmail</td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <a href="@Url.Action("Details", "Member", new { id = member.MemberId })" class="btn btn-info btn-xs">
+                                                    <i class="fa fa-eye"></i>
+                                                </a>
+                                                @if (user != null && user.Role == "Admin" || user != null && user.Role == "Staff")
+                                                {
+                                                    <a href="@Url.Action("EditMember", "Member", new { id = member.MemberId })" class="btn btn-warning btn-xs">
+                                                        <i class="fa fa-edit"></i>
+                                                    </a>
+                                                    @if (user != null && user.Role == "Admin ")
+                                                    {
+                                                        <a href="@Url.Action("DeleteMember", "Member", new { id = member.MemberId })" class="btn btn-danger btn-xs">
+                                                            <i class="fa fa-trash"></i>
+                                                        </a>
+                                                    }
+                                                }
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>*@
+
+
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>Manage Courses</h2>
+        <a href='@Url.Action("CreateCourse", "Admin")' class="btn btn-primary">Create New Member</a>
+    </div>
+
+    @if (TempData["msg"] != null)
+    {
+        <div class="alert alert-danger">@TempData["msg"]</div>
+    }
+    @if (TempData["SuccessMsg"] != null)
+    {
+        <div class="alert alert-success">@TempData["SuccessMsg"]</div>
+    }
+
+    <div class="card shadow">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                             <th>Member ID</th>
+                                    <th>Name</th>
+                                    <th>Member Type</th>
+                                    <th>Expiration Date</th>
+                                    <th>Associated User</th>
+                                    <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var member in Model)
+                        {
+                            <tr>
+                                <td>@member.MemberId</td>
+                                <td>@member.Name</td>
+                                <td>
+                                    <span class="label @(member.MemberType == "VIP" ? "label-success" : "label-primary")">
+                                        @member.MemberType
+                                    </span>
+                                </td>
+                                <td>
+                                    @member.ExpiredDate.ToString("yyyy-MM-dd")
+                                    @if (member.ExpiredDate < DateTime.Now)
+                                    {
+                                        <span class="label label-danger ml-2">Expired</span>
+                                    }
+                                </td>
+
+                                <td>@member.UserEmail</td>
+
+
+                                <td>
+                                    @{
+                                        var user = (MidTermTest.EF.User)Session["info"];
+                                    }
+                                    @{
+                                        if (user != null && user.Role == "Admin")
+                                        {
+                                            
+                                            <a href="@Url.Action("Details", "Member", new { id = member.MemberId })" class="btn btn-info btn-xs">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+
+
+                                            <a href="@Url.Action("EditMember", "Member", new { id = member.MemberId })" class="btn btn-warning btn-xs">
+                                                <i class="fa fa-edit"></i>
+                                            </a>
+
+                                            <a href="@Url.Action("DeleteMember", "Member", new { id = member.MemberId })" class="btn btn-danger btn-xs">
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+
+                                        }
+                                    }
+
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

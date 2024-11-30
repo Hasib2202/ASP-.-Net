@@ -1,0 +1,512 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\midtermtest\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\midtermtest\\midtermtest\\views\\staff\\renewmembershipforstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\staff\\renewmembershipforstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\midtermtest\\midtermtest\\views\\admin\\renewmembership.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\admin\\renewmembership.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\midtermtest\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\midtermtest\\midtermtest\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\midtermtest\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\midtermtest\\midtermtest\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\midtermtest\\midtermtest\\views\\member\\togglemembershipstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\member\\togglemembershipstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\midtermtest\\midtermtest\\views\\admin\\createmember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\admin\\createmember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\midtermtest\\midtermtest\\views\\admin\\deletemember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\admin\\deletemember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\midtermtest\\midtermtest\\views\\admin\\listmembers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\admin\\listmembers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\midtermtest\\midtermtest\\dtos\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\dtos\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\midtermtest\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\midtermtest\\midtermtest\\views\\staff\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\staff\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\midtermtest\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\midtermtest\\midtermtest\\views\\member\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\member\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\midtermtest\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\midtermtest\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\midtermtest\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\midtermtest\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\midtermtest\\midtermtest\\views\\admin\\memberdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\admin\\memberdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\midtermtest\\midtermtest\\views\\admin\\editmember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\admin\\editmember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\midtermtest\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\midtermtest\\midtermtest\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\midtermtest\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\midtermtest\\midtermtest\\views\\admin\\listusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\admin\\listusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\midtermtest\\views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\midtermtest\\views\\admin\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\views\\admin\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\midtermtest\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6F215D-D423-4C2F-A508-7DC5A314FFAC}|MidTermTest\\MidTermTest.csproj|solutionrelative:midtermtest\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RenewMembership.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\RenewMembership.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Admin\\RenewMembership.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\RenewMembership.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Admin\\RenewMembership.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T10:11:54.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RenewMembershipForStaff.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Staff\\RenewMembershipForStaff.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Staff\\RenewMembershipForStaff.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Staff\\RenewMembershipForStaff.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Staff\\RenewMembershipForStaff.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T10:11:13.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ToggleMembershipStatus.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Member\\ToggleMembershipStatus.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Member\\ToggleMembershipStatus.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Member\\ToggleMembershipStatus.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Member\\ToggleMembershipStatus.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T10:11:07.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "MidTermTest\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "MidTermTest\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAANsBAAAAAAAAAAAwwPYBAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T18:05:36.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "MidTermTest\\Controllers\\StaffController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "MidTermTest\\Controllers\\StaffController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAA9wF8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T09:43:04.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "MidTermTest\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "MidTermTest\\Controllers\\RegisterController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:07:03.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T18:17:20.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DeleteMember.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\DeleteMember.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Admin\\DeleteMember.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\DeleteMember.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Admin\\DeleteMember.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T09:07:02.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "MidTermTest\\Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "MidTermTest\\Controllers\\MemberController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwDsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T09:42:55.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ListMembers.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\ListMembers.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Admin\\ListMembers.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\ListMembers.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Admin\\ListMembers.cshtml",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAQwLEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T09:05:38.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "MidTermTest\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "MidTermTest\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwEkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:06:48.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Admin\\EditUser.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\EditUser.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Admin\\EditUser.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T19:26:32.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwCoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T15:23:03.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MemberDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\DTOs\\MemberDTO.cs",
+              "RelativeDocumentMoniker": "MidTermTest\\DTOs\\MemberDTO.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\DTOs\\MemberDTO.cs",
+              "RelativeToolTip": "MidTermTest\\DTOs\\MemberDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:59:37.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateMember.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\CreateMember.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Admin\\CreateMember.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\CreateMember.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Admin\\CreateMember.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwEcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T09:05:54.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Staff\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Staff\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Staff\\Dashboard.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Staff\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T09:44:15.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Member\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Member\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Member\\Dashboard.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Member\\Dashboard.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAF8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T09:44:25.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Register\\Index.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Register\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Register\\Index.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Register\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD4AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T15:23:45.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "MidTermTest\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "MidTermTest\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:48:30.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Admin\\CreateUser.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Admin\\CreateUser.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T19:00:17.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EditMember.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\EditMember.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Admin\\EditMember.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\EditMember.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Admin\\EditMember.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T09:06:52.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MemberDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\MemberDetails.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Admin\\MemberDetails.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\MemberDetails.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Admin\\MemberDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T09:07:12.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\EF\\Model1.edmx",
+              "RelativeDocumentMoniker": "MidTermTest\\EF\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\EF\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "MidTermTest\\EF\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-27T08:35:41.027Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T18:45:47.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ListUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\ListUsers.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Admin\\ListUsers.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\ListUsers.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Admin\\ListUsers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T19:00:09.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "MidTermTest\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "MidTermTest\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:48:14.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DeleteUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\DeleteUser.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Admin\\DeleteUser.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\DeleteUser.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Admin\\DeleteUser.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T19:29:17.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\Details.cshtml",
+              "RelativeDocumentMoniker": "MidTermTest\\Views\\Admin\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\Views\\Admin\\Details.cshtml",
+              "RelativeToolTip": "MidTermTest\\Views\\Admin\\Details.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwDUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T19:36:54.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "MidTermTest\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\MidTermTest\\MidTermTest\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "MidTermTest\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:15:03.779Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

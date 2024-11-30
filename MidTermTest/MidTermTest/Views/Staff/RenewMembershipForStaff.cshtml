@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "RenewMembershipForStaff";
+}
+
+<h2>RenewMembershipForStaff</h2>
+
+@model IEnumerable<Member>
+
+<h3>List of Members</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Member Type</th>
+            <th>Expiration Date</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var member in Model)
+        {
+            <tr>
+                <td>@member.Name</td>
+                <td>@member.MemberType</td>
+                <td>@member.ExpiredDate.ToString("yyyy-MM-dd")</td>
+                <td>@(member.IsActive ? "Active" : "Inactive")</td>
+                <td>
+                    <a href="@Url.Action("RenewMembership", new { memberId = member.MemberId })">Renew</a> |
+                    <a href="@Url.Action("ToggleMembershipStatus", new { memberId = member.MemberId })">Activate/Deactivate</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

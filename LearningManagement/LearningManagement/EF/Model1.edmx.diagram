@@ -7,7 +7,7 @@
       <Diagram DiagramId="094660407614499b8b89ab7d8af54420" Name="Diagram1">
         <EntityTypeShape EntityType="LearningManagementModel.Course" Width="1.5" PointX="5.75" PointY="5.375" IsExpanded="true" />
         <EntityTypeShape EntityType="LearningManagementModel.Enrollment" Width="1.5" PointX="2" PointY="2.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="LearningManagementModel.StudentProgress" Width="1.5" PointX="10.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="LearningManagementModel.StudentProgress" Width="1.5" PointX="9.25" PointY="2.25" IsExpanded="true" />
         <EntityTypeShape EntityType="LearningManagementModel.User" Width="1.5" PointX="5.5" PointY="1.375" IsExpanded="true" />
         <AssociationConnector Association="LearningManagementModel.FK_Course_User" ManuallyRouted="false" />
         <AssociationConnector Association="LearningManagementModel.FK_Enrollment_Course" ManuallyRouted="false" />

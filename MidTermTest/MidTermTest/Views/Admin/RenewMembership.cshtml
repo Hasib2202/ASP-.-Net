@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "RenewMembership";
+}
+
+<h2>RenewMembership</h2>
+
+@model Member
+
+<h3>Your Membership Status</h3>
+
+<p><strong>Name:</strong> @Model.Name</p>
+<p><strong>Member Type:</strong> @Model.MemberType</p>
+<p><strong>Expiration Date:</strong> @Model.ExpiredDate.ToString("yyyy-MM-dd")</p>
+<p><strong>Status:</strong> @(Model.IsActive ? "Active" : "Inactive")</p>
+
+@if (Model.IsActive)
+{
+    <a href="@Url.Action("RenewMembership")">Renew Membership</a>
+}
