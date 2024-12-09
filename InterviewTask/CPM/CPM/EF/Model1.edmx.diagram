@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="11e861cecdb2443eb03f6b285115f027" Name="Diagram1">
+        <EntityTypeShape EntityType="GTaskModel.Corporate_Customer_Tbl" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTaskModel.Individual_Customer_Tbl" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTaskModel.Meeting_Minutes_Details_Tbl" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTaskModel.Meeting_Minutes_Master_Tbl" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTaskModel.Products_Service_Tbl" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <AssociationConnector Association="GTaskModel.FK_CorporateCustomer" ManuallyRouted="false" />
+        <AssociationConnector Association="GTaskModel.FK_IndividualCustomer" ManuallyRouted="false" />
+        <AssociationConnector Association="GTaskModel.FK__Meeting_M__Meeti__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="GTaskModel.FK__Meeting_M__Produ__4F7CD00D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

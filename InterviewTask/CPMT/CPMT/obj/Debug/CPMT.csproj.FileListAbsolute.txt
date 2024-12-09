@@ -1,0 +1,2 @@
+C:\Users\Hasib\OneDrive\Documents\GitHub\ASP-.-Net\InterviewTask\CPMT\CPMT\obj\Debug\CPMT.csproj.AssemblyReference.cache
+C:\Users\Hasib\OneDrive\Documents\GitHub\ASP-.-Net\InterviewTask\CPMT\CPMT\obj\Debug\CPMT.csproj.CoreCompileInputs.cache

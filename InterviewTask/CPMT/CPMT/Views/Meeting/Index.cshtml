@@ -1,0 +1,62 @@
+﻿@{
+    var corporateCustomers = ViewBag.CorporateCustomers as List<dynamic>;
+    var individualCustomers = ViewBag.IndividualCustomers as List<dynamic>;
+}
+
+<div class="container">
+    <h3>Select Customer Type</h3>
+
+    <!-- Radio Buttons for Customer Type -->
+    <div class="form-group">
+        <label>
+            <input type="radio" name="customerType" value="Corporate" checked>
+            Corporate
+        </label>
+        <label>
+            <input type="radio" name="customerType" value="Individual">
+            Individual
+        </label>
+    </div>
+
+    <!-- Dropdown for Customers -->
+    <div class="form-group">
+        <label for="customerDropdown">Customer Name</label>
+        <select id="customerDropdown" class="form-control">
+            @foreach (var customer in corporateCustomers)
+            {
+                <option value="@customer.CustomerID">@customer.CompanyName</option>
+            }
+        </select>
+    </div>
+</div>
+
+<!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        // Parse data passed from ViewBag
+        const corporateCustomers = @Html.Raw(Json.Serialize(corporateCustomers));
+        const individualCustomers = @Html.Raw(Json.Serialize(individualCustomers));
+
+        // Handle radio button change event
+        $('input[name="customerType"]').on('change', function () {
+            const selectedType = $(this).val();
+            const dropdown = $('#customerDropdown');
+
+            // Clear the dropdown
+            dropdown.empty();
+
+            // Populate dropdown based on selected type
+            if (selectedType === 'Corporate') {
+                corporateCustomers.forEach(customer => {
+                    dropdown.append(`<option value="${customer.CustomerID}">${customer.CompanyName}</option>`);
+                });
+            } else if (selectedType === 'Individual') {
+                individualCustomers.forEach(customer => {
+                    dropdown.append(`<option value="${customer.CustomerID}">${customer.FullName}</option>`);
+                });
+            }
+        });
+    });
+</script>

@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Minutes</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Meeting Minutes</h1>
+        <form asp-action="SaveMeetingMinutes" method="post">
+            <!-- First Part: Customer Selection -->
+            <div class="form-group">
+                <label>Customer Type</label>
+                <div>
+                    <label class="radio-inline">
+                        <input type="radio" name="customerType" value="Corporate" checked> Corporate
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="customerType" value="Individual"> Individual
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="customerDropdown">Customer Name</label>
+                <select id="customerDropdown" class="form-control" asp-items="Model.Customers"></select>
+            </div>
+            <div class="form-group">
+                <label for="meetingDate">Meeting Date</label>
+                <input type="text" id="meetingDate" class="form-control" name="MeetingDate">
+            </div>
+            <div class="form-group">
+                <label for="meetingTime">Meeting Time</label>
+                <input type="text" id="meetingTime" class="form-control" name="MeetingTime">
+            </div>
+
+            <!-- Second Part: Product/Service Selection -->
+            <div class="form-group">
+                <label for="productDropdown">Select Product/Service</label>
+                <select id="productDropdown" class="form-control" asp-items="Model.ProductServices"></select>
+            </div>
+            <div class="form-group">
+                <label for="unitTextbox">Unit</label>
+                <input type="text" id="unitTextbox" class="form-control" readonly>
+            </div>
+            <div class="form-group">
+                <label for="quantityInput">Quantity</label>
+                <input type="number" id="quantityInput" class="form-control">
+            </div>
+            <button type="button" id="addButton" class="btn btn-primary">Add</button>
+
+            <!-- Bootstrap Table for Added Rows -->
+            <table class="table mt-3" id="dataTable">
+                <thead>
+                    <tr>
+                        <th>Product/Service</th>
+                        <th>Unit</th>
+                        <th>Quantity</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+
+            <!-- Save Button -->
+            <button type="submit" class="btn btn-success">Save</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-timepicker/0.5.2/js/bootstrap-timepicker.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Initialize datepicker and timepicker
+            $('#meetingDate').datepicker({
+                format: 'yyyy-mm-dd'
+            });
+            $('#meetingTime').timepicker({
+                showMeridian: true
+            });
+
+            // Load customer names based on radio button selection
+            $('input[name="customerType"]').change(function() {
+                var customerType = $(this).val();
+                var url = customerType === 'Corporate' ? '@Url.Action("GetCorporateCustomers", "Customer")' : '@Url.Action("GetIndividualCustomers", "Customer")';
+                $.getJSON(url, function(data) {
+                    var options = '';
+                    $.each(data, function(index, customer) {
+                        options += '<option value="' + customer.CustomerID + '">' + customer.Name + '</option>';
+                    });
+                    $('#customerDropdown').html(options);
+                });
+            });
+
+            // Load unit based on product/service selection
+            $('#productDropdown').change(function() {
+                var selectedProduct = $(this).find('option:selected').text();
+                var unit = selectedProduct.split(' ')[1]; // Assuming unit is part of the product name
+                $('#unitTextbox').val(unit);
+            });
+
+            // Add row to table
+            $('#addButton').click(function() {
+                var product = $('#productDropdown option:selected').text();
+                var unit = $('#unitTextbox').val();
+                var quantity = $('#quantityInput').val();
+                var row = '<tr><td>' + product + '</td><td>' + unit + '</td><td>' + quantity + '</td><td><button class="btn btn-warning btn-sm edit">Edit</button> <button class="btn btn-danger btn-sm delete">Delete</button></td></tr>';
+                $('#dataTable tbody').append(row);
+            });
+
+            // Edit and delete functionality
+            $('#dataTable').on('click', '.edit', function() {
+                // Implement edit functionality
+            });
+
+            $('#dataTable').on('click', '.delete', function() {
+                $(this).closest('tr').remove();
+            });
+        });
+    </script>
+</body>
+</html>

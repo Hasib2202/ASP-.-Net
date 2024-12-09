@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="GTaskModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Corporate_Customer_Tbl">
+          <Key>
+            <PropertyRef Name="CorporateCustomerID" />
+          </Key>
+          <Property Name="CorporateCustomerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CorporateName" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="ContactPerson" Type="nvarchar" MaxLength="255" />
+          <Property Name="Email" Type="nvarchar" MaxLength="255" />
+          <Property Name="PhoneNumber" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="Individual_Customer_Tbl">
+          <Key>
+            <PropertyRef Name="IndividualCustomerID" />
+          </Key>
+          <Property Name="IndividualCustomerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FullName" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="255" />
+          <Property Name="PhoneNumber" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="Meeting_Minutes_Details_Tbl">
+          <Key>
+            <PropertyRef Name="MeetingMinutesDetailID" />
+          </Key>
+          <Property Name="MeetingMinutesDetailID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="MeetingMinutesID" Type="int" Nullable="false" />
+          <Property Name="ProductServiceID" Type="int" Nullable="false" />
+          <Property Name="Quantity" Type="int" Nullable="false" />
+          <Property Name="Unit" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Meeting_Minutes_Master_Tbl">
+          <Key>
+            <PropertyRef Name="MeetingMinutesID" />
+          </Key>
+          <Property Name="MeetingMinutesID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CustomerType" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="CorporateCustomerID" Type="int" />
+          <Property Name="IndividualCustomerID" Type="int" />
+          <Property Name="MeetingDate" Type="date" Nullable="false" />
+          <Property Name="MeetingTime" Type="time" Precision="7" Nullable="false" />
+          <Property Name="MeetingPlace" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="ClientAttendees" Type="nvarchar(max)" />
+          <Property Name="HostAttendees" Type="nvarchar(max)" />
+          <Property Name="Agenda" Type="nvarchar(max)" />
+          <Property Name="Discussion" Type="nvarchar(max)" />
+          <Property Name="Decision" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Products_Service_Tbl">
+          <Key>
+            <PropertyRef Name="ProductServiceID" />
+          </Key>
+          <Property Name="ProductServiceID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ProductServiceName" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="Unit" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__Meeting_M__Meeti__4E88ABD4">
+          <End Role="Meeting_Minutes_Master_Tbl" Type="Self.Meeting_Minutes_Master_Tbl" Multiplicity="1" />
+          <End Role="Meeting_Minutes_Details_Tbl" Type="Self.Meeting_Minutes_Details_Tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Meeting_Minutes_Master_Tbl">
+              <PropertyRef Name="MeetingMinutesID" />
+            </Principal>
+            <Dependent Role="Meeting_Minutes_Details_Tbl">
+              <PropertyRef Name="MeetingMinutesID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Meeting_M__Produ__4F7CD00D">
+          <End Role="Products_Service_Tbl" Type="Self.Products_Service_Tbl" Multiplicity="1" />
+          <End Role="Meeting_Minutes_Details_Tbl" Type="Self.Meeting_Minutes_Details_Tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Products_Service_Tbl">
+              <PropertyRef Name="ProductServiceID" />
+            </Principal>
+            <Dependent Role="Meeting_Minutes_Details_Tbl">
+              <PropertyRef Name="ProductServiceID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CorporateCustomer">
+          <End Role="Corporate_Customer_Tbl" Type="Self.Corporate_Customer_Tbl" Multiplicity="0..1" />
+          <End Role="Meeting_Minutes_Master_Tbl" Type="Self.Meeting_Minutes_Master_Tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Corporate_Customer_Tbl">
+              <PropertyRef Name="CorporateCustomerID" />
+            </Principal>
+            <Dependent Role="Meeting_Minutes_Master_Tbl">
+              <PropertyRef Name="CorporateCustomerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IndividualCustomer">
+          <End Role="Individual_Customer_Tbl" Type="Self.Individual_Customer_Tbl" Multiplicity="0..1" />
+          <End Role="Meeting_Minutes_Master_Tbl" Type="Self.Meeting_Minutes_Master_Tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Individual_Customer_Tbl">
+              <PropertyRef Name="IndividualCustomerID" />
+            </Principal>
+            <Dependent Role="Meeting_Minutes_Master_Tbl">
+              <PropertyRef Name="IndividualCustomerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="GTaskModelStoreContainer">
+          <EntitySet Name="Corporate_Customer_Tbl" EntityType="Self.Corporate_Customer_Tbl" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Individual_Customer_Tbl" EntityType="Self.Individual_Customer_Tbl" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Meeting_Minutes_Details_Tbl" EntityType="Self.Meeting_Minutes_Details_Tbl" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Meeting_Minutes_Master_Tbl" EntityType="Self.Meeting_Minutes_Master_Tbl" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Products_Service_Tbl" EntityType="Self.Products_Service_Tbl" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Meeting_M__Meeti__4E88ABD4" Association="Self.FK__Meeting_M__Meeti__4E88ABD4">
+            <End Role="Meeting_Minutes_Master_Tbl" EntitySet="Meeting_Minutes_Master_Tbl" />
+            <End Role="Meeting_Minutes_Details_Tbl" EntitySet="Meeting_Minutes_Details_Tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Meeting_M__Produ__4F7CD00D" Association="Self.FK__Meeting_M__Produ__4F7CD00D">
+            <End Role="Products_Service_Tbl" EntitySet="Products_Service_Tbl" />
+            <End Role="Meeting_Minutes_Details_Tbl" EntitySet="Meeting_Minutes_Details_Tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CorporateCustomer" Association="Self.FK_CorporateCustomer">
+            <End Role="Corporate_Customer_Tbl" EntitySet="Corporate_Customer_Tbl" />
+            <End Role="Meeting_Minutes_Master_Tbl" EntitySet="Meeting_Minutes_Master_Tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IndividualCustomer" Association="Self.FK_IndividualCustomer">
+            <End Role="Individual_Customer_Tbl" EntitySet="Individual_Customer_Tbl" />
+            <End Role="Meeting_Minutes_Master_Tbl" EntitySet="Meeting_Minutes_Master_Tbl" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="GTaskModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Corporate_Customer_Tbl">
+          <Key>
+            <PropertyRef Name="CorporateCustomerID" />
+          </Key>
+          <Property Name="CorporateCustomerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CorporateName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ContactPerson" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Meeting_Minutes_Master_Tbl" Relationship="Self.FK_CorporateCustomer" FromRole="Corporate_Customer_Tbl" ToRole="Meeting_Minutes_Master_Tbl" />
+        </EntityType>
+        <EntityType Name="Individual_Customer_Tbl">
+          <Key>
+            <PropertyRef Name="IndividualCustomerID" />
+          </Key>
+          <Property Name="IndividualCustomerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FullName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Meeting_Minutes_Master_Tbl" Relationship="Self.FK_IndividualCustomer" FromRole="Individual_Customer_Tbl" ToRole="Meeting_Minutes_Master_Tbl" />
+        </EntityType>
+        <EntityType Name="Meeting_Minutes_Details_Tbl">
+          <Key>
+            <PropertyRef Name="MeetingMinutesDetailID" />
+          </Key>
+          <Property Name="MeetingMinutesDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MeetingMinutesID" Type="Int32" Nullable="false" />
+          <Property Name="ProductServiceID" Type="Int32" Nullable="false" />
+          <Property Name="Quantity" Type="Int32" Nullable="false" />
+          <Property Name="Unit" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Meeting_Minutes_Master_Tbl" Relationship="Self.FK__Meeting_M__Meeti__4E88ABD4" FromRole="Meeting_Minutes_Details_Tbl" ToRole="Meeting_Minutes_Master_Tbl" />
+          <NavigationProperty Name="Products_Service_Tbl" Relationship="Self.FK__Meeting_M__Produ__4F7CD00D" FromRole="Meeting_Minutes_Details_Tbl" ToRole="Products_Service_Tbl" />
+        </EntityType>
+        <EntityType Name="Meeting_Minutes_Master_Tbl">
+          <Key>
+            <PropertyRef Name="MeetingMinutesID" />
+          </Key>
+          <Property Name="MeetingMinutesID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CustomerType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CorporateCustomerID" Type="Int32" />
+          <Property Name="IndividualCustomerID" Type="Int32" />
+          <Property Name="MeetingDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="MeetingTime" Type="Time" Nullable="false" Precision="7" />
+          <Property Name="MeetingPlace" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ClientAttendees" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="HostAttendees" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Agenda" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Discussion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Decision" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Corporate_Customer_Tbl" Relationship="Self.FK_CorporateCustomer" FromRole="Meeting_Minutes_Master_Tbl" ToRole="Corporate_Customer_Tbl" />
+          <NavigationProperty Name="Individual_Customer_Tbl" Relationship="Self.FK_IndividualCustomer" FromRole="Meeting_Minutes_Master_Tbl" ToRole="Individual_Customer_Tbl" />
+          <NavigationProperty Name="Meeting_Minutes_Details_Tbl" Relationship="Self.FK__Meeting_M__Meeti__4E88ABD4" FromRole="Meeting_Minutes_Master_Tbl" ToRole="Meeting_Minutes_Details_Tbl" />
+        </EntityType>
+        <EntityType Name="Products_Service_Tbl">
+          <Key>
+            <PropertyRef Name="ProductServiceID" />
+          </Key>
+          <Property Name="ProductServiceID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductServiceName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Unit" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Meeting_Minutes_Details_Tbl" Relationship="Self.FK__Meeting_M__Produ__4F7CD00D" FromRole="Products_Service_Tbl" ToRole="Meeting_Minutes_Details_Tbl" />
+        </EntityType>
+        <Association Name="FK_CorporateCustomer">
+          <End Role="Corporate_Customer_Tbl" Type="Self.Corporate_Customer_Tbl" Multiplicity="0..1" />
+          <End Role="Meeting_Minutes_Master_Tbl" Type="Self.Meeting_Minutes_Master_Tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Corporate_Customer_Tbl">
+              <PropertyRef Name="CorporateCustomerID" />
+            </Principal>
+            <Dependent Role="Meeting_Minutes_Master_Tbl">
+              <PropertyRef Name="CorporateCustomerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IndividualCustomer">
+          <End Role="Individual_Customer_Tbl" Type="Self.Individual_Customer_Tbl" Multiplicity="0..1" />
+          <End Role="Meeting_Minutes_Master_Tbl" Type="Self.Meeting_Minutes_Master_Tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Individual_Customer_Tbl">
+              <PropertyRef Name="IndividualCustomerID" />
+            </Principal>
+            <Dependent Role="Meeting_Minutes_Master_Tbl">
+              <PropertyRef Name="IndividualCustomerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Meeting_M__Meeti__4E88ABD4">
+          <End Role="Meeting_Minutes_Master_Tbl" Type="Self.Meeting_Minutes_Master_Tbl" Multiplicity="1" />
+          <End Role="Meeting_Minutes_Details_Tbl" Type="Self.Meeting_Minutes_Details_Tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Meeting_Minutes_Master_Tbl">
+              <PropertyRef Name="MeetingMinutesID" />
+            </Principal>
+            <Dependent Role="Meeting_Minutes_Details_Tbl">
+              <PropertyRef Name="MeetingMinutesID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Meeting_M__Produ__4F7CD00D">
+          <End Role="Products_Service_Tbl" Type="Self.Products_Service_Tbl" Multiplicity="1" />
+          <End Role="Meeting_Minutes_Details_Tbl" Type="Self.Meeting_Minutes_Details_Tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Products_Service_Tbl">
+              <PropertyRef Name="ProductServiceID" />
+            </Principal>
+            <Dependent Role="Meeting_Minutes_Details_Tbl">
+              <PropertyRef Name="ProductServiceID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="GTaskEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Corporate_Customer_Tbl" EntityType="Self.Corporate_Customer_Tbl" />
+          <EntitySet Name="Individual_Customer_Tbl" EntityType="Self.Individual_Customer_Tbl" />
+          <EntitySet Name="Meeting_Minutes_Details_Tbl" EntityType="Self.Meeting_Minutes_Details_Tbl" />
+          <EntitySet Name="Meeting_Minutes_Master_Tbl" EntityType="Self.Meeting_Minutes_Master_Tbl" />
+          <EntitySet Name="Products_Service_Tbl" EntityType="Self.Products_Service_Tbl" />
+          <AssociationSet Name="FK_CorporateCustomer" Association="Self.FK_CorporateCustomer">
+            <End Role="Corporate_Customer_Tbl" EntitySet="Corporate_Customer_Tbl" />
+            <End Role="Meeting_Minutes_Master_Tbl" EntitySet="Meeting_Minutes_Master_Tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IndividualCustomer" Association="Self.FK_IndividualCustomer">
+            <End Role="Individual_Customer_Tbl" EntitySet="Individual_Customer_Tbl" />
+            <End Role="Meeting_Minutes_Master_Tbl" EntitySet="Meeting_Minutes_Master_Tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Meeting_M__Meeti__4E88ABD4" Association="Self.FK__Meeting_M__Meeti__4E88ABD4">
+            <End Role="Meeting_Minutes_Master_Tbl" EntitySet="Meeting_Minutes_Master_Tbl" />
+            <End Role="Meeting_Minutes_Details_Tbl" EntitySet="Meeting_Minutes_Details_Tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Meeting_M__Produ__4F7CD00D" Association="Self.FK__Meeting_M__Produ__4F7CD00D">
+            <End Role="Products_Service_Tbl" EntitySet="Products_Service_Tbl" />
+            <End Role="Meeting_Minutes_Details_Tbl" EntitySet="Meeting_Minutes_Details_Tbl" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="GTaskModelStoreContainer" CdmEntityContainer="GTaskEntities">
+          <EntitySetMapping Name="Corporate_Customer_Tbl">
+            <EntityTypeMapping TypeName="GTaskModel.Corporate_Customer_Tbl">
+              <MappingFragment StoreEntitySet="Corporate_Customer_Tbl">
+                <ScalarProperty Name="CorporateCustomerID" ColumnName="CorporateCustomerID" />
+                <ScalarProperty Name="CorporateName" ColumnName="CorporateName" />
+                <ScalarProperty Name="ContactPerson" ColumnName="ContactPerson" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Individual_Customer_Tbl">
+            <EntityTypeMapping TypeName="GTaskModel.Individual_Customer_Tbl">
+              <MappingFragment StoreEntitySet="Individual_Customer_Tbl">
+                <ScalarProperty Name="IndividualCustomerID" ColumnName="IndividualCustomerID" />
+                <ScalarProperty Name="FullName" ColumnName="FullName" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Meeting_Minutes_Details_Tbl">
+            <EntityTypeMapping TypeName="GTaskModel.Meeting_Minutes_Details_Tbl">
+              <MappingFragment StoreEntitySet="Meeting_Minutes_Details_Tbl">
+                <ScalarProperty Name="MeetingMinutesDetailID" ColumnName="MeetingMinutesDetailID" />
+                <ScalarProperty Name="MeetingMinutesID" ColumnName="MeetingMinutesID" />
+                <ScalarProperty Name="ProductServiceID" ColumnName="ProductServiceID" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="Unit" ColumnName="Unit" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Meeting_Minutes_Master_Tbl">
+            <EntityTypeMapping TypeName="GTaskModel.Meeting_Minutes_Master_Tbl">
+              <MappingFragment StoreEntitySet="Meeting_Minutes_Master_Tbl">
+                <ScalarProperty Name="MeetingMinutesID" ColumnName="MeetingMinutesID" />
+                <ScalarProperty Name="CustomerType" ColumnName="CustomerType" />
+                <ScalarProperty Name="CorporateCustomerID" ColumnName="CorporateCustomerID" />
+                <ScalarProperty Name="IndividualCustomerID" ColumnName="IndividualCustomerID" />
+                <ScalarProperty Name="MeetingDate" ColumnName="MeetingDate" />
+                <ScalarProperty Name="MeetingTime" ColumnName="MeetingTime" />
+                <ScalarProperty Name="MeetingPlace" ColumnName="MeetingPlace" />
+                <ScalarProperty Name="ClientAttendees" ColumnName="ClientAttendees" />
+                <ScalarProperty Name="HostAttendees" ColumnName="HostAttendees" />
+                <ScalarProperty Name="Agenda" ColumnName="Agenda" />
+                <ScalarProperty Name="Discussion" ColumnName="Discussion" />
+                <ScalarProperty Name="Decision" ColumnName="Decision" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Products_Service_Tbl">
+            <EntityTypeMapping TypeName="GTaskModel.Products_Service_Tbl">
+              <MappingFragment StoreEntitySet="Products_Service_Tbl">
+                <ScalarProperty Name="ProductServiceID" ColumnName="ProductServiceID" />
+                <ScalarProperty Name="ProductServiceName" ColumnName="ProductServiceName" />
+                <ScalarProperty Name="Unit" ColumnName="Unit" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

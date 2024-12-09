@@ -1,0 +1,428 @@
+﻿@{
+    ViewBag.Title = "Meeting Minutes";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<div class="container-fluid mt-4">
+    <div class="card mb-4">
+        <div class="card-header bg-light">
+            <h3 class="mb-0">Meeting Minutes</h3>
+        </div>
+        <div class="card-body">
+            <form id="meetingForm">
+                <div class="mb-3 border-bottom pb-3">
+                    <div class="form-check form-check-inline">
+                        <input type="radio" id="corporateCustomer" name="customerType" value="Corporate" class="form-check-input" />
+                        <label for="corporateCustomer" class="form-check-label">Corporate</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" id="individualCustomer" name="customerType" value="Individual" class="form-check-input" />
+                        <label for="individualCustomer" class="form-check-label">Individual</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3 row">
+                            <label for="customerDropdown" class="col-sm-4 col-form-label">Customer Name*</label>
+                            <div class="col-sm-8">
+                                <select id="customerDropdown" class="form-select" disabled>
+                                    <option value="">Select Customer</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <label for="MeetingDate" class="col-sm-4 col-form-label">Date</label>
+                            <div class="col-sm-8">
+                                <input type="date" class="form-control" id="MeetingDate">
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <label for="MeetingTime" class="col-sm-4 col-form-label">Time</label>
+                            <div class="col-sm-8">
+                                <input type="time" class="form-control" id="MeetingTime">
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <label for="meetingPlace" class="col-sm-4 col-form-label">Meeting Place*</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="meetingPlace" placeholder="Enter meeting place">
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <label for="attendsFromClient" class="col-sm-4 col-form-label">Attends From Client Side*</label>
+                            <div class="col-sm-8">
+                                <textarea class="form-control" id="attendsFromClient" rows="3" placeholder="Enter attendees from client side"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <label for="attendsFromHost" class="col-sm-4 col-form-label">Attends From Host Side*</label>
+                            <div class="col-sm-8">
+                                <textarea class="form-control" id="attendsFromHost" rows="3" placeholder="Enter attendees from host side"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="mb-3 row">
+                            <label for="meetingAgenda" class="col-sm-4 col-form-label">Meeting Agenda*</label>
+                            <div class="col-sm-8">
+                                <textarea class="form-control" id="meetingAgenda" rows="4" placeholder="Enter meeting agenda"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <label for="meetingDiscussion" class="col-sm-4 col-form-label">Meeting Discussion*</label>
+                            <div class="col-sm-8">
+                                <textarea class="form-control" id="meetingDiscussion" rows="4" placeholder="Enter meeting discussion"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <label for="meetingDecision" class="col-sm-4 col-form-label">Meeting Decision*</label>
+                            <div class="col-sm-8">
+                                <textarea class="form-control" id="meetingDecision" rows="4" placeholder="Enter meeting decision"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header bg-light">
+            <h4 class="mb-0">Interested Product/Service</h4>
+        </div>
+        <div class="card-body">
+            <div class="row mb-3">
+                <label for="productService" class="col-sm-3 col-form-label">Select Product/Service</label>
+                <div class="col-sm-9">
+                    <select class="form-select" id="productService">
+                        <option value="">Select product/service</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="quantity" class="col-sm-3 col-form-label">Quantity</label>
+                <div class="col-sm-4">
+                    <input type="number" class="form-control" id="quantity" placeholder="Enter quantity" />
+                </div>
+                <label for="unit" class="col-sm-2 col-form-label">Unit</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="unit" readonly />
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-sm-12">
+                    <button class="btn btn-primary" id="addProduct">
+                        <i class="fa fa-plus"></i> Add
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header bg-light">
+            <h4 class="mb-0">Added Products/Services</h4>
+        </div>
+
+        <div class="container-fluid my-3 p-3 border">
+            <!-- Bootstrap Table -->
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Product/Service</th>
+                        <th>Quantity</th>
+                        <th>Unit</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="productTableBody">
+                    <!-- Rows will be dynamically added -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="container-xxl my-3 d-flex justify-content-start">
+        <button class="btn btn-success" id="saveMeetingMinutes">
+            <i class="fa fa-save"></i> Save Meeting Minutes
+        </button>
+        <button class="btn btn-secondary ms-3" id="refreshForm">
+            <i class="fa fa-refresh"></i> Refresh
+        </button>
+    </div>
+
+    </form>
+
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        // Listen for customer type change
+        $("input[name='customerType']").change(function () {
+            var customerType = $("input[name='customerType']:checked").val();
+
+            // Enable the dropdown and fetch data
+            if (customerType) {
+                $("#customerDropdown").prop("disabled", false);
+
+                // Fetch customers via AJAX
+                $.ajax({
+                    url: "/Home/GetCustomers",
+                    type: "GET",
+                    data: { customerType: customerType },
+                    success: function (data) {
+                        $("#customerDropdown").empty().append('<option value="">Select Customer</option>');
+                        if (data.error) {
+                            alert(data.error);
+                        } else {
+                            $.each(data, function (index, item) {
+                                var optionText = customerType === "Corporate" ? item.ContactPerson : item.FullName;
+                                $("#customerDropdown").append(`<option value="${item.CorporateCustomerID || item.IndividualCustomerID}">${optionText}</option>`);
+                            });
+                        }
+                    },
+                    error: function () {
+                        alert("Failed to load customers. Please try again.");
+                    },
+                });
+            } else {
+                $("#customerDropdown").prop("disabled", true).empty().append('<option value="">Select Customer</option>');
+            }
+        });
+
+
+        $('#MeetingDate').datepicker({
+            format: 'mm/dd/yyyy',
+            startDate: '-3d'
+        });
+
+        $('#MeetingTime').timepicker({
+            minuteStep: 1,
+            showMeridian: false
+        });
+
+
+    });
+</script>
+<script>
+    // Fetch products from the database and populate the product dropdown
+    $.ajax({
+        url: '@Url.Action("GetProductsService", "Home")',
+        type: 'GET',
+        success: function (data) {
+            if (data.error) {
+                alert("Error loading products/services");
+            } else {
+                $('#productService').empty().append('<option value="">Select product/service</option>');
+                $.each(data, function (index, item) {
+                    $('#productService').append(`<option value="${item.ProductServiceID}" data-unit="${item.Unit}">${item.ProductServiceName}</option>`);
+                });
+            }
+        },
+        error: function () {
+            alert("Failed to load product/service data.");
+        }
+    });
+
+    // When a product/service is selected, update the unit field
+    $('#productService').change(function () {
+        var selectedUnit = $('option:selected', this).data('unit');
+        $('#unit').val(selectedUnit);
+    });
+
+    // Global variable to track the row being edited
+    let editingRow = null;
+
+    // Edit row functionality
+    $('#productTableBody').on('click', '.editBtn', function () {
+        // If there's already a row being edited, return it to the table
+        if (editingRow) {
+            $('#productTableBody').append(editingRow);
+        }
+
+        // Store the current row being edited
+        var row = $(this).closest('tr');
+        editingRow = row;
+
+        // Get the values from the row
+        var productId = row.find('td').eq(0).data('product-id');
+        var productName = row.find('td').eq(0).text();
+        var quantity = row.find('td').eq(1).text();
+        var unit = row.find('td').eq(2).text();
+
+        // Set the fields with the current values
+        $('#productService').val(productId);
+        $('#quantity').val(quantity);
+        $('#unit').val(unit);
+
+        // Remove the row from the table
+        row.remove();
+    });
+
+    // Modify the 'Add' button click handler to handle both new and edited items
+    $('#addProduct').click(function (e) {
+        e.preventDefault();
+
+        var productService = $('#productService').val();
+        var quantity = $('#quantity').val();
+        var unit = $('#unit').val();
+
+        if (!productService || !quantity || !unit) {
+            alert("Please fill in all fields.");
+            return;
+        }
+
+        var productName = $('#productService option:selected').text();
+
+        // Create new row for the table
+        var newRow = `<tr>
+        <td data-product-id="${productService}">${productName}</td>
+        <td>${quantity}</td>
+        <td>${unit}</td>
+        <td>
+            <button class="btn btn-warning editBtn">Edit</button>
+
+            <button class="btn btn-danger deleteBtn">Delete</button>
+        </td>
+    </tr>`;
+
+        // If we were editing a previous row, clear that reference
+        editingRow = null;
+
+        // Append the new row
+        $('#productTableBody').append(newRow);
+
+        // Clear the fields
+        $('#productService').val('');
+        $('#quantity').val('');
+        $('#unit').val('');
+    });
+
+    // Delete row functionality
+    $('#productTableBody').on('click', '.deleteBtn', function () {
+        $(this).closest('tr').remove();
+    });
+
+    // Refresh button functionality
+    $('#refreshForm').click(function (e) {
+        e.preventDefault();
+        resetForm();
+    });
+</script>
+
+<script>
+   $('#saveMeetingMinutes').click(function (e) {
+    e.preventDefault();
+
+    // Validate required fields
+    var customerType = $("input[name='customerType']:checked").val();
+    var customerId = $('#customerDropdown').val();
+    var meetingDate = $('#MeetingDate').val();
+    var meetingTime = $('#Hour').val() + ':' + $('#Minute').val() + ' ' + $('#AMPM').val();
+    var meetingPlace = $('#meetingPlace').val();
+
+    // Validate that all necessary fields are filled
+    if (!customerType || !customerId || !meetingDate || !meetingPlace) {
+        alert('Please fill in all required fields.');
+        return;
+    }
+
+    // Collect products from the table
+    var products = [];
+    $('#productTableBody tr').each(function () {
+        products.push({
+            ProductServiceID: $(this).find('td:first').data('product-id'),
+            Quantity: $(this).find('td:nth-child(2)').text(),
+            Unit: $(this).find('td:nth-child(3)').text()
+        });
+    });
+
+       // Function to convert from 12-hour format to 24-hour format
+       function convertTo24HourFormat(time) {
+           var [timePart, period] = time.split(" ");
+           var [hours, minutes] = timePart.split(":");
+
+           hours = parseInt(hours);
+
+           if (period === "PM" && hours !== 12) {
+               hours += 12; // Convert PM to 24-hour format
+           } else if (period === "AM" && hours === 12) {
+               hours = 0; // Convert 12 AM to 00
+           }
+
+           // Return the time in 24-hour format (HH:mm)
+           return (hours < 10 ? '0' : '') + hours + ':' + minutes;
+       }
+
+       var meetingTime = $('#MeetingTime').val();
+       var formattedMeetingTime = convertTo24HourFormat(meetingTime);
+
+       // Prepare the data object with MeetingTime in 24-hour format
+       var meetingData = {
+           CustomerType: customerType,
+           CorporateCustomerID: customerType === 'Corporate' ? parseInt(customerId) : null,
+           IndividualCustomerID: customerType === 'Individual' ? parseInt(customerId) : null,
+           MeetingDate: meetingDate,
+           MeetingTime: formattedMeetingTime,
+           MeetingPlace: meetingPlace,
+           ClientAttendees: $('#attendsFromClient').val(),
+           HostAttendees: $('#attendsFromHost').val(),
+           Agenda: $('#meetingAgenda').val(),
+           Discussion: $('#meetingDiscussion').val(),
+           Decision: $('#meetingDecision').val(),
+           Products: products
+       };
+
+
+    // Send data to server
+    $.ajax({
+        url: '@Url.Action("SaveMeetingMinutes", "Home")',
+        type: 'POST',
+        data: JSON.stringify(meetingData),
+        contentType: 'application/json',
+        success: function (response) {
+            if (response.success) {
+                alert('Meeting minutes saved successfully! Meeting ID: ' + response.meetingMinutesId);
+                resetForm();
+            } else {
+                alert('Error: ' + response.message);
+            }
+        },
+        error: function (xhr, status, error) {
+            alert('An error occurred while saving meeting minutes: ' + error);
+        }
+    });
+});
+
+
+    function resetForm() {
+        $("input[name='customerType']").prop('checked', false);
+        $('#customerDropdown').prop('disabled', true).val('');
+
+        $('#MeetingDate').val('');
+        $('#Hour').val('01');
+        $('#Minute').val('00');
+        $('#AMPM').val('AM');
+        $('#MeetingTime').val('');
+
+        $('#meetingPlace, #attendsFromClient, #attendsFromHost, #meetingAgenda, #meetingDiscussion, #meetingDecision').val('');
+
+        $('#productTableBody').empty();
+    }
+</script>

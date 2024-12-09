@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GTwoTaskModelStoreContainer" CdmEntityContainer="GTwoTaskEntities">
+    <EntitySetMapping Name="Corporate_Customer_Tbl">
+      <EntityTypeMapping TypeName="GTwoTaskModel.Corporate_Customer_Tbl">
+        <MappingFragment StoreEntitySet="Corporate_Customer_Tbl">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="ContactEmail" ColumnName="ContactEmail" />
+          <ScalarProperty Name="ContactPhone" ColumnName="ContactPhone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Individual_Customer_Tbl">
+      <EntityTypeMapping TypeName="GTwoTaskModel.Individual_Customer_Tbl">
+        <MappingFragment StoreEntitySet="Individual_Customer_Tbl">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Meeting_Minutes_Details_Tbl">
+      <EntityTypeMapping TypeName="GTwoTaskModel.Meeting_Minutes_Details_Tbl">
+        <MappingFragment StoreEntitySet="Meeting_Minutes_Details_Tbl">
+          <ScalarProperty Name="DetailID" ColumnName="DetailID" />
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="ProductServiceID" ColumnName="ProductServiceID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Meeting_Minutes_Master_Tbl">
+      <EntityTypeMapping TypeName="GTwoTaskModel.Meeting_Minutes_Master_Tbl">
+        <MappingFragment StoreEntitySet="Meeting_Minutes_Master_Tbl">
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CustomerType" ColumnName="CustomerType" />
+          <ScalarProperty Name="MeetingDate" ColumnName="MeetingDate" />
+          <ScalarProperty Name="MeetingTime" ColumnName="MeetingTime" />
+          <ScalarProperty Name="MeetingPlace" ColumnName="MeetingPlace" />
+          <ScalarProperty Name="AttendsFromClientSide" ColumnName="AttendsFromClientSide" />
+          <ScalarProperty Name="AttendsFromHostSide" ColumnName="AttendsFromHostSide" />
+          <ScalarProperty Name="MeetingAgenda" ColumnName="MeetingAgenda" />
+          <ScalarProperty Name="MeetingDiscussion" ColumnName="MeetingDiscussion" />
+          <ScalarProperty Name="MeetingDecision" ColumnName="MeetingDecision" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products_Service_Tbl">
+      <EntityTypeMapping TypeName="GTwoTaskModel.Products_Service_Tbl">
+        <MappingFragment StoreEntitySet="Products_Service_Tbl">
+          <ScalarProperty Name="ProductServiceID" ColumnName="ProductServiceID" />
+          <ScalarProperty Name="ProductServiceName" ColumnName="ProductServiceName" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

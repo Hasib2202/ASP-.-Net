@@ -1,0 +1,305 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\interviewtask\\cpmt\\cpmt\\views\\meeting\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|solutionrelative:cpmt\\views\\meeting\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\interviewtask\\cpmt\\cpmt\\controllers\\meetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|solutionrelative:cpmt\\controllers\\meetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\interviewtask\\cpmt\\cpmt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|solutionrelative:cpmt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\cpmt\\controllers\\productservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|solutionrelative:cpmt\\controllers\\productservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\cpmt\\ef\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|solutionrelative:cpmt\\ef\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\interviewtask\\cpmt\\cpmt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|solutionrelative:cpmt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\cpmt\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|solutionrelative:cpmt\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\cpmt\\models\\individualcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|solutionrelative:cpmt\\models\\individualcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\cpmt\\models\\corporatecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|solutionrelative:cpmt\\models\\corporatecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\cpmt\\dal\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|solutionrelative:cpmt\\dal\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\cpmt\\dal\\productservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|solutionrelative:cpmt\\dal\\productservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\cpmt\\dal\\meetingminutesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|solutionrelative:cpmt\\dal\\meetingminutesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\cpmt\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|solutionrelative:cpmt\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\cpmt\\models\\meetingminutesdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|solutionrelative:cpmt\\models\\meetingminutesdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\cpmt\\models\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|solutionrelative:cpmt\\models\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\cpmt\\models\\meetingminutesmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|solutionrelative:cpmt\\models\\meetingminutesmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\cpmt\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A26A2A55-A3E5-4828-9D1E-2EFB12F7FD4F}|CPMT\\CPMT.csproj|solutionrelative:cpmt\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Views\\Meeting\\Index.cshtml",
+              "RelativeDocumentMoniker": "CPMT\\Views\\Meeting\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Views\\Meeting\\Index.cshtml",
+              "RelativeToolTip": "CPMT\\Views\\Meeting\\Index.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwBwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T15:12:14.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MeetingController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Controllers\\MeetingController.cs",
+              "RelativeDocumentMoniker": "CPMT\\Controllers\\MeetingController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Controllers\\MeetingController.cs",
+              "RelativeToolTip": "CPMT\\Controllers\\MeetingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T15:11:44.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CPMT\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CPMT\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T15:05:53.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CPMT\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CPMT\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:32:22.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Controllers\\ProductServiceController.cs",
+              "RelativeDocumentMoniker": "CPMT\\Controllers\\ProductServiceController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Controllers\\ProductServiceController.cs",
+              "RelativeToolTip": "CPMT\\Controllers\\ProductServiceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:10:19.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductServiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\DAL\\ProductServiceRepository.cs",
+              "RelativeDocumentMoniker": "CPMT\\DAL\\ProductServiceRepository.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\DAL\\ProductServiceRepository.cs",
+              "RelativeToolTip": "CPMT\\DAL\\ProductServiceRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wC4AAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:48:22.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\DAL\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "CPMT\\DAL\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\DAL\\CustomerRepository.cs",
+              "RelativeToolTip": "CPMT\\DAL\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:48:11.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MeetingMinutesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\DAL\\MeetingMinutesRepository.cs",
+              "RelativeDocumentMoniker": "CPMT\\DAL\\MeetingMinutesRepository.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\DAL\\MeetingMinutesRepository.cs",
+              "RelativeToolTip": "CPMT\\DAL\\MeetingMinutesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:48:33.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CorporateCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Models\\CorporateCustomer.cs",
+              "RelativeDocumentMoniker": "CPMT\\Models\\CorporateCustomer.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Models\\CorporateCustomer.cs",
+              "RelativeToolTip": "CPMT\\Models\\CorporateCustomer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:52:33.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\EF\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "CPMT\\EF\\Model1.Context.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\EF\\Model1.Context.cs",
+              "RelativeToolTip": "CPMT\\EF\\Model1.Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:03:18.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "CPMT\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "CPMT\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:10:06.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IndividualCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Models\\IndividualCustomer.cs",
+              "RelativeDocumentMoniker": "CPMT\\Models\\IndividualCustomer.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Models\\IndividualCustomer.cs",
+              "RelativeToolTip": "CPMT\\Models\\IndividualCustomer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:52:52.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\EF\\Model1.edmx",
+              "RelativeDocumentMoniker": "CPMT\\EF\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\EF\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "CPMT\\EF\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-12-08T12:47:04.944Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Models\\ProductService.cs",
+              "RelativeDocumentMoniker": "CPMT\\Models\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Models\\ProductService.cs",
+              "RelativeToolTip": "CPMT\\Models\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:53:12.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MeetingMinutesMaster.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Models\\MeetingMinutesMaster.cs",
+              "RelativeDocumentMoniker": "CPMT\\Models\\MeetingMinutesMaster.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Models\\MeetingMinutesMaster.cs",
+              "RelativeToolTip": "CPMT\\Models\\MeetingMinutesMaster.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA7wCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:53:33.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MeetingMinutesDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Models\\MeetingMinutesDetail.cs",
+              "RelativeDocumentMoniker": "CPMT\\Models\\MeetingMinutesDetail.cs",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Models\\MeetingMinutesDetail.cs",
+              "RelativeToolTip": "CPMT\\Models\\MeetingMinutesDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:53:52.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Web.config",
+              "RelativeDocumentMoniker": "CPMT\\Web.config",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPMT\\CPMT\\Web.config",
+              "RelativeToolTip": "CPMT\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAADLAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-08T12:44:55.288Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

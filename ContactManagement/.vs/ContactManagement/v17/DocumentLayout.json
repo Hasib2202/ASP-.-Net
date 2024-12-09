@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CF94E7EF-A9BA-4030-B85D-F174924787D2}|ContactManagement\\ContactManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\contactmanagement\\contactmanagement\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF94E7EF-A9BA-4030-B85D-F174924787D2}|ContactManagement\\ContactManagement.csproj|solutionrelative:contactmanagement\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CF94E7EF-A9BA-4030-B85D-F174924787D2}|ContactManagement\\ContactManagement.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\contactmanagement\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CF94E7EF-A9BA-4030-B85D-F174924787D2}|ContactManagement\\ContactManagement.csproj|solutionrelative:contactmanagement\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF94E7EF-A9BA-4030-B85D-F174924787D2}|ContactManagement\\ContactManagement.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\contactmanagement\\contactmanagement\\views\\contact\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CF94E7EF-A9BA-4030-B85D-F174924787D2}|ContactManagement\\ContactManagement.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\contactmanagement\\views\\contact\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CF94E7EF-A9BA-4030-B85D-F174924787D2}|ContactManagement\\ContactManagement.csproj|solutionrelative:contactmanagement\\views\\contact\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -91,10 +95,6 @@
       "RelativeMoniker": "D:0:0:{CF94E7EF-A9BA-4030-B85D-F174924787D2}|ContactManagement\\ContactManagement.csproj|solutionrelative:contactmanagement\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF94E7EF-A9BA-4030-B85D-F174924787D2}|ContactManagement\\ContactManagement.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\contactmanagement\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CF94E7EF-A9BA-4030-B85D-F174924787D2}|ContactManagement\\ContactManagement.csproj|solutionrelative:contactmanagement\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CF94E7EF-A9BA-4030-B85D-F174924787D2}|ContactManagement\\ContactManagement.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\contactmanagement\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF94E7EF-A9BA-4030-B85D-F174924787D2}|ContactManagement\\ContactManagement.csproj|solutionrelative:contactmanagement\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -114,19 +114,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Note\\Delete.cshtml",
-              "RelativeDocumentMoniker": "ContactManagement\\Views\\Note\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Note\\Delete.cshtml",
-              "RelativeToolTip": "ContactManagement\\Views\\Note\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T14:21:24.964Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "NoteController.cs",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Controllers\\NoteController.cs",
               "RelativeDocumentMoniker": "ContactManagement\\Controllers\\NoteController.cs",
@@ -138,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "RegisterController.cs",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Controllers\\RegisterController.cs",
               "RelativeDocumentMoniker": "ContactManagement\\Controllers\\RegisterController.cs",
@@ -150,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ContactController.cs",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Controllers\\ContactController.cs",
               "RelativeDocumentMoniker": "ContactManagement\\Controllers\\ContactController.cs",
@@ -162,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Contact\\Details.cshtml",
               "RelativeDocumentMoniker": "ContactManagement\\Views\\Contact\\Details.cshtml",
@@ -174,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Note\\Index.cshtml",
               "RelativeDocumentMoniker": "ContactManagement\\Views\\Note\\Index.cshtml",
@@ -186,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Note\\Edit.cshtml",
               "RelativeDocumentMoniker": "ContactManagement\\Views\\Note\\Edit.cshtml",
@@ -198,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Note\\Create.cshtml",
               "RelativeDocumentMoniker": "ContactManagement\\Views\\Note\\Create.cshtml",
@@ -210,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Contact\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "ContactManagement\\Views\\Contact\\Dashboard.cshtml",
@@ -218,12 +206,11 @@
               "RelativeToolTip": "ContactManagement\\Views\\Contact\\Dashboard.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAABQAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T19:53:04.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T19:53:04.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Register\\Index.cshtml",
               "RelativeDocumentMoniker": "ContactManagement\\Views\\Register\\Index.cshtml",
@@ -231,12 +218,36 @@
               "RelativeToolTip": "ContactManagement\\Views\\Register\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T18:30:36.227Z",
+              "WhenOpened": "2024-11-23T18:30:36.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "ContactManagement\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "ContactManagement\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwEEAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T18:36:00.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Note\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ContactManagement\\Views\\Note\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Note\\Delete.cshtml",
+              "RelativeToolTip": "ContactManagement\\Views\\Note\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T14:21:24.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Note\\Details.cshtml",
               "RelativeDocumentMoniker": "ContactManagement\\Views\\Note\\Details.cshtml",
@@ -248,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Contact\\Create.cshtml",
               "RelativeDocumentMoniker": "ContactManagement\\Views\\Contact\\Create.cshtml",
@@ -260,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Contact\\Index.cshtml",
               "RelativeDocumentMoniker": "ContactManagement\\Views\\Contact\\Index.cshtml",
@@ -272,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Contact\\Delete.cshtml",
               "RelativeDocumentMoniker": "ContactManagement\\Views\\Contact\\Delete.cshtml",
@@ -284,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Contact\\Edit.cshtml",
               "RelativeDocumentMoniker": "ContactManagement\\Views\\Contact\\Edit.cshtml",
@@ -296,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ContactManagement\\Views\\Shared\\_Layout.cshtml",
@@ -308,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "ContactManagement\\Controllers\\LoginController.cs",
@@ -320,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "AddContactDTO.cs",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\DTOs\\AddContactDTO.cs",
               "RelativeDocumentMoniker": "ContactManagement\\DTOs\\AddContactDTO.cs",
@@ -332,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "AddNoteDTO.cs",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\DTOs\\AddNoteDTO.cs",
               "RelativeDocumentMoniker": "ContactManagement\\DTOs\\AddNoteDTO.cs",
@@ -344,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Access.cs",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Auth\\Access.cs",
               "RelativeDocumentMoniker": "ContactManagement\\Auth\\Access.cs",
@@ -356,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\EF\\Model1.edmx",
               "RelativeDocumentMoniker": "ContactManagement\\EF\\Model1.edmx",
@@ -367,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\DTOs\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "ContactManagement\\DTOs\\RegisterDTO.cs",
@@ -376,18 +387,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T18:19:26.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "ContactManagement\\Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\ContactManagement\\ContactManagement\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "ContactManagement\\Views\\Login\\Index.cshtml",
-              "ViewState": "AgIAACkAAAAAAAAAAAAQwEEAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T18:36:00.533Z"
             },
             {
               "$type": "Document",
