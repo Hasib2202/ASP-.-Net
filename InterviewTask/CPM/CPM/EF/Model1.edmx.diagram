@@ -5,11 +5,11 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="11e861cecdb2443eb03f6b285115f027" Name="Diagram1">
-        <EntityTypeShape EntityType="GTaskModel.Corporate_Customer_Tbl" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="GTaskModel.Individual_Customer_Tbl" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
-        <EntityTypeShape EntityType="GTaskModel.Meeting_Minutes_Details_Tbl" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="GTaskModel.Meeting_Minutes_Master_Tbl" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="GTaskModel.Products_Service_Tbl" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTaskModel.Corporate_Customer_Tbl" Width="1.5" PointX="6" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTaskModel.Individual_Customer_Tbl" Width="1.5" PointX="3.125" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTaskModel.Meeting_Minutes_Details_Tbl" Width="1.5" PointX="8.625" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTaskModel.Meeting_Minutes_Master_Tbl" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GTaskModel.Products_Service_Tbl" Width="1.5" PointX="10.25" PointY="4.75" IsExpanded="true" />
         <AssociationConnector Association="GTaskModel.FK_CorporateCustomer" ManuallyRouted="false" />
         <AssociationConnector Association="GTaskModel.FK_IndividualCustomer" ManuallyRouted="false" />
         <AssociationConnector Association="GTaskModel.FK__Meeting_M__Meeti__4E88ABD4" ManuallyRouted="false" />

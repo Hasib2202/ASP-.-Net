@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\interviewtask\\cpm\\cpm\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|solutionrelative:cpm\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPM\\cpm\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|solutionrelative:cpm\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\interviewtask\\cpm\\cpm\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPM\\cpm\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|solutionrelative:cpm\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|c:\\users\\hasib\\onedrive\\documents\\github\\asp-.-net\\interviewtask\\cpm\\cpm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|solutionrelative:cpm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPM\\cpm\\viewmodels\\meetingminutesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|solutionrelative:cpm\\viewmodels\\meetingminutesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPM\\cpm\\ef\\meeting_minutes_master_tbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|solutionrelative:cpm\\ef\\meeting_minutes_master_tbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPM\\cpm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|solutionrelative:cpm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPM\\cpm\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|solutionrelative:cpm\\ef\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPM\\cpm\\ef\\meeting_minutes_master_tbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF98CC06-8E19-4958-8990-9AE6B5CCC518}|CPM\\CPM.csproj|solutionrelative:cpm\\ef\\meeting_minutes_master_tbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPM\\CPM\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CPM\\Views\\Shared\\_Layout.cshtml",
@@ -51,13 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPM\\CPM\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "CPM\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPM\\CPM\\Controllers\\HomeController.cs",
               "RelativeToolTip": "CPM\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAUwKoAAABoAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwE8AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T16:13:51.301Z",
               "EditorCaption": ""
@@ -70,14 +70,14 @@
               "RelativeDocumentMoniker": "CPM\\ViewModels\\MeetingMinutesViewModel.cs",
               "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPM\\CPM\\ViewModels\\MeetingMinutesViewModel.cs",
               "RelativeToolTip": "CPM\\ViewModels\\MeetingMinutesViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAiwEoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T11:54:01.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Meeting_Minutes_Master_Tbl.cs",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPM\\CPM\\EF\\Meeting_Minutes_Master_Tbl.cs",
               "RelativeDocumentMoniker": "CPM\\EF\\Meeting_Minutes_Master_Tbl.cs",
@@ -85,24 +85,25 @@
               "RelativeToolTip": "CPM\\EF\\Meeting_Minutes_Master_Tbl.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAkwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T18:19:32.01Z"
+              "WhenOpened": "2024-12-08T18:19:32.01Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPM\\CPM\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CPM\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPM\\CPM\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "CPM\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAGIBAAAAAAAAAAAnwHYBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACYBAAAAAAAAAAAAAEABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-08T16:20:40.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\Hasib\\OneDrive\\Documents\\GitHub\\ASP-.-Net\\InterviewTask\\CPM\\CPM\\EF\\Model1.edmx",
               "RelativeDocumentMoniker": "CPM\\EF\\Model1.edmx",

@@ -1,0 +1,60 @@
+﻿@using FinalTaskOne.Models;
+
+@{
+    ViewBag.Title = "Visa Token System";
+    var tokenModel = (TokenModel)Session["TokenModel"];
+}
+
+<h2>Visa Token System</h2>
+
+<!-- Display any message if there's a warning or info -->
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-warning">
+        @TempData["Message"]
+    </div>
+}
+
+@if (TempData["Token"] != null)
+{
+    <div class="alert alert-success">
+        <strong>Generated Token:</strong> @TempData["Token"]
+    </div>
+}
+
+<!-- Medical Counter -->
+<div>
+    <h4>Medical Counter</h4>
+    <button onclick="window.location.href='@Url.Action("GenerateToken", "Token", new { counterType = "medical" })'">Generate Token</button>
+    <p>Current Token: @("Med-" + (tokenModel.GlobalTokenNumber - 1))</p>
+</div>
+
+<!-- Tourist Counter -->
+<div>
+    <h4>Tourist Counter</h4>
+    <button onclick="window.location.href='@Url.Action("GenerateToken", "Token", new { counterType = "tourist" })'">Generate Token</button>
+    <p>Current Token: @("TR-" + (tokenModel.GlobalTokenNumber - 1))</p>
+</div>
+
+<!-- Business Counter -->
+<div>
+    <h4>Business Counter</h4>
+    <button onclick="window.location.href='@Url.Action("GenerateToken", "Token", new { counterType = "business" })'">Generate Token</button>
+    <p>Current Token: @("BS-" + (tokenModel.GlobalTokenNumber - 1))</p>
+</div>
+
+<!-- Government Officials Counter -->
+<div>
+    <h4>Government Officials Counter</h4>
+    <button onclick="window.location.href='@Url.Action("GenerateToken", "Token", new { counterType = "go" })'">Generate Token</button>
+    <p>Current Token: @("GO-" + (tokenModel.GlobalTokenNumber - 1))</p>
+</div>
+
+<!-- Call Next Customer -->
+<div>
+    <button onclick="window.location.href='@Url.Action("CallNextCustomer", "Token")'">Call Next Customer</button>
+</div>
+
+<!-- Requests Made Today -->
+<h4>Requests Made Today: @tokenModel.RequestsMadeToday</h4>
+
