@@ -1,0 +1,14 @@
+D:\ASP dot net final Term\3Tier\BLL\bin\Debug\BLL.dll
+D:\ASP dot net final Term\3Tier\BLL\bin\Debug\BLL.pdb
+D:\ASP dot net final Term\3Tier\BLL\bin\Debug\DAL.dll
+D:\ASP dot net final Term\3Tier\BLL\bin\Debug\DAL.pdb
+D:\ASP dot net final Term\3Tier\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\ASP dot net final Term\3Tier\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\ASP dot net final Term\3Tier\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\ASP dot net final Term\3Tier\BLL\obj\Debug\BLL.dll
+D:\ASP dot net final Term\3Tier\BLL\obj\Debug\BLL.pdb
+D:\ASP dot net final Term\3Tier\BLL\bin\Debug\AutoMapper.dll
+D:\ASP dot net final Term\3Tier\BLL\bin\Debug\EntityFramework.dll
+D:\ASP dot net final Term\3Tier\BLL\bin\Debug\DAL.dll.config
+D:\ASP dot net final Term\3Tier\BLL\bin\Debug\AutoMapper.xml
+D:\ASP dot net final Term\3Tier\BLL\bin\Debug\EntityFramework.xml
