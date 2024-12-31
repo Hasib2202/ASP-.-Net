@@ -51,7 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="EF\Course.cs" />
     <Compile Include="EF\Student.cs" />
     <Compile Include="EF\UMSContext.cs" />

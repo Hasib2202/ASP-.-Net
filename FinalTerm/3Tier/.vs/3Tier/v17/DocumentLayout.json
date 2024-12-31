@@ -3,56 +3,51 @@
   "WorkspaceRootPath": "D:\\ASP dot net final Term\\3Tier\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|D:\\ASP dot net final Term\\3Tier\\dal\\migrations\\202412310845467_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202412310845467_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{11A8C0DC-5E36-4868-BE40-13380C1D5A7B}|3Tier\\3Tier.csproj|d:\\asp dot net final term\\3tier\\3tier\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11A8C0DC-5E36-4868-BE40-13380C1D5A7B}|3Tier\\3Tier.csproj|solutionrelative:3tier\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|d:\\asp dot net final term\\3tier\\dal\\migrations\\202412310845467_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202412310845467_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hasib\\AppData\\Local\\Temp\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1E5AA12-24CF-4679-87B3-1566C415410F}|BLL\\BLL.csproj|d:\\asp dot net final term\\3tier\\bll\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1E5AA12-24CF-4679-87B3-1566C415410F}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|d:\\asp dot net final term\\3tier\\dal\\ef\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|d:\\asp dot net final term\\3tier\\dal\\repos\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|D:\\ASP dot net final Term\\3Tier\\dal\\repos\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1E5AA12-24CF-4679-87B3-1566C415410F}|BLL\\BLL.csproj|d:\\asp dot net final term\\3tier\\bll\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1E5AA12-24CF-4679-87B3-1566C415410F}|BLL\\BLL.csproj|D:\\ASP dot net final Term\\3Tier\\bll\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1E5AA12-24CF-4679-87B3-1566C415410F}|BLL\\BLL.csproj|solutionrelative:bll\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|d:\\asp dot net final term\\3tier\\dal\\ef\\umscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1E5AA12-24CF-4679-87B3-1566C415410F}|BLL\\BLL.csproj|D:\\ASP dot net final Term\\3Tier\\bll\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1E5AA12-24CF-4679-87B3-1566C415410F}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|D:\\ASP dot net final Term\\3Tier\\dal\\ef\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|D:\\ASP dot net final Term\\3Tier\\dal\\ef\\umscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\umscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|d:\\asp dot net final term\\3tier\\dal\\ef\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|D:\\ASP dot net final Term\\3Tier\\dal\\ef\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|d:\\asp dot net final term\\3tier\\dal\\migrations\\202412310830495_init3t.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|D:\\ASP dot net final Term\\3Tier\\dal\\migrations\\202412310830495_init3t.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202412310830495_init3t.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|d:\\asp dot net final term\\3tier\\dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|D:\\ASP dot net final Term\\3Tier\\dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11A8C0DC-5E36-4868-BE40-13380C1D5A7B}|3Tier\\3Tier.csproj|d:\\asp dot net final term\\3tier\\3tier\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{11A8C0DC-5E36-4868-BE40-13380C1D5A7B}|3Tier\\3Tier.csproj|D:\\ASP dot net final Term\\3Tier\\3tier\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{11A8C0DC-5E36-4868-BE40-13380C1D5A7B}|3Tier\\3Tier.csproj|solutionrelative:3tier\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|d:\\asp dot net final term\\3tier\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4380E6C8-E753-4B3D-9FEE-54AE881FC43E}|DAL\\DAL.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1E5AA12-24CF-4679-87B3-1566C415410F}|BLL\\BLL.csproj|d:\\asp dot net final term\\3tier\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1E5AA12-24CF-4679-87B3-1566C415410F}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,76 +57,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "202412310845467_second.cs",
-              "DocumentMoniker": "D:\\ASP dot net final Term\\3Tier\\DAL\\Migrations\\202412310845467_second.cs",
-              "RelativeDocumentMoniker": "DAL\\Migrations\\202412310845467_second.cs",
-              "ToolTip": "D:\\ASP dot net final Term\\3Tier\\DAL\\Migrations\\202412310845467_second.cs",
-              "RelativeToolTip": "DAL\\Migrations\\202412310845467_second.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T08:45:51.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StudentRepo.cs",
-              "DocumentMoniker": "D:\\ASP dot net final Term\\3Tier\\DAL\\Repos\\StudentRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repos\\StudentRepo.cs",
-              "ToolTip": "D:\\ASP dot net final Term\\3Tier\\DAL\\Repos\\StudentRepo.cs",
-              "RelativeToolTip": "DAL\\Repos\\StudentRepo.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T08:19:40.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "StudentDTO.cs",
               "DocumentMoniker": "D:\\ASP dot net final Term\\3Tier\\BLL\\DTOs\\StudentDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\StudentDTO.cs",
               "ToolTip": "D:\\ASP dot net final Term\\3Tier\\BLL\\DTOs\\StudentDTO.cs",
               "RelativeToolTip": "BLL\\DTOs\\StudentDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T08:14:19.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "StudentService.cs",
               "DocumentMoniker": "D:\\ASP dot net final Term\\3Tier\\BLL\\Services\\StudentService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\StudentService.cs",
               "ToolTip": "D:\\ASP dot net final Term\\3Tier\\BLL\\Services\\StudentService.cs",
               "RelativeToolTip": "BLL\\Services\\StudentService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAuwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T08:13:24.369Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StudentController.cs",
               "DocumentMoniker": "D:\\ASP dot net final Term\\3Tier\\3Tier\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "3Tier\\Controllers\\StudentController.cs",
               "ToolTip": "D:\\ASP dot net final Term\\3Tier\\3Tier\\Controllers\\StudentController.cs",
               "RelativeToolTip": "3Tier\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAowBkAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAA9wDIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T08:10:42.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UMSContext.cs",
               "DocumentMoniker": "D:\\ASP dot net final Term\\3Tier\\DAL\\EF\\UMSContext.cs",
               "RelativeDocumentMoniker": "DAL\\EF\\UMSContext.cs",
@@ -144,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\ASP dot net final Term\\3Tier\\DAL\\EF\\Student.cs",
               "RelativeDocumentMoniker": "DAL\\EF\\Student.cs",
@@ -157,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Course.cs",
               "DocumentMoniker": "D:\\ASP dot net final Term\\3Tier\\DAL\\EF\\Course.cs",
               "RelativeDocumentMoniker": "DAL\\EF\\Course.cs",
@@ -170,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "202412310830495_init3t.cs",
               "DocumentMoniker": "D:\\ASP dot net final Term\\3Tier\\DAL\\Migrations\\202412310830495_init3t.cs",
               "RelativeDocumentMoniker": "DAL\\Migrations\\202412310830495_init3t.cs",
@@ -183,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Configuration.cs",
               "DocumentMoniker": "D:\\ASP dot net final Term\\3Tier\\DAL\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "DAL\\Migrations\\Configuration.cs",
@@ -196,41 +165,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\ASP dot net final Term\\3Tier\\3Tier\\Web.config",
               "RelativeDocumentMoniker": "3Tier\\Web.config",
               "ToolTip": "D:\\ASP dot net final Term\\3Tier\\3Tier\\Web.config",
               "RelativeToolTip": "3Tier\\Web.config",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADwAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAABRwDwAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-12-31T08:08:20.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\ASP dot net final Term\\3Tier\\DAL\\Class1.cs",
-              "RelativeDocumentMoniker": "DAL\\Class1.cs",
-              "ToolTip": "D:\\ASP dot net final Term\\3Tier\\DAL\\Class1.cs",
-              "RelativeToolTip": "DAL\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "202412310845467_second.cs",
+              "DocumentMoniker": "D:\\ASP dot net final Term\\3Tier\\DAL\\Migrations\\202412310845467_second.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202412310845467_second.cs",
+              "ToolTip": "D:\\ASP dot net final Term\\3Tier\\DAL\\Migrations\\202412310845467_second.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202412310845467_second.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T08:02:33.718Z",
+              "WhenOpened": "2024-12-31T08:45:51.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\ASP dot net final Term\\3Tier\\BLL\\Class1.cs",
-              "RelativeDocumentMoniker": "BLL\\Class1.cs",
-              "ToolTip": "D:\\ASP dot net final Term\\3Tier\\BLL\\Class1.cs",
-              "RelativeToolTip": "BLL\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "StudentRepo.cs",
+              "DocumentMoniker": "D:\\ASP dot net final Term\\3Tier\\DAL\\Repos\\StudentRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\StudentRepo.cs",
+              "ToolTip": "D:\\ASP dot net final Term\\3Tier\\DAL\\Repos\\StudentRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\StudentRepo.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T08:02:09.082Z",
+              "WhenOpened": "2024-12-31T08:19:40.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\Hasib\\AppData\\Local\\Temp\\readme.txt",
+              "ToolTip": "C:\\Users\\Hasib\\AppData\\Local\\Temp\\readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-31T14:47:41.461Z",
               "EditorCaption": ""
             }
           ]

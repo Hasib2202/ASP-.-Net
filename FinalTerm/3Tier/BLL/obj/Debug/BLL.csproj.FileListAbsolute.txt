@@ -12,3 +12,4 @@ D:\ASP dot net final Term\3Tier\BLL\bin\Debug\EntityFramework.dll
 D:\ASP dot net final Term\3Tier\BLL\bin\Debug\DAL.dll.config
 D:\ASP dot net final Term\3Tier\BLL\bin\Debug\AutoMapper.xml
 D:\ASP dot net final Term\3Tier\BLL\bin\Debug\EntityFramework.xml
+D:\ASP dot net final Term\3Tier\BLL\bin\Debug\System.ComponentModel.Annotations.dll

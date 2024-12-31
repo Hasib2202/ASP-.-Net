@@ -21,11 +21,42 @@ namespace DAL.Repos
             db.SaveChanges();
         }
 
+        //public void Update(Student s)
+        //{
+        //    var exobj = Get(s.StudentID);
+        //    db.Entry(exobj).CurrentValues.SetValues(s);
+        //    db.SaveChanges();
+        //}
+
+        //public Student Get(int id)
+        //{
+        //    return db.Students.Find(id);
+        //}
+
+        //public List<Student> Get()
+        //{
+        //    return db.Students.ToList();
+        //}
+
+        //public void Delete(int id)
+        //{
+        //    var exobj = Get(id);
+        //    db.Students.Remove(exobj);
+        //    db.SaveChanges();
+        //}
+
         public void Update(Student s)
         {
-            var exobj = Get(s.StudentID);
-            db.Entry(exobj).CurrentValues.SetValues(s);
-            db.SaveChanges();
+            var exobj = db.Students.Find(s.StudentID);
+            if (exobj != null)
+            {
+                db.Entry(exobj).CurrentValues.SetValues(s);
+                db.SaveChanges();
+            }
+            else
+            {
+                throw new Exception("Student not found");
+            }
         }
 
         public Student Get(int id)
@@ -40,9 +71,12 @@ namespace DAL.Repos
 
         public void Delete(int id)
         {
-            var exobj = Get(id);
-            db.Students.Remove(exobj);
-            db.SaveChanges();
+            var exobj = db.Students.Find(id);
+            if (exobj != null)
+            {
+                db.Students.Remove(exobj);
+                db.SaveChanges();
+            }
         }
 
     }
