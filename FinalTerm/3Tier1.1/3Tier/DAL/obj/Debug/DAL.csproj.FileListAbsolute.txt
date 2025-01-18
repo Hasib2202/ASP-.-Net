@@ -1,0 +1,15 @@
+D:\ASP dot net final Term\3Tier\DAL\bin\Debug\DAL.dll
+D:\ASP dot net final Term\3Tier\DAL\bin\Debug\DAL.pdb
+D:\ASP dot net final Term\3Tier\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\ASP dot net final Term\3Tier\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\ASP dot net final Term\3Tier\DAL\obj\Debug\DAL.dll
+D:\ASP dot net final Term\3Tier\DAL\obj\Debug\DAL.pdb
+D:\ASP dot net final Term\3Tier\DAL\bin\Debug\DAL.dll.config
+D:\ASP dot net final Term\3Tier\DAL\bin\Debug\EntityFramework.dll
+D:\ASP dot net final Term\3Tier\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\ASP dot net final Term\3Tier\DAL\bin\Debug\EntityFramework.xml
+D:\ASP dot net final Term\3Tier\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\ASP dot net final Term\3Tier\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\ASP dot net final Term\3Tier\DAL\obj\Debug\DAL.Migrations.init3t.resources
+D:\ASP dot net final Term\3Tier\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+D:\ASP dot net final Term\3Tier\DAL\obj\Debug\DAL.Migrations.second.resources
